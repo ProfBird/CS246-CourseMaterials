@@ -6,12 +6,13 @@
 
 You all should have Jira accounts, but just one team member will create the project for your assignment. All the team members can be added to the project through the site admin page for the site hosting the proejct.
 
-- Your group should generate at least 20 user stories and enter them in the backlog. 
+- Your group should generate at least 20 user stories and enter them in the backlog. (The main backlog is sometimes called the product backlog.)
 
 - Create at least one epic and create at least two linked child stories for it.
 - Assign story points to each story.
-- Identify five stories and move them into the first sprint.
+- Identify five stories and move them into the first sprint. (This  is the sprint backlog.)
   - Assign a team member to each user story in the sprint.
+  - Create at least two tasks for each user story in the sprint.
 - Once you’ve set up the first sprint, prioritize the remaining stories in your backlog by arranging them in priority order. This is the order in which you tentatively plan to implement them.
 
 
