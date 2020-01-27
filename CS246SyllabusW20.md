@@ -12,7 +12,7 @@ Instructor: Brian Bird Office: building 19/Rm 152
 
 E-mail: birdb@lanecc.edu
 
-Office Hours: M, W 4:00&ndash;4:50 and Tu, Th 1:00&ndash;1:50, or by appointment
+Office Hours: M, W 4:00&ndash;4:50 and Tu, Th 2:00&ndash;2:50, or by appointment
 
 ## Course Description 
 
