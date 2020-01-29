@@ -2,6 +2,8 @@
 
 **CS246N System Design**
 
+[TOC]
+
 ## What are software design patterns?
 
 They are code patterns that provide solutions to common problems. They were inspired by architectural design patterns.
@@ -67,3 +69,29 @@ Most of these design patterns are specifically concerned with communication betw
 | [Strategy](https://www.dofactory.com/net/strategy-design-pattern) | Encapsulates an algorithm inside a class              |
 | [Template Method](https://www.dofactory.com/net/template-method-design-pattern) | Defer the exact steps of an algorithm to a subclass   |
 | [Visitor](https://www.dofactory.com/net/visitor-design-pattern) | Defines a new operation to a class without change     |
+
+
+
+## ASP.NET Design Patterns
+
+### Formal vs. Informal Patterns
+
+- Formal patterns are the ones that have been cataloged an published--like the "Gang of Four" patterns.
+- Informal patterns are those that we use commonly, but aren't formally cataloged, like useing switch or if-then, else-if decision trees for making decisions based on input.
+
+### Formal Patterns Used in Our Web Apps
+
+- MVC is "baked in"
+
+- Iterator is a part of the .NET collection classes
+
+- What other formal patterns have we used?
+
+  <div hidden>Repository, EF is an example of a provider</div>
+
+- If you write or consume a web service, which pattern are you using?
+
+  <div hidden>Service Agent</div>
+
+- Class Exercise: If I wanted to add a messaging service to my BookInfo app that notified writers of book reviews when someone had commented on a book, which pattern might be a key part of the implementation?
+
