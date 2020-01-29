@@ -12,7 +12,9 @@ Use [ASP.NET Patterns every developer should know](https://www.developerfusion.c
    - The design pattern to be used
    - How this design pattern solves this problem.
 
-Submit the assignment by pasting the URL for your project in the "online text" field for this Moodle assignment.
+
+
+Submit one document in which you report on your findings and conclusions for both parts 1 and 2 for your whole team.
 
 
 
