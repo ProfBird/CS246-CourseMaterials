@@ -2,8 +2,6 @@
 
 # Assignment 4 - Design Patterns
 
-**Preliminary instructions. These could change!**
-
 Use [ASP.NET Patterns every developer should know](https://www.developerfusion.com/article/8307/aspnet-patterns-every-developer-should-know/) as a reference for this assignment.
 
 1. Look at your Core ASP.NET term project web apps from last term. What design patterns can you identify&mdash;either formal patterns or informal. Provide a list of design patterns you found,
