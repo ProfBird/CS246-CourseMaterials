@@ -42,8 +42,6 @@ The intent of this course is to enable you to design and plan significant softwa
 
 8. Test driven development
 
-9. 
-
 
 
 ## Learning Resources 
