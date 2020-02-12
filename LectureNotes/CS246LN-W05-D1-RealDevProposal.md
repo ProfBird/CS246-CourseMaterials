@@ -30,3 +30,10 @@ The contract includes a revised version of the proposal, with the agreed upon li
 
 
 
+------
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+Capstone Class Lecture Notes by [Brian Bird](https://birdsbits.blog), 2020, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+------
+
