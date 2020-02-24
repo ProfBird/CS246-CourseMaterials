@@ -25,13 +25,22 @@ The intent of this course is to enable you to design and plan significant softwa
 ## Course Content 
 
 1. Developing software for a client
+
 2. Agile project teams (user stories and backlog) 
+
 3. UX Design 
+
 4. Design and Architectural patterns 
-5. Design documentation 
-6. Version Control 
-7. Issue Tracking 
-8. Test driven development 
+
+5. Design and documentation&mdash;user stories
+
+6. Design and documentation&mdash;UX design
+
+   You will do UX design and user stories simultaneously in weeks 5 & 6, not sequentially.
+
+7. Mock-up the first sprint
+
+8. Test driven development
 
 
 
