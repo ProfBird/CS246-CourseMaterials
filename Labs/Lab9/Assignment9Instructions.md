@@ -5,7 +5,7 @@
 ### Instructions
 
 - Identify the three user-stories that have the highest risk of being difficult or maybe even impossible to implement because of the design of your domain model.
-- Add controller classes, a repository interface, real and fake repositories to accomodate testing those three user-stories. You don't need to implement anything that isn't needed for your testing.
+- Add controller classes, a repository interface, real and fake repositories to accommodate testing those three user-stories. You don't need to implement anything that isn't needed for your testing.
 - Write at least three unit tests to verify your domain model design. 
 - Refactor your domain model if needed.
 
@@ -14,7 +14,7 @@
 - Upload a file containing:
 
   1. The three (or more) user-stories you chose as being highest risk.
-  2. The reasons you thoght those were the higest risk.
+  2. The reasons you thought those were the highest risk.
   3. The results of your testing and whether or not you refactored your domain model.
 
 - If you refactored your domain model, a new UML class diagram as a PDF.
