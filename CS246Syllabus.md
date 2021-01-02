@@ -6,11 +6,11 @@ Course: System Design
 
 CRN: 33297 
 
-Time: MW 12:00&ndash;1:50 
-
 Instructor: Brian Bird
 
-Office Hours:  [On Zoom](https://lanecc.zoom.us/j/965222036): M, W 2:00&ndash;2:50, Tu, Th 12:00&ndash;12:50, or by appointment
+Online class meetings: [Zoom meeting](https://lanecc.zoom.us/j/95639909045): M, W 12:00&ndash;1:50
+
+Office Hours:  [Zoom meeting](https://lanecc.zoom.us/j/965222036): M, W 2:00&ndash;2:50, Tu, Th 12:00&ndash;12:50, or by appointment
 
 E-mail: birdb@lanecc.edu
 
