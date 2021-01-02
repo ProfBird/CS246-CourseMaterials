@@ -1,18 +1,20 @@
-# Syllabus for CS246 System Design
+# Syllabus for CS246: System Design
 
-**Winter 2019** 
+**Winter 2021**
 
-Course: System Design Location: building 19, Room 126
+Course: System Design
 
 CRN: 33297 
 
 Time: MW 12:00&ndash;1:50 
 
-Instructor: Brian Bird Office: building 19/Rm 152
+Instructor: Brian Bird
+
+Office Hours:  [On Zoom](https://lanecc.zoom.us/j/965222036): M, W 2:00&ndash;2:50, Tu, Th 12:00&ndash;12:50, or by appointment
 
 E-mail: birdb@lanecc.edu
 
-Office Hours: M, W 4:00&ndash;4:50 and Tu, Th 2:00&ndash;2:50, or by appointment
+
 
 ## Course Description 
 
@@ -25,22 +27,16 @@ The intent of this course is to enable you to design and plan significant softwa
 ## Course Content 
 
 1. Developing software for a client
-
 2. Agile project teams (user stories and backlog) 
+3. UX design 
+4. Design and architectural patterns 
+5. Starting the project for your client
+6. Team project planning and design
 
-3. UX Design 
-
-4. Design and Architectural patterns 
-
-5. Design and documentation&mdash;user stories
-
-6. Design and documentation&mdash;UX design
-
-   You will do UX design and user stories simultaneously in weeks 5 & 6, not sequentially.
-
-7. Mock-up the first sprint
-
+7. Team project planning and design (Continued)
 8. Test driven development
+9. Project documentation
+10. Design presentations
 
 
 
@@ -54,7 +50,7 @@ There is no required text for the course, but for students who would like to hav
 
 ### Web Sites 
 
-http://classes.lanecc.edu (LCC’s moodle site) will be used to host the web site for the course. The site is designed to provide you with all of the information you need about the content and structure of the course including: lecture notes, sample files, assignment descriptions and due dates, and announcements related to the course. 
+http://classes.lanecc.edu (LCC’s Moodle site) will be used to host the web site for the course. The site is designed to provide you with all of the information you need about the content and structure of the course including: lecture notes, sample files, assignment descriptions and due dates, and announcements related to the course. 
 
 ### Assessment Activities 
 
@@ -76,15 +72,11 @@ Letter grades for the course will be determined by the following percentages:
 
 #### Late Work
 
-- The grade for assignments submitted after the due date will be reduced by 10%.
-
-  
+The grade for assignments submitted after the due date will be reduced by 10%.
 
 ### Academic Honesty
 
 While students are encouraged to discuss labs and to use each other as resources, each student is responsible for his/her own work. In other words, you can help each other, but you can't copy any part of someone else's work. The end product must be each student's own individual work.
-
-
 
 ### Attendance
 
@@ -96,15 +88,15 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 #### Academic Calendar
 
-| Winter Term 2020              |                   |
-| ----------------------------- | ----------------- |
-| Term begins                   | 1/6/19            |
-| Last day to receive refund    | 1/12/20           |
-| MLK Holiday                   | 1/20/20           |
-| President's Day Holiday       | 2/17/20           |
-| Last day for schedule changes | 2/28/20           |
-| Last day for schedule changes | 2/28/20           |
-| Finals week                   | 3/16 through 3/21 |
+| Winter Term 2021              |                 |
+| ----------------------------- | --------------- |
+| Term begins                   | 1/4             |
+| Last day to receive refund    | 1/10            |
+| MLK Holiday                   | 1/18            |
+| President's Day Holiday       | 2/15            |
+| Last day for schedule changes | 2/26            |
+| Final Project Presentation    | 3/15            |
+| Spring Break                  | 3/21&ndash;3/28 |
 
 
 
