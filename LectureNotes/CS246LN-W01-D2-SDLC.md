@@ -2,9 +2,11 @@
 
 Successful software doesn't stop being developed after the first *release to production*. It will continue to be developed, with bug fixes, security patches, and new features being added.
 
-| <img src="SDLC-Maintenance-Highlighted.png" alt="SDLC-Maintenance-Highlighted" style="zoom:30%;" /> |
-| :----------------------------------------------------------: |
-| [SDLC diagram by Dzonatas - Own work, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=4376189) |
+<img src="SDLC-Maintenance-Highlighted.png" alt="SDLC-Maintenance-Highlighted" width="400px" align="center"/> 
+
+[SDLC diagram by Dzonatas - Own work, CC BY-SA 3.0
+
+[](https://commons.wikimedia.org/w/index.php?curid=4376189)
 
 1. Planning: A software project is proposed, and a plan is made for developing it.
 2. Analysis: Requirements are written that define what the software will do for the end users.
@@ -18,7 +20,7 @@ Successful software doesn't stop being developed after the first *release to pro
 
 ### Waterfall
 
-<img src="Waterfall_model.svg" alt="Waterfall_model" style="zoom:50%;" />
+<img src="Waterfall_model.svg" alt="Waterfall_model" width="500px" />
 
 [Diagram by Peter Kemp / Paul Smith](https://commons.wikimedia.org/w/index.php?curid=10633070) Adapted from Paul Smith&#039;s work at wikipedia, CC BY 3.0
 
@@ -44,7 +46,7 @@ This is the most popular agile methodology. It focuses on learning from the iter
 
 
 
-<img src="scrum-framework.png" alt="scrum-framework" style="zoom:70%;" />
+<img src="scrum-framework.png" alt="scrum-framework" width="700px" />
 
 *Scrum framework ([Source](https://www.axelos.com/store/book/prince2-agile))*
 
@@ -52,7 +54,7 @@ This is the most popular agile methodology. It focuses on learning from the iter
 
 This is a process that originated in the auto manufacturing industry (at Toyota) as a way to manage work in process through visualization. The *kanban board* is often used in conjunction with the scrum methodology.
 
-<img src="Kanban-board.png" alt="Kanban-board" style="zoom:80%;" />
+<img src="Kanban-board.png" alt="Kanban-board" />
 
 *Kanban Board ([Source](https://www.axelos.com/store/book/prince2-agile))*
 
