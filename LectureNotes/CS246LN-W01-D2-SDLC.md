@@ -1,4 +1,10 @@
-# The SDLC&mdash;Software Development Lifecycle
+# Approaches to Software Development
+
+**CS246N System Design**
+
+[TOC]
+
+## The SDLC&mdash;Software Development Lifecycle
 
 Successful software doesn't stop being developed after the first *release to production*. It will continue to be developed, with bug fixes, security patches, and new features being added.
 
@@ -71,4 +77,13 @@ This is a process that originated in the auto manufacturing industry (at Toyota)
 [Agile 101](https://www.agilealliance.org/agile101/)&mdash;The Agile Alliance
 
 [Scrum vs Kanban: A Comparison of Agile Methodologies](https://www.bmc.com/blogs/scrum-vs-kanban/)&mdash;BMC Blogs
+
+
+
+------
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+------
 
