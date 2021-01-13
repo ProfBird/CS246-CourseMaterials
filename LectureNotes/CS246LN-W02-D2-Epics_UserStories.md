@@ -1,4 +1,4 @@
-# Epics, User Stories, and Tasks
+# Epics and User Stories
 
 **CS246N System Design**
 
