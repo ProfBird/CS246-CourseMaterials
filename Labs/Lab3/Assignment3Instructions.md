@@ -2,17 +2,28 @@
 
 # Assignment 3 - UX Design and Testing
 
-Create a set of wire-frame diagrams (at least one per group member) and get feedback from at least three testers.
+Your team will create UX *test artifacts* (diagrams, mock-ups, or prototypes), recruit testers to test them and write a report on the test feedback.
 
-Submit the following on Moodle:      
+## Test artifacts
 
-1. The wire-frames you gave your testers.
-         
-2. A report that includes:
+Create a set of UX test artifacts&mdash;at least one per group member. All the test artifacts should be for the same web app or game. You will need to collaborate on the design so all the diagrams have the same look and feel. 
 
-3. A description the method(s) you used to get feedback. 
-       Possibilities include: 
-   - Individual interviews, surveys, focus  groups.
+## Testing
+
+Recruit at least three testers. Get feedback on the usability and user experience of your UI artifacts from them. You can do this in a focus group setting or through individual testers working with your UI.
+
+## Submission
+
+Submit the following on Moodle
+
+1. Each team member: The test artifact they made.
+2. One team member, on behalf of the group: 
+   A report, written by the group, that includes:
+   - A description the method(s) you used to get feedback. 
+         Possibilities include: 
+     - Individual interviews.
+     - surveys.
+     - Recordings of the testers reactions and comments while testing.
    - The results of your testing.
    - An assessment of the quality of feedback you received.
 
