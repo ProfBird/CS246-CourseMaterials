@@ -10,7 +10,7 @@ Create a set of UX test artifacts&mdash;at least one per group member. All the t
 
 ## Testing
 
-Recruit at least three testers. Get feedback on the usability and user experience of your UI artifacts from them. You can do this in a focus group setting or through individual testers working with your UI.
+As a group, recruit at least three testers. Get feedback on the usability and user experience of your group's UI artifacts from them. You can do this in a focus group setting or through individual testers working with your UI.
 
 ## Submission
 
