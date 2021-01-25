@@ -10,9 +10,9 @@ They are code patterns that provide solutions to common problems. They were insp
 
 ### Examples:
 
-**The adapter pattern**: This pattern solves the problem of needing to use data from a source that is incompatible with your system, either becasue of the format or the interface. For example, gettting JSON data from a web service and storing it in a relational database.
+**The adapter pattern**: This pattern solves the problem of needing to use data from a source that is incompatible with your system, either becasue of the format or the interface. For example, gettting JSON data from a web service and converting the JavaScript Objects to C# objects.
 
-**The observer pattern:** This pattern solves the problem of how one object can get a notification when something changes on another object. For example, getting notified when a user types input in a web form.
+**The observer pattern:** This pattern solves the problem of how one object can get a notification when something changes on another object. For example, getting notified when a user types input in a User Interface.
 
 ## Why are they important?
 
@@ -22,14 +22,15 @@ They are code patterns that provide solutions to common problems. They were insp
 
 ## What are the "Gang of Four" Patterns?
 
-The classic book on design patterns is [*Design Patterns: Elements of Reusable Object-Oriented Software*](https://en.wikipedia.org/wiki/Design_Patterns) by Gamma, Helm, Johnson and Vlissides, 1994. There were four authors, hence the nickname, "Gang of four".
+The classic book on design patterns is [*Design Patterns: Elements of Reusable Object-Oriented Software*](https://en.wikipedia.org/wiki/Design_Patterns) by Gamma, Helm, Johnson and Vlissides, 1994. The book had four authors, hence the nickname, "Gang of four" which is often abbreviated GoF, as in "the GoF patterns"
 
-The book lists these design patterns:
-(Text copied from [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns), links from [dofactory, ".NET Design Patterns"](https://www.dofactory.com/net/design-patterns))
+The book lists the design patterns shown below.
+
+(Text copied from [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns) and adapted, links from [dofactory, ".NET Design Patterns"](https://www.dofactory.com/net/design-patterns))
 
 ### Creational
 
-[Creational patterns](https://en.wikipedia.org/wiki/Creational_pattern) are ones that create objects, rather than having to instantiate objects directly. This gives the program more flexibility in deciding which objects need to be created for a given case.
+[Creational patterns](https://en.wikipedia.org/wiki/Creational_pattern) are are used to create objects, rather than having to instantiate objects directly. This gives the program more flexibility in deciding which objects need to be created for a given case.
 
 | Creational Patterns                                          |                                                       |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
@@ -41,7 +42,7 @@ The book lists these design patterns:
 
 ### Structural
 
-These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.
+These are concerned with class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.
 
 | Structural Patterns                                          |                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------- |
@@ -55,10 +56,11 @@ These concern class and object composition. They use inheritance to compose inte
 
 ### Behavioral
 
-Most of these design patterns are specifically concerned with communication between **objects**.
+Most of these design patterns are specifically concerned with communication between objects.
 
-| [Chain of Resp.](https://www.dofactory.com/net/chain-of-responsibility-design-pattern) | A way of passing a request between a chain of objects |
+| Behavioral Patterns                                          |                                                       |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
+| [Chain of Resp.](https://www.dofactory.com/net/chain-of-responsibility-design-pattern) | A way of passing a request between a chain of objects |
 | [Command](https://www.dofactory.com/net/command-design-pattern) | Encapsulate a command request as an object            |
 | [Interpreter](https://www.dofactory.com/net/interpreter-design-pattern) | A way to include language elements in a program       |
 | [Iterator](https://www.dofactory.com/net/iterator-design-pattern) | Sequentially access the elements of a collection      |
