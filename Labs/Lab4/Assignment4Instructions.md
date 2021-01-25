@@ -1,6 +1,22 @@
-**CS246**
+**CS246, System Design**
 
-# Assignment 4 - Design Patterns
+# Assignment 4 - OOP Design
+
+## Design a model for a simple game
+
+Create a UML diagram to model a simple game
+
+1. Write a prose description (text description) for one of the following dice games. Include the players and score keeping for multiple rounds of play in your model.
+
+   - [Craps](https://en.wikipedia.org/wiki/Craps)
+
+   - [Pig](https://en.wikipedia.org/wiki/Pig_(dice_game))
+
+   - [Ship, Captan, Crew](https://en.wikipedia.org/wiki/Ship,_captain,_and_crew)
+
+   - A simple [dice game](https://en.wikipedia.org/wiki/List_of_dice_games) of your choice (nothing nearly as complicated as Yahtzee).
+
+2. 
 
 Use [ASP.NET Patterns every developer should know](https://www.developerfusion.com/article/8307/aspnet-patterns-every-developer-should-know/) as a reference for this assignment.
 
