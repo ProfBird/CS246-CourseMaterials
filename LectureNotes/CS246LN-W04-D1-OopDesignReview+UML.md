@@ -1,4 +1,4 @@
-# OOP with Design with UML
+# OOP Design with UML
 
 **CS246N System Design**
 
