@@ -7,9 +7,17 @@
 ## Announcements
 
 - Capstone projects
+  - Capstone teams, please post in the discussion forum:
+    - Team name
+    - Team members
+    - One sentence project description
+  - If you don't have a team yet, e-mail me and I'll match you up with a team.
+  - If your team doesn't have a project yet, drop in to my office hours so we can discuss possibilities.
+  - Work on a proposal starts next week. Your proposal to is due Feb. 11
+    - For Programming teams, this is a proposal to a client (and me).
+    - For Game Dev teams, this is a proposal to each other (and me).
 - HackOR
 - CS235IM
-- 
 
 ## Introduction
 
@@ -42,7 +50,7 @@ In this session, we will look at how the UML model would be implemented in C# co
 
 
 
-
+----
 
 ## Answers
 
@@ -57,10 +65,6 @@ Nouns become either:
 Verbs become:
 
 - Methods
-
-
-
-
 
 ### Three primary OOP relationships
 
