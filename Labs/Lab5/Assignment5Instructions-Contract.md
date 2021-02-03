@@ -1,6 +1,6 @@
 **CS246, System Design**
 
-# Assignment 6&mdash;Proposal and Contract
+# Assignment 5&mdash;Proposal and Contract
 
 
 
