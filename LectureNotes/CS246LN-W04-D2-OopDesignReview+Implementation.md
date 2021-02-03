@@ -42,9 +42,42 @@ In this session, we will look at how the UML model would be implemented in C# co
 
 ### Inheritance
 
+```c#
+public class Admin : User
+{ }
+```
+
 ### Aggregation
 
+```c#
+ public class Tip
+ {
+     private List<Comment> comments = new List<Comment>(); 
+     public List<Comment> Comments { get { return comments; } }
+
+     public void AddComment(Comment c)
+     {
+         comments.Add(c);    // Aggregation
+     }
+ }
+```
+
+
+
 ### Composition
+
+```c#
+public class Comment
+{
+    public String CommentText { get; set; }
+    public User Author { get; private set; }  
+
+    public Comment(User u)
+    {
+        Author = u;  // Composition
+    }
+}
+```
 
 
 
