@@ -16,7 +16,7 @@ As a group, recruit at least three testers. Get feedback on the usability and us
 
 Submit the following on Moodle
 
-1. Each team member: The test artifact they made.
+1. Each team member: The test artifact they made, in .pdf format.
 2. One team member, on behalf of the group: 
    A report, written by the group, that includes:
    - A description the method(s) you used to get feedback. 
