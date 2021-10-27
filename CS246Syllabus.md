@@ -1,18 +1,13 @@
-# Syllabus for CS246: System Design
+# Syllabus for System Design
 
-**Winter 2022**
+**CS244, Winter 2022**
 
-Course: System Design
-
-CRN: 30808
-
-Instructor: Brian Bird
-
-Online class meetings: 19/126 and Zoom, Tu, Th 12:00&ndash;1:50
-
-Office Hours:  TBD or by appointment
-
-E-mail: birdb@lanecc.edu
+| Class     |                          |      | Instructor   |                        |
+| --------- | ------------------------ | ---- | ------------ | ---------------------- |
+| Sections  | CRN 30808                |      | Name         | Brian Bird             |
+| Credits   | 4                        |      | Email        | birdb@lanecc.edu       |
+| Time      | Tu, Th, 12:00&ndash;1:50 |      | Office       | 19/152                 |
+| Classroom | 19/126 and Zoom          |      | Office Hours | TBD and by appointment |
 
 
 
@@ -20,43 +15,39 @@ E-mail: birdb@lanecc.edu
 
 In this course, students will learn to design and plan software systems development. Topics covered will include requirements gathering, design evaluation and documentation, and object-oriented program design. By the end of the course, students will have produced a design for a significant software project in a team environment. 
 
-## Learning Outcomes 
+### Learning Outcomes 
 
 The intent of this course is to enable you to design and plan significant software projects by identifying needs, creating user stories, and implementing those stories using project planning tools and appropriate software testing. 
-
-## Course Content 
-
-1. Developing software for a client
-2. Agile project teams (user stories and backlog) 
-3. UX design 
-4. Design and architectural patterns 
-5. Starting the project for your client
-6. Team project planning and design
-
-7. Team project planning and design (Continued)
-8. Test driven development
-9. Project documentation
-10. Design presentations
 
 
 
 ## Learning Resources 
 
-### Texts
+### Readings
 
-There is no required text for the course, but for students who would like to have reading material to supplement the in-class content, I recommend the following textbook: 
+There is no textbook for this course. Online reading will be assigned as the course progresses.
 
-*Software Engineering: Theory and Practice: 4th Ed*., by Shari Pfleeger and Joanna Atlee. 
+### Moodle 
 
-### Web Sites 
+http://classes.lanecc.edu (LCC’s Moodle site) is the learning management system for the course. All of the information you need for the course will be provided via the Moodle course page: lecture notes, sample files, assignment descriptions and due dates, and announcements related to the course. 
 
-http://classes.lanecc.edu (LCC’s Moodle site) will be used to host the web site for the course. The site is designed to provide you with all of the information you need about the content and structure of the course including: lecture notes, sample files, assignment descriptions and due dates, and announcements related to the course. 
+### CIT Computer Lab
 
-### Assessment Activities 
+The in-person computer lab and tutoring center is temporarily closed due to COVID-19, but tutoring is still available online. You can drop into the [Lane Support Hub Zoom Room](https://lanecc.zoom.us/j/98549544816) and request a CIT tutor, or make an appointment with a CIT tutor via the scheduling page at [lanecc.mywconline.com](https://lanecc.mywconline.com/). More information is available on the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page.
 
-The learning outcomes will be demonstrated by completing weekly assignments, in-class activities, and a final project which will serve as a design for your capstone project in the spring. Assignments will be 60% of your grade, in-class activities 10%, and the final project 30%. 
 
-For the final project, you will be placed into groups of 3-5 students, which will also serve as your project groups for the capstone this spring. Groups will be assigned in week 6 with your input. 
+
+## Assessment and Grading
+
+The learning outcomes will be demonstrated by completing weekly assignments, in-class activities, and a term project which will serve as a design for your capstone project in the spring. 
+
+| Activity            | Percentage of grade |
+| ------------------- | ------------------- |
+| Assignments         | 50%                 |
+| In-class activities | 10%                 |
+| Term Project        | 40%                 |
+
+For the term project, you will be organized into groups of 3-5 students, which will also serve as your project groups for the capstone this spring. Groups will be assigned early in the term with your input. 
 
 Letter grades for the course will be determined by the following percentages:        
 
@@ -70,7 +61,7 @@ Letter grades for the course will be determined by the following percentages:
 
 
 
-#### Late Work
+### Late Work
 
 The grade for assignments submitted after the due date will be reduced by 10%.
 
@@ -82,11 +73,13 @@ While students are encouraged to discuss labs and to use each other as resources
 
 Attendance is not graded but will be essential for successful completion of the class. Students who miss a class are responsible for obtaining the course content provided in class and mastering it. 
 
-#### No-Show Drop
+### No-Show Drop
 
 LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which means that during the first week of the term, to avoid being dropped, a student must attend at least one class meeting.
 
-#### Academic Calendar
+
+
+## Academic Calendar
 
 | Winter Term 2021              |                 |
 | ----------------------------- | --------------- |
@@ -100,9 +93,28 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 
 
-### Accessibility and Accommodations: 
+## Accessibility and Accommodations
 
 If you need support or assistance because of a disability, you may be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or 463-3079 (TTY), or stop by building 1, room 218. 
 
 Please be aware that any accessible tables and chairs in this room should remain available for authorized students who find that standard classroom seating is not usable.
 
+
+
+## Course Schedule 
+
+(may be subject to change)
+
+| Week | Topic                                     |
+| ---- | ----------------------------------------- |
+| 1    | Developing a high-level software solution |
+| 2    | Agile software development                |
+| 3    | UX Design and testing                     |
+| 4    | OO Design with UML                        |
+| 5    | Starting a "real" project                 |
+| 6    | Project planning                          |
+| 7    | Software design                           |
+| 8    | Design and architectural patterns         |
+| 9    | Software prototyping                      |
+| 10   | Project documentation                     |
+| 11   | Design presentations                      |
