@@ -1,16 +1,16 @@
 # Syllabus for CS246: System Design
 
-**Winter 2021**
+**Winter 2022**
 
 Course: System Design
 
-CRN: 33297 
+CRN: 30808
 
 Instructor: Brian Bird
 
-Online class meetings: [Zoom meeting](https://lanecc.zoom.us/j/92912914672): M, W 12:00&ndash;1:50
+Online class meetings: 19/126 and Zoom, Tu, Th 12:00&ndash;1:50
 
-Office Hours:  [Zoom meeting](https://lanecc.zoom.us/j/965222036): M, W 2:00&ndash;2:50, Tu, Th 12:00&ndash;12:50, or by appointment
+Office Hours:  TBD or by appointment
 
 E-mail: birdb@lanecc.edu
 
@@ -90,13 +90,13 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 | Winter Term 2021              |                 |
 | ----------------------------- | --------------- |
-| Term begins                   | 1/4             |
-| Last day to receive refund    | 1/10            |
+| Term begins                   | 1/3             |
+| Last day to receive refund    | 1/9             |
 | MLK Holiday                   | 1/18            |
-| President's Day Holiday       | 2/15            |
-| Last day for schedule changes | 2/26            |
+| President's Day Holiday       | 2/21            |
+| Last day for schedule changes | 2/25            |
 | Final Project Presentation    | 3/15            |
-| Spring Break                  | 3/21&ndash;3/28 |
+| Spring Break                  | 3/20&ndash;3/27 |
 
 
 
