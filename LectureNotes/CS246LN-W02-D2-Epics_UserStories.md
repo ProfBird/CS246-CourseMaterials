@@ -28,19 +28,20 @@
 
 ### Epic: Volunteer Scheduling
 
-- **User Story: Project creation**
-  *Admins can create a project so that volunteers can be assigned to it.*
+- **User Story: Volunteers view project needs**
+  *Volunteers can view the work needed and time-slots available for work on a project so that they can decide what to volunteer for.*
+  
 - **User Story: Volunteers sign up for a project**
-  *Volunteers can scheduled themselves for time slots on a project so that  admins and other volunteers can see when they will be working.*
-- **User Story: Volunteer deletes their profile**
-  A volunteer can delete their profile so that they are no longer listed as a volunteer.
+  *Volunteers can scheduled themselves for time-slots on a project so that admins and other volunteers can see when they will be working.*
+  
+  
 
 
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2022, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ------
 
