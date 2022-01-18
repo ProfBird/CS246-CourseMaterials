@@ -10,30 +10,46 @@
 
 ## Examples
 
-### Epic Volunteer Administration
+### Epic: Volunteer Administration
 
-- **User Story: Project creation**
+**User Stories**
+
+- **Project creation**
+
   *Admins can create a project so that volunteers can be assigned to it.*
-- **User Story: Message volunteers**
+
+- **Message volunteers**
+
   *Admins can send messages to volunteers.*
 
 ### Epic: Volunteer Registration
 
-- **User Story: Volunteer creates a profile**
+**User Stories**
+
+- **Volunteer creates a profile**
+
   *A volunteer can create a profile containing information that can be used by project administrators to manage volunteers.*
-- **User Story: Volunteer edits their profile**
-  *Volunteers can edit their profile in order to update their information.*
-- **User Story: Volunteer deletes their profile**
+
+- **Volunteer edits their profile**
+
+  Volunteers can edit their profile in order to update their information.*
+
+- **Volunteer deletes their profile**
+
   *A volunteer can delete their profile so that they are no longer listed as a volunteer.*
 
 ### Epic: Volunteer Scheduling
 
-- **User Story: Volunteers view project needs**
+**User Stories**
+
+- **Volunteers view project needs**
+
   *Volunteers can view the work needed and time-slots available for work on a project so that they can decide what to volunteer for.*
-  
+
 - **User Story: Volunteers sign up for a project**
+
   *Volunteers can scheduled themselves for time-slots on a project so that admins and other volunteers can see when they will be working.*
-  
+
   
 
 
