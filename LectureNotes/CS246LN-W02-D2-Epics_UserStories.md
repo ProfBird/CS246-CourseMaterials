@@ -6,7 +6,7 @@
 
 ## Format for User Stories
 
-<u>Someone</u> (a role) can do <u>something</u> so that <u>something results</u>.
+*<u>Someone</u> (a role) can do <u>something</u> so that <u>something results</u>.*
 
 ## Examples
 
