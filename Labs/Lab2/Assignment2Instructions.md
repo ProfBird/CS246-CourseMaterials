@@ -12,7 +12,7 @@
 Notes: 
 
 - You will not actually build this software. You are just doing this as a way to practice sprint planning using Jira.
-- Normally your team would write a requirements document (a more detailed description of the project than the proposal) and the user stories would be based on the requirements document. We are skipping that step in the project planning process.
+- Normally your team would write a requirements document (a more detailed description of the project than the proposal) and the user stories would be based on the requirements document. We are skipping that step.
 
 ## Instructions
 
@@ -26,7 +26,7 @@ You all should have Jira accounts, but just one team member will create the proj
 - Assign story points to each story.
 - Identify at least four user stories and move them into the first sprint. (This is the *sprint backlog*.)
   - Each team member should assign themselves to at least one user story from the sprint backlog.
-  - Each team member should create at least two tasks for each user of their user stories.
+  - Each team member should create at least two tasks (Jira calls these "child issues") for each of the stories assigned to them.
 - Once you’ve set up the first sprint, prioritize the remaining stories in your project backlog by arranging them in priority order. This is the order in which you tentatively plan to implement them.
 
 
@@ -35,4 +35,4 @@ Submit the assignment by pasting the URL for your project in the "online text" f
 
 
 
-Written Winter 2018 by Paul Wilkins, revised winter 2019 and 2021 by Brian Bird
+Written Winter 2018 by Paul Wilkins, revised winter 2022 by Brian Bird
