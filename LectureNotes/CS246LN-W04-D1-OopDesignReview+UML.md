@@ -53,22 +53,36 @@ A way to visually represent software design models that is independent of any pa
 - Representing classes
 
   - Name
+
   - Fields
+
+    - Access modifiers
+
+      &plus; public: can be accessed from outside the class
+
+      &num; protected: can be accessed inside the class and in inherited classes
+
+      &minus; private: can only be accessed inside the class
+
   - Methods
 
 - Representing relationships
 
+  - Association: arrow
   - Aggregation (equivalent to association): open diamond.
   - Composition: black diamond.
   - Inheritance: triangle.
 
-- Cardinality
-
+- 
+  Cardinality (multiplicity)
+  
+  (In UMLet, m1 indicates one end of the line and m2 indicates the other.)
+  
   - one-to-one: put 1 at each end of the line.
   - one-to-many: put 1 at one end and n at the other.
   - many-to-many: put n at each end.
   - Ranges: indicate a range with two dots: 0..1
-
+  
   
 
 ### Exercise
