@@ -76,12 +76,14 @@ A way to visually represent software design models that is independent of any pa
 - 
   Cardinality (multiplicity)
   
-  (In UMLet, m1 indicates one end of the line and m2 indicates the other.)
+  (In UMLet, m1 indicates the end of the line with the diamond or arrow and m2 indicates the other end.)
   
-  - one-to-one: put 1 at each end of the line.
-  - one-to-many: put 1 at one end and n at the other.
-  - many-to-many: put n at each end.
-  - Ranges: indicate a range with two dots: 0..1
+  - Ranges: indicate a range with two dots. For example: 0..n
+  - Cardinality relationships
+    - One-to-one: put 1 at the end with the diamond.
+    - One-to-many: put 1..n at the end with the diamond&mdash;meaning the class with the diamond can have 1 to many instances of the other object.
+    - Many-to-many: put diamonds on both ends of the line and put 1..n on both ends. It is good to avoid this relationship since it adds extra complexity.
+  
   
   
 
