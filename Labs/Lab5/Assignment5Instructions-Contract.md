@@ -23,8 +23,8 @@ Since you don't have an external client, I will fill the role of client. You can
 As a group, submit the following to Moodle:
 
 Word or PDF documents:
-1. Your proposal
-2. Your contract.
+1. A draft of the software development proposal that you will review with your client after it has been approved by your instructor.
+2. A draft of the contract that you will present to your client after it has been approved by your instructor.  The contract will include the final version of your proposal, which will include revisions made after reviewing it with your client.
 
 
 
