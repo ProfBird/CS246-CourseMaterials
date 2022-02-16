@@ -1,20 +1,20 @@
-# Assignment 7 - UX Design & User Stories
+# Assignment 7 - User Stories
 
 ## Instructions
 
-You will be writing user stories and making UI diagrams in parallel. The process of making the UI diagrams often helps you clarify or discover user stories. Write your user stories in a way that your client can understand them&mdash;especially the UX related stories (which is usually all of them).
+This week you will be writing epics and user stories. You can base these off of the software development proposal, UI diagrams, and conversations you've had with your client. Write your user stories in a way that your client can understand them&mdash;especially the UI related stories (which is usually most of them).
 
-Make your UI diagrams neat, detailed, and clear enough that you can use them to communicate your UX design to your client. Make them look professional. If you draw them by hand, use a ruler or other drawing aids and draw on graph paper with a very lightly printed graph, or on white paper&mdash;not lined paper. All the diagrams should be created using the same tools so that they have a consistent appearance.
+Often, the process of thinking of user stories helps you refine your UI diagrams, so you may go back and revise or add to your UI diagrams as you come up with user stories.
 
-Meet with your client to show them the UI diagrams. See if the client can read the user stories and follow them to walk through the UX interactions using your UI diagrams. Get their feedback. 
+You don't need to add tasks (Jira calls them "child issues") now. You will add those to stories at the time you move the stories from the product backlog to a sprint backlog.
+
+Meet with your client to show them the user stories and any revisions you made to the UI diagrams. See if the client can use the user stories and UI diagrams together to walk through the user interactions with the web site. Get their feedback. 
 
 ## Submission
 
-- Submit your UI sketches. If you did them online, save them as a PDF (or PDFs) and upload them. If you are doing them by hand, take photos.
 - Submit your Jira user stories by pasting the URL for your project in the "online text" field for this Moodle assignment.
 - Submit a short written report on the meeting with your client.
-- Submit a schedule for your bi-weekly client meetings for this term and next.
 
 
 
-Written Winter 2020 by  Brian Bird, Lane Community College, for CS246, System Design.
+Written winter 2020, revised winter 2022, by  Brian Bird, Lane Community College, for CS246, System Design.
