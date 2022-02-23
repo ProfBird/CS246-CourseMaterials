@@ -1,3 +1,8 @@
+---
+title: Coding Examples: Class diagram to C#
+description: Explanation and examples of how a UML class diagram would be implemented in C# code.
+---
+
 # OO Design: Coding Examples
 
 **CS246N System Design**
@@ -117,6 +122,6 @@ Verbs become:
 
 ------
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised 2022), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2022</time>), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------

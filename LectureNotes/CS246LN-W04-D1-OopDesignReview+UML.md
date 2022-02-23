@@ -1,4 +1,9 @@
-# OOP Design with UML
+---
+title: OO Analysis and Design with UML
+description: A review  Object Oriented Programming (OOP) concepts for designing software solutions.
+---
+
+# OO Analysis and Design with UML
 
 **CS246N System Design**
 
@@ -6,7 +11,7 @@
 
 ## Introduction
 
-In this session, we will review Object Oriented Programming concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
+In this session, we will review Object Oriented concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
 
 ## Frameworks, Libraries, and Custom Solutions
 
@@ -18,17 +23,17 @@ In this session, we will review Object Oriented Programming concepts for designi
 
 ## OOP Terminology
 
-What is a class?
+What is a *class*?
 
-What is an object?
+What is an *object*?
 
-What is a method (aka function)?
+What is a *method* (aka *function*)?
 
-What is a field of a class (aka instance variable or member variable)?
+What is a *field* of a class (aka i*nstance variable* or *member variable*)?
 
-What is a static class?
+What is a *static class*?
 
-## OOP Design
+## OO Design
 
 When we design a set of classes to model a solution to a problem, how do we identify those classes?
 - What will nouns become?
@@ -62,7 +67,7 @@ A way to visually represent software design models that is independent of any pa
 
       &num; protected: can be accessed inside the class and in inherited classes
 
-      &minus; private: can only be accessed inside the class
+      &minus; private: can only be accessed inside the class
 
   - Methods
 
@@ -93,19 +98,42 @@ Draw a UML diagram to model the classes in the Tip of the Day solution using the
 
 
 
+## Example
+
+[Tip of the Day class diagram](Images/TipOfTheDayDomainModel2022.pdf)
+
+
+
+## References
+
+Bell, Donald. [The UML 2 class diagram](https://developer.ibm.com/articles/the-class-diagram/) IBM, 2004. Tutorial article.
+
+
+Crawley, Gregory. [UML class diagram arrow types: explanations and examples](https://www.gleek.io/blog/class-diagram-arrows.html) Gleek, 2021. Tutorial article with video
+
 ----
 
 
 
 ## Answers
 
-### A Class
+### OOP Terminology
 
-A class is a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. 
+- Class
 
-### An Object
 
-Executable code that is created from a class. Many objects can be created from the same class.
+  A class is a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. 
+
+  Unless a class is static or has static methods, it's methods are not executable.
+
+- Object
+
+  Executable code that is created from a class. Multiple objects can be created from the same class.
+
+### OO Design
+
+- Nouns become classes or fields of a class.
+- Verbs become methods.
 
 ### Three primary OOP relationships
 
@@ -120,6 +148,6 @@ Executable code that is created from a class. Many objects can be created from t
 
 ------
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised 2022), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2022</time>), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------
