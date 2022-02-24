@@ -99,6 +99,14 @@ Most of these design patterns are specifically concerned with communication betw
 
 
 
+## References
+
+[Guide to Software Design Patterns](https://airbrake.io/blog/category/dotnet). Airbrake. 2017. Descriptions of design patterns with examples in C#.
+
+[Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns). Wikipedia article.
+
+
+
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)

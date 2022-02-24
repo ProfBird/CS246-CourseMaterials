@@ -137,7 +137,7 @@ Crawley, Gregory. [UML class diagram arrow types: explanations and examples](htt
 
 ### Three primary OOP relationships
 
-- Aggregation (aka association)
+- Aggregation (aka association[^1])
   The "has-a" relationship.
 - Composition
   The "is-a-part-of" relationship.
@@ -150,4 +150,7 @@ Crawley, Gregory. [UML class diagram arrow types: explanations and examples](htt
 
  [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2022</time>), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
-------
+
+
+[^1]: Martin Fowler on [Aggregation and Composition](https://martinfowler.com/bliki/AggregationAndComposition.html)
+
