@@ -50,7 +50,7 @@ These are concerned with class and object composition. They use inheritance to c
 | [Bridge](https://www.dofactory.com/net/bridge-design-pattern) | Separates an object’s interface from its implementation |
 | [Composite](https://www.dofactory.com/net/composite-design-pattern) | A tree structure of simple and composite objects        |
 | [Decorator](https://www.dofactory.com/net/decorator-design-pattern) | Add responsibilities to objects dynamically             |
-| [Facade](https://www.dofactory.com/net/facade-design-pattern) | A single class that represents an entire subsystem      |
+| [Façade](https://www.dofactory.com/net/facade-design-pattern) | A single class that represents an entire subsystem      |
 | [Flyweight](https://www.dofactory.com/net/flyweight-design-pattern) | A fine-grained instance used for efficient sharing      |
 | [Proxy](https://www.dofactory.com/net/proxy-design-pattern)  | An object representing another object                   |
 
@@ -60,7 +60,7 @@ Most of these design patterns are specifically concerned with communication betw
 
 | Behavioral Patterns                                          |                                                       |
 | ------------------------------------------------------------ | ----------------------------------------------------- |
-| [Chain of Resp.](https://www.dofactory.com/net/chain-of-responsibility-design-pattern) | A way of passing a request between a chain of objects |
+| [Chain of Responsibility](https://www.dofactory.com/net/chain-of-responsibility-design-pattern) | A way of passing a request between a chain of objects |
 | [Command](https://www.dofactory.com/net/command-design-pattern) | Encapsulate a command request as an object            |
 | [Interpreter](https://www.dofactory.com/net/interpreter-design-pattern) | A way to include language elements in a program       |
 | [Iterator](https://www.dofactory.com/net/iterator-design-pattern) | Sequentially access the elements of a collection      |
@@ -74,6 +74,24 @@ Most of these design patterns are specifically concerned with communication betw
 
 
 
+## Architectural Design Patterns
+
+Architectural patterns describe the way software systems or components interact.
+Some common architectural patterns are:
+
+- Layered pattern
+- Client-server pattern
+- Master-slave pattern
+- Pipe-filter pattern
+- Broker pattern
+- Peer-to-peer pattern
+- Event-bus pattern
+- Model-view-controller pattern
+- Blackboard pattern
+- Interpreter pattern
+
+
+
 ## ASP.NET Design Patterns
 
 ### Formal vs. Informal Patterns
@@ -83,25 +101,23 @@ Most of these design patterns are specifically concerned with communication betw
 
 ### Formal Patterns Used in Our Web Apps
 
-- MVC is "baked in"
+- MVC is "baked in".
+- Iterator is a part of the .NET collection classes.
+- What other formal patterns have we used?[^1]
 
-- Iterator is a part of the .NET collection classes
-
-- What other formal patterns have we used?
-
-  <div hidden>Repository, EF is an example of a provider</div>
-
-- If you write or consume a web service, which pattern are you using?
-
-  <div hidden>Service Agent</div>
-
-- Class Exercise: If I wanted to add a messaging service to my BookInfo app that notified writers of book reviews when someone had commented on a book, which pattern might be a key part of the implementation?
+- Class Exercise: If you wanted to add a messaging service to the Tip of the Day web app that notified site users when someone had commented on a tip they had posted, which pattern might be a key part of the implementation?
 
 
 
 ## References
 
 [Guide to Software Design Patterns](https://airbrake.io/blog/category/dotnet). Airbrake. 2017. Descriptions of design patterns with examples in C#.
+
+Design Patterns for ASP.NET Developers, [Part 1: Basic Patterns](https://www.devx.com/2007/02/09/33695/), [Part 2: Custom Controller Patterns](https://www.devx.com/2007/03/03/33889/), [Part 3: Advanced Patterns](https://www.devx.com/2007/04/05/34220/). DevX. 2007. Note: even though these articles are a bit old, the concepts are all still applicable.
+
+Homer, Alex. [ASP.NET Patterns every developer should know](https://www.developerfusion.com/article/8307/aspnet-patterns-every-developer-should-know/). Developer Fusion. 2011.
+
+Mallawaarachchi, Vijini . [10 Common Software Architectural Patterns in a Nutshell](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013). Towards Data Science. 2017.
 
 [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns). Wikipedia article.
 
@@ -112,5 +128,7 @@ Most of these design patterns are specifically concerned with communication betw
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 System Design Lecture Notes by [Brian Bird](https://birdsbits.blog), 2018 (Revised 2020), is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-------
+[^1]: The Repository Pattern
+
+
 
