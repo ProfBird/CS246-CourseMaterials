@@ -39,13 +39,13 @@ The other way is to add a ? to any reference types for properties where it makes
 
 The default version of C# used by Visual Studio when building your project is determined by the target framework selected for the project.
 
-| .NET Framework            | C# Version            | Release Date |
-| ------------------------- | --------------------- | ------------ |
-| .NET 7.0 (Now in preview) | 11.0 (Now in preview) | Nov. 2022    |
-| .NET 6.0 (LTS)            | 10.0                  | Nov. 2021    |
-| .NET 5.x                  | 9.0                   | Nov. 2020    |
-| .NET Core 3.1 (LTS)       | 8.0                   | Nov. 2019    |
-|                           |                       |              |
+| .NET Framework            | C# Version            | Release Date | End Support  |
+| ------------------------- | --------------------- | ------------ | ------------ |
+| .NET 7.0 (Now in preview) | 11.0 (Now in preview) | Nov. 2022    | May 8, 2024? |
+| .NET 6.0 (LTS)            | 10.0                  | Nov. 2021    | Nov. 8, 2024 |
+| .NET 5                    | 9.0                   | Nov. 2020    | May 8, 2022  |
+| .NET Core 3.1 (LTS)       | 8.0                   | Nov. 2019    | Dec. 3, 2022 |
+|                           |                       |              |              |
 
 ## Example
 
