@@ -52,6 +52,10 @@
 
   
 
+## Reference
+
+[User Stories: An Agile Introduction](http://www.agilemodeling.com/artifacts/userStory.htm)
+
 
 
 ------

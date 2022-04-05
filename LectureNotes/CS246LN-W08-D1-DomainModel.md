@@ -38,6 +38,10 @@
 
 
 
+## Reference
+
+[Agile/Evolutionary Data Modeling: From Domain Modeling to Physical Modeling](Agile/Evolutionary Data Modeling: From Domain Modeling to Physical Modeling)
+
 
 
 ## Answers
