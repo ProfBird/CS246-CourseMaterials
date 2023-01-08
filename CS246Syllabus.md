@@ -33,9 +33,11 @@ http://classes.lanecc.edu (LCC’s Moodle site) is the learning management syste
 
 ### CIT Computer Lab
 
-The in-person computer lab and tutoring center is temporarily closed due to COVID-19, but tutoring is still available online. You can drop into the [Lane Support Hub Zoom Room](https://lanecc.zoom.us/j/98549544816) and request a CIT tutor, or make an appointment with a CIT tutor via the scheduling page at [lanecc.mywconline.com](https://lanecc.mywconline.com/). More information is available on the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page.
+The CIT Main lab (Bldg. 19, room 135) is equipped with computers and software which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. The schedule for when the lab will be open and when in-person tutors are available is TBD.
 
+#### Online Tutoring
 
+See the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page for information.
 
 ## Assessment and Grading
 
