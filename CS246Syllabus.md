@@ -1,13 +1,13 @@
 # Syllabus for System Design
 
-**CS244, Winter 2022**
+**CS246, Winter 2023**
 
 |     | Class |      |    | Instructor |
 | -------- | ------------------------ | ---- | ------------ | ---------------------- |
-| CRN | 30808                |      | Name         | Brian Bird             |
+| CRN | 30677          |      | Name         | Brian Bird             |
 | Credits  | 4                        |      | Email        | birdb@lanecc.edu       |
-| Time     | Tu, Th, 12:00&ndash;1:50 |      | Zoom Office  | [lanecc.zoom.us/j/94002309439](https://lanecc.zoom.us/j/94002309439) |
-| Zoom     | [lanecc.zoom.us/j/91073578728](https://lanecc.zoom.us/j/91073578728) |      | Office Hours | M, W 1:00&ndash;2:00<br />Tu, Th 2:00&dash;3:00<br /> or by appointment |
+| Time     | Tu, Th, 2:00&ndash;3:50 |      | Office  | Building 19, Room 152 |
+| Zoom     | Building 19, Room 126 |      | Office Hours | M through Th 4:00&dash;4:50<br /> or by appointment |
 
 
 
@@ -81,15 +81,15 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 ## Academic Calendar
 
-| Winter Term 2021              |                 |
-| ----------------------------- | --------------- |
-| Term begins                   | 1/3             |
-| Last day to receive refund    | 1/9             |
-| MLK Holiday                   | 1/18            |
-| President's Day Holiday       | 2/21            |
-| Last day for schedule changes | 2/25            |
-| Final Project Presentation    | 3/15            |
-| Spring Break                  | 3/20&ndash;3/27 |
+| Winter Term 2023              |                |
+| ----------------------------- | -------------- |
+| Term begins                   | 1/9            |
+| Last day to receive refund    | 1/16           |
+| MLK Holiday                   | 1/16           |
+| President's Day Holiday       | 2/20           |
+| Last day for schedule changes | 3/3            |
+| Final Project Presentation    | 3/21           |
+| Spring Break                  | 3/26&ndash;4/2 |
 
 
 
