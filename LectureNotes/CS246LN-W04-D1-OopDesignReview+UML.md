@@ -35,10 +35,11 @@ What is a *static class*?
 
 ## OO Design
 
-When we design a set of classes to model a solution to a problem, how do we identify those classes?
+When we design a set of classes to model a solution to a problem, how do we identify those classes? One approach is to start with a prose description.
 - What will nouns become?
 - What will verbs become?
 - Do we represent <u>all</u> the nouns and verbs in our model?
+- How do we determine which instance variables (aka fields) and methods go on which classes?
 
 ### Exercise
 
@@ -132,8 +133,9 @@ Crawley, Gregory. [UML class diagram arrow types: explanations and examples](htt
 
 ### OO Design
 
-- Nouns become classes or fields of a class.
+- Nouns become classes or instance variables (fields of a class).
 - Verbs become methods.
+- Instance variables and methods should be on the class to which they apply. Each class should be responsible for managing it's own stuff. 
 
 ### Three primary OOP relationships
 

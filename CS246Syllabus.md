@@ -8,7 +8,7 @@
 | **Credits** | 4                        |      | Email        | birdb@lanecc.edu       |
 | **Time** | Tu, Th; 2:00&ndash;3:50 |      | Office Hours | M&mdash;Th; 4:00&ndash;4:50<br /> or by appointment |
 | **Room** | Building 19, Room 126<br />[Zoom meeting](https://lanecc.zoom.us/j/97011529905) |      | Office | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/97027167891) |
-| **Instructional Method** | HyFlex | |  |  |
+| **Modality** | [HyFlex](https://www.lanecc.edu/programs-academics/online-distance-learning/distance-education-course-modalities) | |  |  |
 
 
 
@@ -78,7 +78,7 @@ Attendance is not graded but will be essential for successful completion of the 
 
 ### No-Show Drop
 
-LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which means that during the first week of the term, to avoid being dropped, a student must attend at least one class meeting.
+LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which means that during the first week of the term, to avoid being dropped, a student must attend at least one class meeting, or complete one assignment or quiz.
 
 
 

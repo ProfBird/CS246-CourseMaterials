@@ -15,7 +15,10 @@ Create a UML diagram to model a simple game
    - [Ship, Captan, Crew](https://en.wikipedia.org/wiki/Ship,_captain,_and_crew)
 
    - A simple dice game of your choice (nothing nearly as complicated as Yahtzee).
-2. Make a list of the classes, fields, and methods you will use to model the game. (Don't include user interface, it's not part of the logical model.)
+2. Make a list of nouns and verbs without trying to identify classes, fields, or methods.
+3. Make a list of the classes, fields, and methods you will use to model the game. 
+   - Don't include user a interface, it's not part of the logical model.
+   - You probably won't use every noun and verb from the list in (2).
 3. Make a UML class diagram of your model. Include:
    - Classes with their fields and methods.
    - Relationships (inheritance, aggregation, or composition)
