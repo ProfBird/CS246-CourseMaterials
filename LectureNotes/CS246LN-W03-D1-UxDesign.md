@@ -10,13 +10,13 @@ User experience (abbreviated as UX) is how a person feels when interfacing with 
 
 ### Origin of the term UX
 
-UX is relatively new. The term “user experience” was coined by Dr. Donald Norman, a cognitive science researcher who was also the first to describe the importance of user-centered design (the notion that design decisions should be based on the needs and wants of users).
+UX is relatively new. The term “user experience” was coined in 1993 by Dr. Donald Norman, a cognitive science researcher who was also the first to describe the importance of user-centered design (the notion that design decisions should be based on the needs and wants of users).
 
 ### Universal Access
 
 Universal access means designing our web sites for those who have special requirements, such as for screen readers and non-traditional input devices, as well as for those who don’t have broadband connections or who have older mobile devices.
 
-##What Do UX Designers Do?
+## What Do UX Designers Do?
 
 UX designers study and evaluate how users feel about a system, looking at such things as ease of use, perception of the value of the system, utility, and efficiency in performing tasks.
 
@@ -84,30 +84,17 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
   - Free accounts for students. Others can get a free, but limited account, or a paid account.
   - Web app, runs in a browser on any operating system.
-              
-- [Google Drawings](https://docs.google.com/drawings) Part of the Google Docs suite of applications.
-  - Free
-  - Quick, easy line drawings.
-- [Pencil](http://pencil.evolus.vn) A GUI prototyping tool that is easy to use to create mock-ups.
-     - Free, open-source.
-
-     - Runs on Windows, Mac OS, and Linux.
-- [Inkscape](https://inkscape.org) A professional vector graphics editor.
-
-  -  Free, open-source.
-  - Runs on Windows and Linux.
-              
-
-    - [Inkscape port for Mac OS](https://inkscape.org/en/download/mac-os/)
-                  
-
+- [Figma](https://www.figma.com/) 
+     Figma is a collaborative web application for interface and UX design.
+     - Free account with limited features.
+     - Can be used to generate actual user interfaces.
 
 
 ### Example UI Diagrams       
 
-- [Mock-up of a web page](file:///Volumes/DataCard/Repos/CS246-CourseMaterials/LectureNotes/CCS2018WebSiteV3.pdf)
+- [Mock-up of a web page](https://profbird.github.io/CS246-CourseMaterials/LectureNotes/CCS2018WebSiteV3.pdf)
 
-- [Wire-frame of a UI](file:///Volumes/DataCard/Repos/CS246-CourseMaterials/LectureNotes/PigGameUIDiagram.png)
+- [Wire-frame of a UI](https://profbird.github.io/CS246-CourseMaterials/LectureNotes/PigGameUIDiagram.png)
 
   
 
