@@ -11,25 +11,24 @@ Getting user feedback early and often is at the heart of any Agile development p
 - What is the difference between usability testing and functional testing?
 
 - Types of usability testing:
-
-- - Individual testers
+  - Individual testers
   - Focus groups
 
 - Means of getting feedback
-
-- - Surveys
+  - Surveys
   - Interviews
   - Recordings of testers- audio and/or video
   - Instrumenting the code (for alpha and beta testing)
 
 - What to test
+  - Sketches (even on a napkin!)
 
-- - Sketches (even on a napkin!)
   - Wire-frames
-    
+
   - Mock-ups
   - Prototypes
   - Real code
+
 
 ​        
 
@@ -62,9 +61,7 @@ These are some of the things my development group (Intel Architecture Labs) and 
 
 ## Rocket Surgery made easy approach
 
-​      Based on the Book: *Rocket Surgery Made Easy, The Do-It-Yourself Guide to Finding and Fixing Usability Problems*, 
-​      by Steve Krug, 2010. 
-​      Web site: http://www.sensible.com/rsme.html
+Based on the Book: *Rocket Surgery Made Easy, The Do-It-Yourself Guide to Finding and Fixing Usability Problems*, by Steve Krug, 2010. Web site: http://www.sensible.com/rsme.html
 
 - It's a minimum, for Agile, to do UX testing at the end of every sprint.
 

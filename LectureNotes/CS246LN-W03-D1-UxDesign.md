@@ -92,9 +92,11 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 ### Example UI Diagrams       
 
-- [Mock-up of a web page](https://profbird.github.io/CS246-CourseMaterials/LectureNotes/CCS2018WebSiteV3.pdf)
+- [Sketch of a mobile app UI](Images/PigGameUIDiagram.png)
 
-- [Wire-frame of a UI](https://profbird.github.io/CS246-CourseMaterials/LectureNotes/PigGameUIDiagram.png)
+- [Wire-frame of a web page](Images/Beispiel-Balsamiq-Wireframe.jpg)
+
+- [Mock-up of a web page](Images/CCS2018WebSiteV3.pdf)
 
   
 
