@@ -86,8 +86,10 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
      - Runs on Windows, Mac OS, and Linux.
 - [Figma](https://www.figma.com/)&mdash; A collaborative web application for interface and UX design.
-     - Mainly used by *designers* rather than *developers*.
-     - Free account with limited features.
+     - Both web based and desktop versions are available (Windows and Mac OS).
+     - Can be used by both *developers* and by *designers*
+     - Facilitates the full design process from brainstorming and wireframes through finished designs.
+     -  [Free, full-featured, academic accounts](https://figma.com/education/apply) are available, limited free accounts available for others.
      - Can be used to generate actual user interfaces.
 - [Lucidchart](https://www.lucidchart.com/pages/)&mdash;A visual work-space that combines diagramming, data visualization and collaboration.
      - Free accounts for students.
