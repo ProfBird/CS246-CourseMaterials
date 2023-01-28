@@ -43,7 +43,7 @@ They interview existing and potential users of the system to gain insight into w
 
 #### Wireframes and prototypes
 
-They develop wireframes of different layouts and perhaps also higher-fidelity mock-ups or prototypes based on the results of feedback from users.
+They develop wireframes[^1] of different layouts and perhaps also higher-fidelity mock-ups[^2] or prototypes[^3] based on the results of feedback from users.
 
 #### User flows
 
@@ -117,10 +117,10 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
   
 
-------
-
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2022, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2023, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-------
+[^1]: A wireframe is a simplified, "low-fidelity" diagram of a UI that shows just the outlines of controls, text areas, and images and does not include color, styling, or content details. 
+[^2]: A mock-up is a "high-fidelity" diagram of a UI that includes content, images.color, and styling.
+[^3]: A prototype is a working model of a system of UI screens (or web pages). User can click on controls and links and navigate through the screens. The screens may be wireframes, mock-ups, or real app UI without backend processing
 
