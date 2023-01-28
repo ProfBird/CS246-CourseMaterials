@@ -69,25 +69,32 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 
 
-##User Interface Design
+##UX / UI Design
 
 ### Tools
 
-- [BalsaImiq](https://balsamiq.com/)
-      A rapid wire-framing tool that reproduces the experience of sketching on a whiteboard, but using a computer.
-
+- [BalsaImiq](https://balsamiq.com/)&mdash;A rapid wire-framing tool that reproduces the experience of sketching on a whiteboard.
+  - Both desktop and web based versions are available.
+    - Desktop version: runs on Windows and Mac OS.
+    - Cloud version: runs in any browser and integrates with Google Drive.
+  - Mainly used to create "lo-fidelity" wireframes as opposed to "hi-fidelity" UI designs.  
+    This tool is mainly used by *developers* rather than *designers*.
+  - Wireframes can be connected together as working prototypes.
   - I have requested a free cloud account for everyone in the class.
-  - Runs on Windows, Mac OS, and Cloud.
-    - Cloud version integrates with Google Drive.          
-- [Lucidchart](https://www.lucidchart.com/pages/)
-      A visual work-space that combines diagramming, data visualization and collaboration.
+- [Pencil](http://pencil.evolus.vn)&mdash;A desktop GUI diagramming tool that is easy to use to create wire-frames or mock-ups.
+     - Free, open-source.
 
-  - Free accounts for students. Others can get a free, but limited account, or a paid account.
-  - Web app, runs in a browser on any operating system.
-- [Figma](https://www.figma.com/) 
-     Figma is a collaborative web application for interface and UX design.
+     - Runs on Windows, Mac OS, and Linux.
+- [Figma](https://www.figma.com/)&mdash; A collaborative web application for interface and UX design.
+     - Mainly used by *designers* rather than *developers*.
      - Free account with limited features.
      - Can be used to generate actual user interfaces.
+- [Lucidchart](https://www.lucidchart.com/pages/)&mdash;A visual work-space that combines diagramming, data visualization and collaboration.
+     - Free accounts for students.
+     - Web app, runs in a browser.
+- [Google Drawings](https://docs.google.com/drawings)&mdash;Part of the Google Docs web based suite of applications. This is not specifically for UX design. It is a general purpose drawing tool, so it will take more effort to use it to produce wireframes or mock-ups.
+     - Free
+     - Quick, easy line drawings.
 
 
 ### Example UI Diagrams       
