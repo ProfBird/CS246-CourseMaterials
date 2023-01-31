@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{01978917-BDEF-4F1B-A6F6-10F14128A96F}|Default">
+  <MonoDevelop.Ide.ItemProperties.OORelationships PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OORelationships/Program.cs">
+    <Files>
+      <File FileName="OORelationships/Program.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OORelationships" expanded="True">
+            <Node name="OORelationships" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

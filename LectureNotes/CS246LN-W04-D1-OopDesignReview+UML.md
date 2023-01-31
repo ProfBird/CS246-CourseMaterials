@@ -9,17 +9,26 @@ description: A review  Object Oriented Programming (OOP) concepts for designing 
 
 [TOC]
 
+## Q and A
+
+- Which teams have a client? 
+  - Which teams are still looking?
+  - I have a lead on another client.
+- If anyone wants to change teams, who hasn't already contacted me, then send me an e-mail.
+
 ## Introduction
 
 In this session, we will review Object Oriented concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
 
 ## Frameworks, Libraries, and Custom Solutions
 
+First we're going to talk about frameworks and libraries because when we use those we get pre-fabricated OO designs. We don't have to do any design to use them.
+
 - What is a library? Give examples.
 
 - What is a framework? Give examples.
 
-- When do you need to write code that doesn't directly fit into your framework?
+- When do you need to write code that doesn't directly fit into your framework&mdash;code that requires you to do OO design?
 
 ## OOP Terminology
 
@@ -150,7 +159,7 @@ Crawley, Gregory. [UML class diagram arrow types: explanations and examples](htt
 
 ------
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2022</time>), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2023</time), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 
 
