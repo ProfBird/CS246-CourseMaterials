@@ -5,9 +5,9 @@
 | Weekly topics                     |                                           |
 | --------------------------------- | ----------------------------------------- |
 | 1. Software Solution Concepts     | 6. Project Planning and Design            |
-| 2. Agile Development              | 7. TBD                                    |
-| 3. UX Design and Testing          | 8. Prototype App via Scaffolding          |
-| 4. OO Design with UML             | 9. TBD                                    |
+| 2. Agile Development              | 7. More Project Planning and Design       |
+| 3. UX Design and Testing          | 8. Design Patterns                        |
+| 4. OO Design with UML             | 9. Prototype App via Scaffolding          |
 | **5. Starting Your Real Project** | 10. Project Documentation / Presentations |
 
 
@@ -22,7 +22,7 @@ This week, you will be writing a software development proposal and contract for 
 
 ## Software Development Proposal
 
-This will be a more formal than the practice proposal you wrote at the beginning of the term. The example proposal below is a modified version of an actual proposal that my software development company made a few years ago.
+This will be more formal than the practice proposal you wrote at the beginning of the term. The example proposal below is a modified version of an actual proposal that my software development company made a few years ago.
 
 ### Example Proposal
 
@@ -39,11 +39,11 @@ The proposal includes a cover letter and a proposal document. The HAO and HAA an
 
 - **Estimate** 
 
-  - In the example, I there are two estimates. You don't need to do that in your proposal unless it makes sense for your client.
+  - In the example, there are two estimates&mdash;one for a minimal implementation and one for a full iimplementation of the web site. You don't need to do that in your proposal unless it makes sense for your client.
 
   - Next term, when you implement this project, you will have 10 weeks and  10 hours per week, per team member available for development. You estimate should be well below the sum total of hours your team has available.
 
-     For example, if you have a team with three members, you will have 300 hours of development time available. If you estimate that your project will take 150 hours, then it's probably the right size project because things always take longer than you think&mdash;two or three time as long.
+     For example, if you have a team with three members, you will have 300 hours of development time available. If you estimate that your project will take 150 hours, then it's probably the right size project because things always take longer than you think&mdash;two or three time as long. So if you think it will take 150 hours, then double all your estimated times and that will probably be realistic!
 
 - **Cost Estimate and Payment Terms** 
 
@@ -76,7 +76,7 @@ The contract includes a revised version of the proposal, with the agreed upon li
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2020, revised 2022, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2020, revised 2023, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ------
 
