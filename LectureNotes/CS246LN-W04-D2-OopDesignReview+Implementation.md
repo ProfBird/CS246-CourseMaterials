@@ -73,12 +73,18 @@ public class Admin : User
 
 ### Composition
 
+This is an example of one way to implement composition in a model class. There are other more common ways:
+
+- Validation on the model; making the Author required.
+  - How is this handled when a Comment object gets deleted? We'll look at that in CS296N when we cover *related data*.
+
 ```c#
 public class Comment
 {
     public String CommentText { get; set; }
-    public User Author { get; private set; }  
-
+    public User Author { get; private set; }
+  
+		// Constructor enforces creation of a Comment object only with an Author as part of the Comment.
     public Comment(User u)
     {
         Author = u;  // Composition
