@@ -105,7 +105,9 @@ Some common architectural patterns are:
 - Iterator is a part of the .NET collection classes.
 - What other formal patterns have we used?[^1]
 
-- Class Exercise: If you wanted to add a messaging service to the Tip of the Day web app that notified site users when someone had commented on a tip they had posted, which pattern might be a key part of the implementation?
+## Exercise
+
+Imagine you have some kind of web app wher users can post to a forum, or blog ( or post book reviews) and users can also comment on other people's posts. If you wanted to add a messaging service that notified users when someone had commented on their post, which pattern might be a key part of the implementation?[^2]
 
 
 
@@ -126,9 +128,12 @@ Mallawaarachchi, Vijini . [10 Common Software Architectural Patterns in a Nutshe
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://birdsbits.blog), 2018 (Revised 2020), is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://birdsbits.blog), 2018 (Revised 2023), is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 [^1]: The Repository Pattern
+[^2]: The Observer Pattern
+
+
 
 
 
