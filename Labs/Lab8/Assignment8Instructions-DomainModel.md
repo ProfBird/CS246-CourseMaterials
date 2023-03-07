@@ -2,10 +2,16 @@
 
 ## Instructions
 
-- Design a domain model for your client's web app using UML.
+- Design a domain model for your client's web app by creating a UML class diagram.
 - Create a new Git repository for your web app on GitHub.
-- Create an ASP.NET Core MVC 3.1 web app, put it in your Git repository, and implement the domain model.
-- Create scaffolding for your web app.
+- Create an ASP.NET MVC web app project in Visual Studio
+  - Enable Identity in the project configuration, before you create the project, so that it automaically creates Identity user registration and login pages for you as well as adding a DbContext class and code for a database.
+  - Put the new project in your Git repository
+
+- Code the C# classes for the domain model.
+- Create scaffolding to test key model classes.
+  - For model classes that contain objects or collections of objects, add all the code you need to handle the *related data* (include statements when loading an object, foreign keys on model classes, etc.)
+
 
 ## Submission
 
@@ -16,4 +22,4 @@
 
 
 
-Written Winter 2020 by  Brian Bird, Lane Community College, for CS246, System Design.
+Written Winter 2020, revised <time>2023</time> by  Brian Bird, Lane Community College, for CS246, System Design.

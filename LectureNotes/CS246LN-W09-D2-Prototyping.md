@@ -11,9 +11,14 @@ keywords: Prototype
 
 ## Prototypes
 
-In class, we talked about using prototypes to test what the development team perceives to be the most difficult parts of the project. Prototypes are often used to get feedback from end users or stakeholders on the design of the software product&mdash;both functionality and usability. In the literature about software prototyping, four types of prototypes are often described (Wikipedia 2022):
+You will use prototypes to test what the development team perceives to be the most difficult parts of the project.  
+
+In the literature about software prototyping, four types of prototypes are often described (Wikipedia 2022).
+
+### Four Different Types of Prototypes
 
 - Throwaway&mdash;creation of a model that will eventually be discarded.
+  This is what your instructor reccomends for your capstone project.
 - Evolutionary&mdash;aka breadboard prototype, a robust prototype that can be continuously refined and become the core of the new product.
 - Incremental&mdash;a set of separate prototypes that are eventually merged to form the new product.
 - Extreme&mdash;used primarily for web development. There are three phases:
@@ -21,7 +26,7 @@ In class, we talked about using prototypes to test what the development team per
   - Web pages are made functional using simulated services.
   - Services are implemented to complete the new product.
 
-The type of prototype we are focusing on today is a throwaway prototype that is just used to assess and hopefully resolve technical challenges in the project.
+The type of prototype we are focusing on today is a *throwaway prototype* that is just used to <u>assess</u> and hopefully <u>resolve</u> technical challenges in the project.
 
 **Examples**
 
@@ -30,12 +35,12 @@ The type of prototype we are focusing on today is a throwaway prototype that is 
 
 ### What
 
-A software prototype is a bare-bones, very simple, implementation of a single feature. It is "throw away" code that will just be used to test the feasibility of one aspect of the application.
+For this class, your prototype will be a bare-bones, very simple, implementation of a single aspect of the web site (like the domain model and scaffolding to test it). It is "throw away" code that will just be used to test the feasibility of one aspect of your design.
 
 In a web application, two things that are prime candidates for prototyping are:
 
 - Complex domain model relationships. For example composite classes that have many-to-many relationships.
-- Features that require techniques or technologies you haven't used before, such as online payment, push notification, or video streaming systems.
+- Features that require techniques or technologies you haven't used before, such as online payment, push notification, file uploading, or video streaming.
 
 ### Why
 
@@ -51,7 +56,7 @@ Prototypes are built as part of the design process. We need to do prototyping ea
 
 The [lecture notes on scaffolding](http://lcc-cit.github.io/CS296N-CourseMaterials/LectureNotes/CS296N-LN-WK05-D2.1-Scaffolding.html) from CS296N cover the basics of creating scaffolding in an ASP.NET MVC project.
 
-If you are making a prototype to test a complex domain model relationship, you will need to add code to the scaffolding to work with related data, since the scaffolding only creates CRUD operations for the "surface" properties (the primitive properties) of the model classes.
+If you are making a prototype to test a complex domain model relationship, you will need to add code to the scaffolding to work with *related data*, since the scaffolding only creates CRUD operations for the "surface" properties (the non-object properties) of the model classes.
 
 
 
@@ -75,6 +80,6 @@ Anderson, Rick. [Tutorial: Read related data - ASP.NET MVC with EF Core](https:/
 
 ------
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.online), written in <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) System Design  Lecture Notes by [Brian Bird](https://profbird.online), written in <time>2022</time>, revised <time>2023</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------
