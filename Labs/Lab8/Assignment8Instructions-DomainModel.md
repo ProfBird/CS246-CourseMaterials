@@ -10,7 +10,9 @@
 
 - Code the C# classes for the domain model.
 - Create scaffolding to test key model classes.
-  - For model classes that contain objects or collections of objects, add all the code you need to handle the *related data* (include statements when loading an object, foreign keys on model classes, etc.)
+  - For model classes that contain objects or collections of objects, add all the code to your model classes as well as the scaffolded controllers and views that you need to handle the *related data* (such as `.Include` statements when loading an object, or foreign keys on model classes, etc.)
+
+This web app project is just a prototype. You will throw it away after it has been graded, but you will keep the domain model to use in the real project.
 
 
 ## Submission
