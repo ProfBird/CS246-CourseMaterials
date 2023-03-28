@@ -6,7 +6,7 @@
 
 Create a UML diagram to model a simple game
 
-1. Write a prose description (text description) for one of the following dice games. Include the players and score keeping for multiple rounds of play in your model. (Your description of the game can be different from the one shown in the link--you can adapt it, simplify it, etc.)
+1. Write a prose description (text description) for one of the following dice games. Include the players and score keeping for multiple rounds of play in your model. (Your description of the game can be different from the one shown in the article linked below&mdash;you can adapt it, simplify it, etc.)
 
    - [Craps](https://en.wikipedia.org/wiki/Craps)
 
@@ -20,9 +20,9 @@ Create a UML diagram to model a simple game
    - Don't include user a interface, it's not part of the logical model.
    - You probably won't use every noun and verb from the list in (2).
 3. Make a UML class diagram of your model. Include:
-   - Classes with their fields and methods.
+   - Classes with their fields, properties and methods.
    - Relationships (inheritance, aggregation, or composition)
-   - Cardinality
+   - Cardinality (aka multiplicity)
 
 
 
@@ -39,4 +39,4 @@ As a group, submit the following to Moodle:
 
 
 
-Written Winter 2021 by  Brian Bird
+Written winter 2021, revised winter 2023 by  Brian Bird
