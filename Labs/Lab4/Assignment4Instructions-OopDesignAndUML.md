@@ -32,6 +32,7 @@ As a group, submit the following to Moodle:
 
 1. A Word or PDF document containing:
    - Your written description of the dice game.
+   - Your list of nouns and verbs.
    - Your list of classes, fields, and methods.
 2. A UML class diagram of your solution model.
    - One copy in UMLet format, .uxf
