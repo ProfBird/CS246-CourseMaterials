@@ -1,24 +1,33 @@
 sequenceDiagram
-actor User
-participant Browser
-participant Middleware
-participant BookController
-box Test
+box Client
+    actor User
+    participant Browser
+end
+box Server
+    participant Middleware
+    participant BookController
     participant ReviewController
     participant AppDbContext
 end
 autonumber
+note right of User: Home page open
+rect rgba(225, 225, 225, 0.5)
+    note over User, Broswer: Selecting a book to review
     User-)Browser: Click on book page link
     Browser-)Middleware: GET Book/Index
-    Middleware-)BookController: GET Index()
+    Middleware-)BookController: [HttpGet] Index()
     activate BookController
     BookController-)AppDbContext: GetAllBooks()
-     activate AppDbContext
+        activate AppDbContext
     AppDbContext-)BookController: books: List
     deactivate AppDbContext
-    BookController-)Middleware: Index View books: List
+    BookController-)Middleware: ActionResult: List<book>
     deactivate BookController
-    Middleware-)Browser: Index: HTML
-    Browser-->>User: Shows list of books
-    User-)Browser: Click on book link
-    Browser-)ReviewController: GET Index
+    Middleware-)Browser: Web page
+    Browser-->>User: Show list of books
+end
+rect rgba(225, 225, 225, 0.5)
+note over User, Broswer: Writing a review
+User-)Browser: Click on book link
+Browser-)ReviewController: GET Index
+end
