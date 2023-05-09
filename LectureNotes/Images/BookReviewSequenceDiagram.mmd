@@ -1,0 +1,15 @@
+sequenceDiagram
+actor User
+participant Browser
+participant Index View
+participant BookController
+participant AppDbContext
+autonumber
+
+    User-)Browser: Click on book link
+    Browser-)BookController: GET /Book/Index
+    BookController-)AppDbContext: GetAllBooks
+    AppDbContext-)BookController: books: List
+    BookController-)Index View: books: List
+    Index View-)Browser: Book/Index page
+    Browser-->>User: Shows list of books
