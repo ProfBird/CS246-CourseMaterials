@@ -1,19 +1,24 @@
 sequenceDiagram
 actor User
 participant Browser
-participant Index View
+participant Middleware
 participant BookController
 participant ReviewController
 participant AppDbContext
 autonumber
 
     User-)Browser: Click on book page link
-    Browser-)BookController: GET /Book/Index
-    BookController-)AppDbContext: GetAllBooks
+    Browser-)Middleware: GET Book/Index
+    Middleware-)BookController: GET Index()
+    activate BookController
+    BookController-)AppDbContext: GetAllBooks()
+     activate AppDbContext
     AppDbContext-)BookController: books: List
-    BookController-)Index View: books: List
-    Index View-)Browser: Book/Index page
+    deactivate AppDbContext
+    BookController-)Middleware: Index View books: List
+    deactivate BookController
+    Middleware-)Browser: Index: HTML
     Browser-->>User: Shows list of books
 
     User-)Browser: Click on book link
-    Browser-)ReviewController: GET /Review/
+    Browser-)ReviewController: GET Index
