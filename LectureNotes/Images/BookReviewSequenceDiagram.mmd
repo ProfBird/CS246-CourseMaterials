@@ -3,10 +3,11 @@ actor User
 participant Browser
 participant Middleware
 participant BookController
-participant ReviewController
-participant AppDbContext
+box Test
+    participant ReviewController
+    participant AppDbContext
+end
 autonumber
-
     User-)Browser: Click on book page link
     Browser-)Middleware: GET Book/Index
     Middleware-)BookController: GET Index()
@@ -19,6 +20,5 @@ autonumber
     deactivate BookController
     Middleware-)Browser: Index: HTML
     Browser-->>User: Shows list of books
-
     User-)Browser: Click on book link
     Browser-)ReviewController: GET Index
