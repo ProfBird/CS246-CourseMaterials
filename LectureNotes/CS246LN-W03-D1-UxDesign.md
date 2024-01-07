@@ -47,7 +47,7 @@ They develop wireframes[^1] of different layouts and perhaps also higher-fidelit
 
 #### User flows
 
-They design how users should move through a system is another popular deliverable.
+They design user flows that describe the way users should move through a system.
 
 #### Design Patterns
 
@@ -114,6 +114,8 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 - [Ten User Interface Design Principles](https://blog.teamtreehouse.com/10-user-interface-design-fundamentals)
 
 - [Sketching: How a Simple Pen and Paper Can Transform Your Web Designs](https://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)   
+
+- [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)
 
   
 
