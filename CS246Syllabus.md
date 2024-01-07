@@ -1,6 +1,6 @@
 # Syllabus for System Design
 
-**CS246, Winter 2023**
+**CS246, Winter 2024**
 
 |     | Class |      |    | Instructor |
 | -------- | ------------------------ | ---- | ------------ | ---------------------- |
