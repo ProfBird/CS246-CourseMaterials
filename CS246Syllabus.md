@@ -4,13 +4,11 @@
 
 |     | Class |      |    | Instructor |
 | -------- | ------------------------ | ---- | ------------ | ---------------------- |
-| **CRN** | 30677          |      | Name         | Brian Bird             |
+| **CRN** | 30467 Hybrid (on campus)  <br />3136 Online |      | Name         | Brian Bird             |
 | **Credits** | 4                        |      | Email        | birdb@lanecc.edu       |
 | **Time** | Tu, Th; 2:00&ndash;3:50 |      | Office Hours | M&mdash;Th; 4:00&ndash;4:50<br /> or by appointment |
-| **Room** | Building 19, Room 126<br />[Zoom meeting](https://lanecc.zoom.us/j/97011529905) |      | Office | Building 19, Room 152<br />[Zoom meeting](https://lanecc.zoom.us/j/97027167891) |
-| **Modality** | [HyFlex](https://www.lanecc.edu/programs-academics/online-distance-learning/distance-education-course-modalities) | |  |  |
-
-
+| **Room** | Building 19, Room 126<br />[Zoom meeting](https://lanecc.zoom.us/j/93330748572) |      | Office | [Zoom meeting](https://lanecc.zoom.us/j/93655119209) |
+|             |                                                              | |  |  |
 
 ## Course Description 
 
@@ -44,11 +42,11 @@ See the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page for infor
 
 The learning outcomes will be demonstrated by completing weekly assignments, in-class activities, and a term project which will serve as a design for your capstone project in the spring. 
 
-| Activity            | Percentage of grade |
-| ------------------- | ------------------- |
-| Assignments         | 50%                 |
-| In-class activities | 10%                 |
-| Term Project        | 40%                 |
+| Activity                     | Percentage of grade |
+| ---------------------------- | ------------------- |
+| Assignments                  | 50%                 |
+| In-class / online activities | 10%                 |
+| Term Project                 | 40%                 |
 
 For the term project, you will be organized into groups of 3-5 students, which will also serve as your project groups for the capstone this spring. Groups will be assigned early in the term with your input. 
 
@@ -82,17 +80,18 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 
 
-## Academic Calendar
+## Academic Calendar for Winter Term 2024
 
-| Winter Term 2023              |                |
-| ----------------------------- | -------------- |
-| Term begins                   | 1/9            |
-| Last day to receive refund    | 1/16           |
-| MLK Holiday                   | 1/16           |
-| President's Day Holiday       | 2/20           |
-| Last day for schedule changes | 3/3            |
-| Final Project Presentation    | 3/21           |
-| Spring Break                  | 3/26&ndash;4/2 |
+| Event                                               | Date        |
+| --------------------------------------------------- | ----------- |
+| Fall term classes begin                             | 1/8 Monday  |
+| Last day to receive refund                          | 1/15 Monday |
+| Martin Luther King Jr. holiday&mdash;college closed | 1/15 Monday |
+| Presidents Day holiday&mdash;college closed         | 2/19 Monday |
+| Last day for schedule changes                       | 3/1 Friday  |
+| Final exam                                          | 3/18 Monday |
+
+View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.  
 
 
 
@@ -115,8 +114,8 @@ Please be aware that any accessible tables and chairs in this room should remain
 | 3    | UX Design and testing                     |
 | 4    | OO Design with UML                        |
 | 5    | Starting a "real" project                 |
-| 6    | Project planning                          |
-| 7    | Software design                           |
+| 6    | Project planning and design               |
+| 7    | Project planning and design (continued)   |
 | 8    | Design and architectural patterns         |
 | 9    | Software prototyping                      |
 | 10   | Project documentation                     |
