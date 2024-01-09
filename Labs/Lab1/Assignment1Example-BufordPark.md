@@ -2,13 +2,7 @@
 
 ## Mission of the organization
 
-From the [web site](https://www.bufordpark.org):
-
-> Founded in 1989, the Mission of Friends of Buford Park & Mt. Pisgah is to protect and enhance native ecosystems and compatible recreation in the Mt. Pisgah area.
->
-> We are a 501(c)3 non-profit organization working to conserve the Mt. Pisgah area’s incredible botanical, wildlife and recreational values. The Friends mobilize funding, scientific expertise and volunteer resources to improve the botanical, fish, wildlife and recreational values throughout the greater Mt. Pisgah area.
-
-> We steward the land & waters, connect people & nature, and create a legacy of healthy habitats.
+The Friends of Buford Park & Mt. Pisgah is a non-profit organization  with a mission to protect and enhance native ecosystems and compatible recreation in the Mt. Pisgah area. They work towards conserving the area's botanical, fish, wildlife and recreational values by mobilizing funding, scientific expertise and volunteer resources. The Friends also aim to steward the land & waters, connect people & nature, and create a legacy of healthy habitats.
 
 ## Current Needs
 
@@ -52,3 +46,4 @@ In order to better recruit and manage volunteers, we propose adding the followin
 
 
 
+Written by Brian Bird, Lane Community College, winter 2020, updated <time>2024</time>.
