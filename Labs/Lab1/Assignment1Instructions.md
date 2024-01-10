@@ -28,7 +28,7 @@ One place to start when looking for a business to evaluate is a local Chamber of
 
 ## Report Requirements
 
-The document you submit should  be at least one page long, but not more than two, and should be written in clear and concise English sentences and paragraphs (not just bullet points). The document should answer these questions:
+The document you submit should be at least one page long, but not more than two, and should be written in clear and concise English sentences and paragraphs (not just bullet points). The document should answer these questions:
 
 - What does the organization do?
 
