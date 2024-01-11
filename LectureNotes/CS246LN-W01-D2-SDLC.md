@@ -32,35 +32,35 @@ Successful software doesn't stop being developed after the first *release to pro
 
 Notes: 
 
-- A planning step would precede design.
+- A planning step would precede requriements.
 - This steps would be executed one after another to produce the first version of the software&mdash; *production release* would happen after verification
 
 
 
 ### Agile
 
-![IterativeAgileDevelopment](IterativeAgileDevelopment.png)
+<img src="IterativeAgileDevelopment.png" alt="IterativeAgileDevelopment" style="zoom:150%;" />
 
 Agile is a philosophy, not a process. The key idea behind *agile software development* is that it is an adaptive, iterative process in which:
 
-- Developers deliver partially implemented, working software to users through the development process.
-- End users give feedback to the developers throughout the process.
+- Developers deliver partially implemented, working software to users through the development process&mdash;at the end of each iteration (sprint).
+- End users give feedback to the developers throughout the process&mdash;at the end of each iteration (sprint).
 
 #### Scrum
 
-This is the most popular agile methodology. It focuses on learning from the iterative development process to continually improve the way the development team works, and the software being developed.
+This is the most popular agile methodology. It focuses on learning from the iterative development process to continually improve the way the development team works, and to keep the software being developed aligned with the end user's needs.
 
 
 
-<img src="scrum-framework.png" alt="scrum-framework" width="700px" />
+<img src="scrum-framework.png" alt="scrum-framework" width="700px" style="zoom:130%;" />
 
 *Scrum framework ([Source](https://www.axelos.com/store/book/prince2-agile))*
 
 #### Kanban
 
-This is a process that originated in the auto manufacturing industry (at Toyota) as a way to manage work in process through visualization. The *kanban board* is often used in conjunction with the scrum methodology.
+This is a process that originated in the auto manufacturing industry (at Toyota) as a way to manage work in process through visualization. The *kanban board* is often used in conjunction with the *scrum* methodology.
 
-<img src="Kanban-board.png" alt="Kanban-board" />
+<img src="Kanban-board.png" alt="Kanban-board" style="zoom:125%;" />
 
 *Kanban Board ([Source](https://www.axelos.com/store/book/prince2-agile))*
 
@@ -83,7 +83,7 @@ This is a process that originated in the auto manufacturing industry (at Toyota)
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised <time>2024</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ------
 
