@@ -6,72 +6,74 @@
 
 ## What is UX?
 
-User experience (abbreviated as UX) is how a person feels when interfacing with a software system. The system could be a website, a web application or desktop software.
+User experience (abbreviated as UX) is how a person feels when interacting with a software system. The system could be a website, a web application or desktop software.
 
 ### Origin of the term UX
 
-UX is relatively new. The term “user experience” was coined in 1993 by Dr. Donald Norman, a cognitive science researcher who was also the first to describe the importance of user-centered design (the notion that design decisions should be based on the needs and wants of users).
+UX is relatively new. The term “user experience” was coined in 1993 by Dr. Donald Norman, a cognitive science researcher who was also the first to describe the importance of user-centered design (the notion that design decisions should be based on the needs and desires of end users).
 
 ### Universal Access
 
-Universal access means designing our web sites for those who have special requirements, such as for screen readers and non-traditional input devices, as well as for those who don’t have broadband connections or who have older mobile devices.
+Universal access means designing our web sites for those who have special requirements, such as screen readers and non-traditional input devices, as well as for those who don’t have broadband connections or who have older mobile devices.
 
 ## What Do UX Designers Do?
 
 UX designers study and evaluate how users feel about a system, looking at such things as ease of use, perception of the value of the system, utility, and efficiency in performing tasks.
 
-For example, they might study the checkout process of an online store to see whether users find the process of buying products from the website easy and pleasant. They could delve deeper by seeing how efficient and pleasant it is for users to fill out input fields in a Web form.
+For example, they might study the checkout process of an online store to see whether users find the process of buying products from the website easy and pleasant. 
 
-### How they do it
+#### UX Design
 
-These are some of the tasks UX designers perform:
+##### User flows
 
-#### Evaluation of a current system
+They design user flows that describe the way users should move through a system.
+
+##### Design Patterns
+
+They use common patterns that provide consistent and  effective user interface designs. For example, picking the right UI elements (e.g. module tabs, breadcrumbs, slideshows) for certain tasks based on their effectiveness and what leads to better and more familiar experiences. 
+
+##### User profiles and personas
+
+They know their audience. This is the first step in UX design and enables you to develop experiences that reflect the voice and emotions of your users. Personas can be developed using website data.
+
+##### Content inventory
+
+They create an inventory of site content, which is an organized list of pages on a website. Doing a content inventory is a step towards proposing changes in information architecture to enhance the user experience (e.g. user flow, findability and efficiency).
+
+##### Content style guides
+
+They create content style guides which give writers and designers a framework in which to work when creating content and developing a design, and they also ensure that the brand and design elements align with the owner’s goals.
+
+#### UX Testing
+
+UX designers test both designs for a new software system and existing systems. 
 
 If a system already exists, they will evaluate its current state. They will report issues and suggest fixes based on their analysis.
 
-#### A/B testing
+These are some of the types of testing done:
+
+##### A/B testing
 
 They devise a studies to compare the user's experience with two or more different user interfaces.
 
 
 This is done by stating a hypothesis (e.g. “A green button is more attractive than a red button.”), proposing or creating multiple versions of a design, defining what a “better experience” means (e.g. “The green button is better because users clicked it more.”) and then conducting the test.
 
-#### User surveys
+##### User surveys
 
 They interview existing and potential users of the system to gain insight into what would be the most effective design. 
 
-#### Wireframes and prototypes
+##### Wireframes and prototypes
 
 They develop wireframes[^1] of different layouts and perhaps also higher-fidelity mock-ups[^2] or prototypes[^3] based on the results of feedback from users.
 
-#### User flows
+###### Source for this section
 
-They design user flows that describe the way users should move through a system.
-
-#### Design Patterns
-
-They use common patterns that provide consistent and  effective user interface designs. For example, picking the right UI elements (e.g. module tabs, breadcrumbs, slideshows) for certain tasks based on their effectiveness and what leads to better and more familiar experiences. 
-
-#### User profiles and personas
-
-They know their audience. This is the first step in UX design and enables you to develop experiences that reflect the voice and emotions of your users. Personas can be developed using website data.
-
-#### Content inventory
-
-They create an inventory of site content, which is an organized list of pages on a website. Doing a content inventory is a step towards proposing changes in information architecture to enhance the user experience (e.g. user flow, findability and efficiency).
-
-#### Content style guides
-
-They create content style guides which give writers and designers a framework in which to work when creating content and developing a design, and they also ensure that the brand and design elements align with the owner’s goals.
-
-This content was condensed from: [What Is User Experience Design? Overview, Tools And Resources](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/)
+This content was condensed from: [What Is User Experience Design? Overview, Tools And Resources](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/), Smashing Magazine, 2010.
 
 
 
-##UX / UI Design
-
-### Tools
+##UX / UI Design Tools
 
 - [BalsaImiq](https://balsamiq.com/)&mdash;A rapid wire-framing tool that reproduces the experience of sketching on a whiteboard.
   - Both desktop and web based versions are available.
@@ -120,7 +122,7 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
   
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2023, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2024, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 [^1]: A wireframe is a simplified, "low-fidelity" diagram of a UI that shows just the outlines of controls, text areas, and images and does not include color, styling, or content details. 
 [^2]: A mock-up is a "high-fidelity" diagram of a UI that includes content, images.color, and styling.
