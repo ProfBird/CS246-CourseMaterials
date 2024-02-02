@@ -1,17 +1,18 @@
 <!doctype html>
-<html>
+<html style='font-size:20px !important'>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<meta name="title" content="${title}">
-<meta name="description" content="${description}">
-<meta name="keywords" content="${keywords}">
-<meta name="material" content="${material}">
-<meta name="author" content="${author}">
-<meta name="generator" content="${generator}">
-<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<meta name="title" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="material" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -24,7 +25,7 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
@@ -49,7 +50,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -59,7 +60,7 @@ thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
-.CodeMirror-linenumber { }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -89,14 +90,16 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
+@media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -113,7 +116,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -126,7 +129,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -138,7 +141,7 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
@@ -154,7 +157,7 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -167,19 +170,19 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
 .outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -191,20 +194,34 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
 
 :root {
@@ -212,7 +229,7 @@ mjx-container { break-inside: avoid; }
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /* open-sans-regular - latin-ext_latin */
   /* open-sans-italic - latin-ext_latin */
@@ -560,6 +577,10 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
 .md-lang {
     color: #b4654d;
 }
@@ -592,18 +613,18 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
 </style><title>CS246LN-W03-D2-UxTesting</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='user-experience-testing'><span>User eXperience Testing</span></h1><p><strong><span>CS246, System Design</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" style="" href="#user-experience-testing">User eXperience Testing</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" style="" href="#overview-of-ux-testing">Overview of UX Testing</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n44"><a class="md-toc-inner" style="" href="#my-experience-at-intel-with-focus-groups">My experience at Intel with focus groups</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n74"><a class="md-toc-inner" style="" href="#rocket-surgery-made-easy-approach">Rocket Surgery made easy approach</a></span></p></div><h2 id='overview-of-ux-testing'><span>Overview of UX Testing</span></h2><p><span>Getting user feedback early and often is at the heart of any Agile development process!</span></p><ul><li><p><span>What is the difference between usability testing and functional testing?</span></p></li><li><p><span>Types of usability testing:</span></p><ul><li><span>Individual testers</span></li><li><span>Focus groups</span></li></ul></li><li><p><span>Means of getting feedback</span></p><ul><li><span>Surveys</span></li><li><span>Interviews</span></li><li><span>Recordings of testers- audio and/or video</span></li><li><span>Instrumenting the code (for alpha and beta testing)</span></li></ul></li><li><p><span>What to test</span></p><ul><li><span>Sketches (even on a napkin!)</span></li><li><span>Wire-frames</span></li><li><span>Mock-ups</span></li><li><span>Prototypes</span></li><li><span>Real code</span></li></ul></li></ul><p><span>        </span></p><h2 id='my-experience-at-intel-with-focus-groups'><span>My experience at Intel with focus groups</span></h2><p><span>These are some of the things my development group (Intel Architecture Labs) and I did:</span>
-<span>      </span></p><ul><li><p><span>Built mock-ups and prototypes</span></p></li><li><p><span>Wrote a test script</span>
+<div id='write'  class=''><h1 id='user-experience-testing'><span>User eXperience Testing</span></h1><p><strong><span>CS246, System Design</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" style="" href="#user-experience-testing">User eXperience Testing</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" style="" href="#overview-of-ux-testing">Overview of UX Testing</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n41"><a class="md-toc-inner" style="" href="#my-experience-at-intel-with-focus-groups">My experience at Intel with focus groups</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n71"><a class="md-toc-inner" style="" href="#rocket-surgery-made-easy-approach">Rocket Surgery made easy approach</a></span></p></div><h2 id='overview-of-ux-testing'><span>Overview of UX Testing</span></h2><p><span>Getting user feedback early and often is at the heart of any Agile development process!</span></p><ul><li><p><span> Usability testing is different from functional testing.</span>
+<span>How easy and pleasurable is the experience of using the software vs. does the software work correctly.</span></p></li><li><p><span>Types of usability testing:</span></p><ul><li><p><span>Individual testers</span></p></li><li><p><span>Focus groups</span></p></li></ul></li><li><p><span>Means of getting feedback</span></p><ul><li><p><span>Surveys</span></p></li><li><p><span>Interviews</span></p></li><li><p><span>Recordings of testers- audio and/or video</span></p></li><li><p><span>Instrumenting the code (for alpha and beta testing)</span><br/><span>Add logging features to the code to record user&#39;s actions</span></p></li></ul></li><li><p><span>What to test</span></p><ul><li><p><span>Sketches (even on a napkin!)</span></p></li><li><p><span>Wire-frames</span></p></li><li><p><span>Mock-ups</span></p></li><li><p><span>Prototypes</span></p></li><li><p><span>Real code</span></p></li></ul></li></ul><p><span>        </span></p><h2 id='my-experience-at-intel-with-focus-groups'><span>My experience at Intel with focus groups</span></h2><p><span>These are some of the things my development group (Intel Architecture Labs) and I did:</span></p><ul><li><p><span>Built mock-ups and prototypes  </span></p><ul><li><p><span>Mock-ups look like working software, but don&#39;t have any functionality.</span></p></li><li><p><span>Prototypes have some limited functionality.</span></p></li></ul></li><li><p><span>Wrote a step-by-step test script for testers to follow</span>
 <span>    (Prototypes had &quot;canned&quot; responses, so following a test script was essential).</span></p></li><li><p><span>Observed focus group sessions</span></p><ul><li><p><span>Three or four people were in each focus group. </span>
-<span>    They were selected and paid by a professional agency.</span></p></li><li><p><span>Participants were in a room with a computer and a moderator. </span></p><ul><li><span>Observers were in another room watching through a one-way mirror. </span></li><li><span>We had video cameras recording the participants.</span></li></ul></li><li><p><span>A professional moderator read the script. </span></p><ul><li><span>This helps avoid the problem of participants not wanting to hurt the developers&#39; feelings and of the developer grimacing and looking hurt in front of the participants.</span></li><li><span>The participants didn&#39;t touch the computer; they just watched and answered questions.</span></li></ul></li></ul></li></ul><ul><li><span>We developers all watched the videos afterward and discussed the participants&#39; responses.</span>
-<span>          </span></li></ul><h2 id='rocket-surgery-made-easy-approach'><span>Rocket Surgery made easy approach</span></h2><p><span>Based on the Book: </span><em><span>Rocket Surgery Made Easy, The Do-It-Yourself Guide to Finding and Fixing Usability Problems</span></em><span>, by Steve Krug, 2010. Web site: </span><a href='http://www.sensible.com/rsme.html' target='_blank' class='url'>http://www.sensible.com/rsme.html</a></p><ul><li><p><span>It&#39;s a minimum, for Agile, to do UX testing at the end of every sprint.</span></p></li><li><p><span>Start earlier than you think makes sense.</span></p><ul><li><span>Show participants (testers) anything from sketches to working code.</span></li><li><span>The earlier you start, the less you&#39;ll have to change.</span></li></ul></li><li><p><span>Recruit from a wide pool.</span></p><ul><li><span>Getting people who are like your &quot;target audience&quot; is a nice goal, but don&#39;t be too strict about it.</span></li><li><span>Don&#39;t use the same group of testers twice (unless all they saw were sketches)--if you can.</span>
-<span>          </span></li></ul></li><li><p><span>Make it a spectator sport (about the observers)</span></p><ul><li><span>The eureka moment: the users aren&#39;t all like me!</span></li><li><span>Watching live is more impactful than watching a recording.</span></li><li><span>Get the whole development team to watch - even the project sponsors</span>
-<span>    (but having them in another room is less intimidating to the participants).</span></li><li><span>Give them instructions (what to watch for).</span></li><li><span>Be ready for criticism, take it as constructive and helpful.</span></li><li><span>Provide food (snacks).</span></li></ul></li><li><p><span>Focus ruthlessly on a small number of the most important problems.</span></p></li><li><p><span>Hold a debriefing and produce:</span></p><ul><li><span>A list of the most serious problems</span></li><li><span>A list (smaller) of what you will fix before the next test</span></li><li><span>More food (lunch)</span></li></ul></li><li><p><span>When fixing problems, always do the least you can do</span></p><ul><li><span>&quot;What&#39;s the smallest, simplest change we can make that&#39;s likely to keep people from having the problem we observed?&quot;</span></li><li><span>&quot;The perfect is the enemy of the good&quot;</span>
-<span>    (Opposite of the &quot;good is the enemy of the best&quot;)</span></li><li><span>Taking something away is sometimes better than adding something.</span></li><li><span>Avoid redesign unless it&#39;s really necessary</span></li><li><span>Only re-test major changes, not tweaks</span></li></ul></li></ul><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a>
-<span>System Design Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2021, revised 2023, are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>.</span></p><hr /><p>&nbsp;</p></div></div>
+<span>    They were selected and paid by a professional agency.</span></p></li><li><p><span>Participants were in a room with a computer and a moderator. </span></p><ul><li><p><span>Observers were in another room watching through a one-way mirror. </span></p></li><li><p><span>We had video cameras recording the participants (with their permission).</span></p></li></ul></li><li><p><span>A professional moderator operated the computer according to the test script. </span></p><ul><li><p><span>This helps avoid the problem of participants not wanting to hurt the developers&#39; feelings and of the developer grimacing and looking hurt in front of the participants.</span></p></li><li><p><span>The participants didn&#39;t touch the computer; they just watched and answered questions.</span></p></li></ul></li></ul></li></ul><ul><li><p><span>We developers all watched the videos afterward and discussed the participants&#39; responses.</span>
+<span>          </span></p></li></ul><h2 id='rocket-surgery-made-easy-approach'><span>Rocket Surgery made easy approach</span></h2><p><span>Based on the Book: </span><em><span>Rocket Surgery Made Easy, The Do-It-Yourself Guide to Finding and Fixing Usability Problems</span></em><span>, by Steve Krug, 2010. Web site: </span><a href='http://www.sensible.com/rsme.html' target='_blank' class='url'>http://www.sensible.com/rsme.html</a></p><ul><li><p><span>Do UX testing at the end of every sprint; this is a minimum, for Agile.</span></p></li><li><p><span>Start earlier than you think makes sense.</span></p><ul><li><p><span>Show participants (testers) anything from sketches to working code.</span></p></li><li><p><span>The earlier you start, the less you&#39;ll have to change.</span></p></li></ul></li><li><p><span>Recruit from a wide pool.</span></p><ul><li><p><span>Getting people who are like your &quot;target audience&quot; is a nice goal, but don&#39;t be too strict about it.</span></p></li><li><p><span>Don&#39;t use the same group of testers twice; unless all they saw were sketches</span>&mdash;<span>if you can.</span>
+<span>          </span></p></li></ul></li><li><p><span>Make it a spectator sport (about the observers, the devs)</span></p><ul><li><p><span>The eureka moment: the users aren&#39;t all like me!</span></p></li><li><p><span>Watching live is more impactful than watching a recording.</span></p></li><li><p><span>Get the whole development team to watch</span>&mdash;<span>even the project funders.</span>
+<span>    (but having them in another room is less intimidating to the participants).</span></p></li><li><p><span>Give devs instructions (what to watch for).</span></p></li><li><p><span>Be ready for criticism, take it as constructive and helpful.</span></p></li><li><p><span>Provide food (snacks).</span></p></li></ul></li><li><p><span>Hold a debriefing and produce:</span></p><ul><li><p><span>A list of the most serious problems</span></p></li><li><p><span>A list (smaller) of what you will fix before the next test</span></p><ul><li><p><span>Focus ruthlessly on a small number of the most important problems.</span></p></li></ul></li><li><p><span>More food (lunch)</span></p></li></ul></li><li><p><span>When fixing problems, always do the least you can do</span></p><ul><li><p><span>&quot;What&#39;s the smallest, simplest change we can make that&#39;s likely to keep people from having the problem we observed?&quot;</span></p></li><li><p><span>&quot;The perfect is the enemy of the good&quot;</span>
+<span>    (Opposite of the &quot;good is the enemy of the best&quot;)</span></p></li><li><p><span>Taking something away is sometimes better than adding something.</span></p></li><li><p><span>Avoid redesign unless it&#39;s really necessary</span></p></li><li><p><span>Only re-test major changes, not tweaks</span></p></li></ul></li></ul><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a>
+<span>System Design Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2021, revised 2024, are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>.</span></p><hr /><p>&nbsp;</p></div></div>
 <base target="_blank"></body>
 </html>
