@@ -1,17 +1,23 @@
 <!doctype html>
-<html>
+<html style='font-size:20px !important'>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
-.mac-os-11 { --title-bar-height:28px; }
+<meta name="title" content="OO Analysis and Design with UML">
+<meta name="description" content="A review  Object Oriented Programming (OOP) concepts for designing software solutions.">
+<meta name="keywords" content="">
+<meta name="material" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -22,13 +28,11 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -51,12 +55,12 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -66,16 +70,17 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
 .md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -87,16 +92,18 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
@@ -130,22 +137,23 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
@@ -157,10 +165,10 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
 .md-fences.md-fences-math { font-size: 1em; }
 .md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
-.md-fences-advanced:not(.md-focus) { background: inherit; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
-.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
 @media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
@@ -168,10 +176,10 @@ mark .md-meta { color: rgb(0, 0, 0); }
 @media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
 .outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
 .outline-expander:hover::before { content: ""; }
@@ -184,14 +192,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
 .outline-label:hover { text-decoration: underline; }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
-.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
 .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
-.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
 .typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
@@ -199,6 +207,21 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
 
 :root {
@@ -206,7 +229,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /* open-sans-regular - latin-ext_latin */
   /* open-sans-italic - latin-ext_latin */
@@ -457,11 +480,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -557,6 +577,10 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
 .md-lang {
     color: #b4654d;
 }
@@ -589,14 +613,14 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
-
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
 </style><title>OO Analysis and Design with UML</title>
 </head>
-<body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='oo-analysis-and-design-with-uml'><span>OO Analysis and Design with UML</span></h1><p><strong><span>CS246N System Design</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n128"><a class="md-toc-inner" href="#oo-analysis-and-design-with-uml">OO Analysis and Design with UML</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n131"><a class="md-toc-inner" href="#introduction">Introduction</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n133"><a class="md-toc-inner" href="#frameworks-libraries-and-custom-solutions">Frameworks, Libraries, and Custom Solutions</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n141"><a class="md-toc-inner" href="#oop-terminology-1">OOP Terminology</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n147"><a class="md-toc-inner" href="#oo-design-1">OO Design</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n156"><a class="md-toc-inner" href="#exercise-1">Exercise</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n158"><a class="md-toc-inner" href="#the-three-primary-oop-relationships">The three primary OOP relationships</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n165"><a class="md-toc-inner" href="#unified-modeling-language">Unified Modeling Language</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n210"><a class="md-toc-inner" href="#exercise-2">Exercise</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n213"><a class="md-toc-inner" href="#example">Example</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n216"><a class="md-toc-inner" href="#references">References</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n221"><a class="md-toc-inner" href="#answers">Answers</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n222"><a class="md-toc-inner" href="#oop-terminology-2">OOP Terminology</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n232"><a class="md-toc-inner" href="#oo-design-2">OO Design</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n238"><a class="md-toc-inner" href="#three-primary-oop-relationships">Three primary OOP relationships</a></span></p></div><h2 id='introduction'><span>Introduction</span></h2><p><span>In this session, we will review Object Oriented concepts for designing software solutions. I&#39;m assuming that most of this is review from your C# or C++ programming classes.</span></p><h2 id='frameworks-libraries-and-custom-solutions'><span>Frameworks, Libraries, and Custom Solutions</span></h2><ul><li><span>What is a library? Give examples.</span></li><li><span>What is a framework? Give examples.</span></li><li><span>When do you need to write code that doesn&#39;t directly fit into your framework?</span></li></ul><h2 id='oop-terminology-1'><span>OOP Terminology</span></h2><p><span>What is a </span><em><span>class</span></em><span>?</span></p><p><span>What is an </span><em><span>object</span></em><span>?</span></p><p><span>What is a </span><em><span>method</span></em><span> (aka </span><em><span>function</span></em><span>)?</span></p><p><span>What is a </span><em><span>field</span></em><span> of a class (aka i</span><em><span>nstance variable</span></em><span> or </span><em><span>member variable</span></em><span>)?</span></p><p><span>What is a </span><em><span>static class</span></em><span>?</span></p><h2 id='oo-design-1'><span>OO Design</span></h2><p><span>When we design a set of classes to model a solution to a problem, how do we identify those classes? One approach is to start with a prose description.</span></p><ul><li><span>What will nouns become?</span></li><li><span>What will verbs become?</span></li><li><span>Do we represent </span><u><span>all</span></u><span> the nouns and verbs in our model?</span></li><li><span>How do we determine which instance variables (aka fields) and methods go on which classes?</span></li></ul><h3 id='exercise-1'><span>Exercise</span></h3><p><span>Find the classes, fields, and methods you would use to create an OOP model based on this </span><a href='TipOfTheDayDescription.html'><span>Tip of the Day web site description</span></a><span>.</span></p><h3 id='the-three-primary-oop-relationships'><span>The three primary OOP relationships</span></h3><ul><li><span>What are the names and meanings of these relationships?</span></li><li><span>What are examples in C#?</span></li></ul><p>&nbsp;</p><h2 id='unified-modeling-language'><span>Unified Modeling Language</span></h2><p><span>A way to visually represent software design models that is independent of any particular computer language. There are </span><a href='https://creately.com/blog/diagrams/uml-diagram-types-examples/'><span>fourteen types of UML diagrams</span></a><span>. We will just be using </span><a href='https://en.wikipedia.org/wiki/Class_diagram'><span>UML class diagrams</span></a><span>.</span></p><ul><li><p><span>Representing classes</span></p><ul><li><p><span>Name</span></p></li><li><p><span>Fields</span></p><ul><li><p><span>Access modifiers</span></p><p>&plus;<span> public: can be accessed from outside the class</span></p><p>&num;<span> protected: can be accessed inside the class and in inherited classes</span></p><p>&minus;<span> private: can only be accessed inside the class</span></p></li></ul></li><li><p><span>Methods</span></p></li></ul></li><li><p><span>Representing relationships</span></p><ul><li><span>Association: arrow</span></li><li><span>Aggregation (equivalent to association): open diamond.</span></li><li><span>Composition: black diamond.</span></li><li><span>Inheritance: triangle.</span></li></ul></li><li><p><span>Cardinality (multiplicity)</span></p><p><span>(In UMLet, m1 indicates the end of the line with the diamond or arrow and m2 indicates the other end.)</span></p><ul><li><p><span>Ranges: indicate a range with two dots. For example: 0..n</span></p></li><li><p><span>Cardinality relationships</span></p><ul><li><span>One-to-one: put 1 at the end with the diamond.</span></li><li><span>One-to-many: put 1..n at the end with the diamond</span>&mdash;<span>meaning the class with the diamond can have 1 to many instances of the other object.</span></li><li><span>Many-to-many: put diamonds on both ends of the line and put 1..n on both ends. It is good to avoid this relationship since it adds extra complexity.</span></li></ul></li></ul><p>&nbsp;</p></li></ul><h3 id='exercise-2'><span>Exercise</span></h3><p><span>Draw a UML diagram to model the classes in the Tip of the Day solution using the cross-platform UML drawing program, </span><a href='https://www.umlet.com'><span>UMLet</span></a><span>.</span></p><p>&nbsp;</p><h2 id='example'><span>Example</span></h2><p><a href='Images/TipOfTheDayDomainModel2022.pdf'><span>Tip of the Day class diagram</span></a></p><p>&nbsp;</p><h2 id='references'><span>References</span></h2><p><span>Bell, Donald. </span><a href='https://developer.ibm.com/articles/the-class-diagram/'><span>The UML 2 class diagram</span></a><span> IBM, 2004. Tutorial article.</span></p><p><span>Crawley, Gregory. </span><a href='https://www.gleek.io/blog/class-diagram-arrows.html'><span>UML class diagram arrow types: explanations and examples</span></a><span> Gleek, 2021. Tutorial article with video</span></p><hr /><p>&nbsp;</p><h2 id='answers'><span>Answers</span></h2><h3 id='oop-terminology-2'><span>OOP Terminology</span></h3><ul><li><span>Class</span></li></ul><p><span>  A class is a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. </span></p><p><span>  Unless a class is static or has static methods, it&#39;s methods are not executable.</span></p><ul><li><p><span>Object</span></p><p><span>Executable code that is created from a class. Multiple objects can be created from the same class.</span></p></li></ul><h3 id='oo-design-2'><span>OO Design</span></h3><ul><li><span>Nouns become classes or instance variables (fields of a class).</span></li><li><span>Verbs become methods.</span></li><li><span>Instance variables and methods should be on the class to which they apply. Each class should be responsible for managing it&#39;s own stuff. </span></li></ul><h3 id='three-primary-oop-relationships'><span>Three primary OOP relationships</span></h3><ul><li><span>Aggregation (aka association</span><sup class='md-footnote'><a href='#dfref-footnote-1' name='ref-footnote-1'>1</a></sup><span>)</span>
-<span>The &quot;has-a&quot; relationship.</span></li><li><span>Composition</span>
-<span>The &quot;is-a-part-of&quot; relationship.</span></li><li><span>Inheritance</span>
-<span>The &quot;is-a&quot; relationship.</span></li></ul><p>&nbsp;</p><hr /><p><span> </span><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span>System Design  Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2018 (Revised </span><time><span>2022</span></time><span>), are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>. </span></p><p>&nbsp;</p><p>&nbsp;</p><div class='footnotes-area'  ><hr/>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='oo-analysis-and-design-with-uml'><span>OO Analysis and Design with UML</span></h1><p><strong><span>CS246N System Design</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n2"><a class="md-toc-inner" style="" href="#oo-analysis-and-design-with-uml">OO Analysis and Design with UML</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n5"><a class="md-toc-inner" style="" href="#q-and-a">Q and A</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n16"><a class="md-toc-inner" style="" href="#introduction">Introduction</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n18"><a class="md-toc-inner" style="" href="#frameworks-libraries-and-custom-solutions">Frameworks, Libraries, and Custom Solutions</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n27"><a class="md-toc-inner" style="" href="#oop-terminology">OOP Terminology</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n33"><a class="md-toc-inner" style="" href="#oo-design">OO Design</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n44"><a class="md-toc-inner" style="" href="#exercise">Exercise</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n46"><a class="md-toc-inner" style="" href="#the-three-primary-oop-relationships">The three primary OOP relationships</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n53"><a class="md-toc-inner" style="" href="#unified-modeling-language">Unified Modeling Language</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n98"><a class="md-toc-inner" style="" href="#exercise-2">Exercise</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n101"><a class="md-toc-inner" style="" href="#example">Example</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n104"><a class="md-toc-inner" style="" href="#references">References</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n109"><a class="md-toc-inner" style="" href="#answers">Answers</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n110"><a class="md-toc-inner" style="" href="#oop-terminology-2">OOP Terminology</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n120"><a class="md-toc-inner" style="" href="#oo-design-2">OO Design</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n128"><a class="md-toc-inner" style="" href="#three-primary-oop-relationships">Three primary OOP relationships</a></span></p></div><h2 id='q-and-a'><span>Q and A</span></h2><ul><li><p><span>Which teams have a client? </span></p><ul><li><p><span>Which teams are still looking?</span></p></li><li><p><span>Do any teams have more than one lead?</span></p></li></ul></li><li><p><span>If anyone wants to change teams, who hasn&#39;t already contacted me, then send me an e-mail.</span></p></li></ul><h2 id='introduction'><span>Introduction</span></h2><p><span>In this session, we will review Object Oriented Programming concepts for designing software solutions. I&#39;m assuming that most of this is review from your C# or C++ programming classes.</span></p><h2 id='frameworks-libraries-and-custom-solutions'><span>Frameworks, Libraries, and Custom Solutions</span></h2><p><span>First we&#39;re going to talk about frameworks and libraries because when we use those we get pre-fabricated OO designs. We don&#39;t have to do any design to use them.</span></p><ul><li><p><span>What is a library? Give examples.</span></p></li><li><p><span>What is a framework? Give examples.</span></p></li><li><p><span>Will there be times when you need to write custom code for functionality not facilitated by your framework or library?</span></p></li></ul><h2 id='oop-terminology'><span>OOP Terminology</span></h2><p><span>What is a </span><em><span>class</span></em><span>?</span></p><p><span>What is a </span><em><span>method</span></em><span> (aka </span><em><span>function</span></em><span>)?</span></p><p><span>What is a </span><em><span>field</span></em><span> of a class (aka i</span><em><span>nstance variable</span></em><span> or </span><em><span>member variable</span></em><span>)?</span></p><p><span>What is a </span><em><span>static class</span></em><span>?</span></p><p><span>What is an </span><em><span>object</span></em><span>?</span></p><h2 id='oo-design'><span>OO Design</span></h2><p><span>When we design a set of classes to model a solution to a problem, how do we decide what those classes should be? One approach is to start with a written description. In that description:</span></p><ul><li><p><span>What will nouns become?</span></p></li><li><p><span>What will verbs become?</span></p></li><li><p><span>Do we represent </span><u><span>all</span></u><span> the nouns and verbs in our class design?</span></p></li><li><p><span>How do we determine which instance variables (aka fields) and methods go on which classes?</span></p></li></ul><h3 id='exercise'><span>Exercise</span></h3><p><span>Find the classes, fields, and methods you would use to create an object oriented UML class diagram based on this </span><a href='TipOfTheDayDescription.html'><span>Tip of the Day web site description</span></a><span>.</span></p><h3 id='the-three-primary-oop-relationships'><span>The three primary OOP relationships</span></h3><ul><li><p><span>What are the names and meanings of these relationships?</span></p></li><li><p><span>What are examples in C#?</span></p></li></ul><p>&nbsp;</p><h2 id='unified-modeling-language'><span>Unified Modeling Language</span></h2><p><span>A way to visually represent software design models that is independent of any particular computer language. There are </span><a href='https://creately.com/blog/diagrams/uml-diagram-types-examples/'><span>fourteen types of UML diagrams</span></a><span>. We will just be using </span><a href='https://en.wikipedia.org/wiki/Class_diagram'><span>UML class diagrams</span></a><span>.</span></p><ul><li><p><span>Representing classes</span></p><ul><li><p><span>Name</span></p></li><li><p><span>Fields</span></p><ul><li><p><span>Access modifiers</span></p><p>&plus;<span> public: can be accessed from outside the class</span></p><p>&num;<span> protected: can be accessed inside the class and in inherited classes</span></p><p>&minus;<span> private: can only be accessed inside the class</span></p></li></ul></li><li><p><span>Methods</span></p></li></ul></li><li><p><span>Representing relationships</span></p><ul><li><p><span>Association: arrow</span></p></li><li><p><span>Aggregation (equivalent to association): open diamond.</span></p></li><li><p><span>Composition: black diamond.</span></p></li><li><p><span>Inheritance: triangle.</span></p></li></ul></li><li><p><span>Cardinality (multiplicity)</span></p><p><span>(In UMLet, m1 indicates the end of the line with the diamond or arrow and m2 indicates the other end.)</span></p><ul><li><p><span>Ranges: indicate a range with two dots. For example: 0..n</span></p></li><li><p><span>Cardinality relationships</span></p><ul><li><p><span>One-to-one: put 1 at the end with the diamond.</span></p></li><li><p><span>One-to-many: put 1..n at the end with the diamond</span>&mdash;<span>meaning the class with the diamond can have 1 to many instances of the other object.</span></p></li><li><p><span>Many-to-many: put diamonds on both ends of the line and put 1..n on both ends. It is good to avoid this relationship since it adds extra complexity.</span></p></li></ul></li></ul><p>&nbsp;</p></li></ul><h3 id='exercise-2'><span>Exercise</span></h3><p><span>Draw a UML diagram to model the classes in the Tip of the Day solution using the cross-platform UML drawing program, </span><a href='https://www.umlet.com'><span>UMLet</span></a><span>.</span></p><p>&nbsp;</p><h2 id='example'><span>Example</span></h2><p><a href='Images/TipOfTheDayDomainModel2022.pdf'><span>Tip of the Day class diagram</span></a></p><p>&nbsp;</p><h2 id='references'><span>References</span></h2><p><span>Bell, Donald. </span><a href='https://developer.ibm.com/articles/the-class-diagram/'><span>The UML 2 class diagram</span></a><span> IBM, 2004. Tutorial article.</span></p><p><span>Crawley, Gregory. </span><a href='https://www.gleek.io/blog/class-diagram-arrows.html'><span>UML class diagram arrow types: explanations and examples</span></a><span> Gleek, 2021. Tutorial article with video</span></p><hr /><p>&nbsp;</p><h2 id='answers'><span>Answers</span></h2><h3 id='oop-terminology-2'><span>OOP Terminology</span></h3><ul><li><p><span>Class</span></p></li></ul><p><span>  A class is a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. </span></p><p><span>  Unless a class is static or has static methods, it&#39;s methods are not executable.</span></p><ul><li><p><span>Object</span></p><p><span>Executable code that is created from a class. Multiple objects can be created from the same class.</span></p></li></ul><h3 id='oo-design-2'><span>OO Design</span></h3><ul><li><p><span>Nouns become classes or instance variables (fields of a class).</span></p></li><li><p><span>Verbs become methods.</span></p></li><li><p><span>Instance variables and methods should be on the class to which they apply. Each class should be responsible for managing it&#39;s own stuff. </span></p></li></ul><h3 id='three-primary-oop-relationships'><span>Three primary OOP relationships</span></h3><ul><li><p><span>Aggregation (aka association</span><sup class='md-footnote'><a href='#dfref-footnote-1' name='ref-footnote-1'>1</a></sup><span>)</span>
+<span>The &quot;has-a&quot; relationship.</span></p></li><li><p><span>Composition</span>
+<span>The &quot;is-a-part-of&quot; relationship.</span></p></li><li><p><span>Inheritance</span>
+<span>The &quot;is-a&quot; relationship.</span></p></li></ul><p>&nbsp;</p><hr /><p><span> </span><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span>System Design  Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2018 (Revised </span><time><span>2023&lt;/time), are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>. </span></p><p>&nbsp;</p><p>&nbsp;</p><div class='footnotes-area'  ><hr/>
 <div class='footnote-line'><span class='md-fn-count'>1</span> <span>Martin Fowler on </span><a href='https://martinfowler.com/bliki/AggregationAndComposition.html'><span>Aggregation and Composition</span></a> <a name='dfref-footnote-1' href='#ref-footnote-1' title='back to document' class='reversefootnote' >↩</a></div></div></div></div>
-</body>
+<base target="_blank"></body>
 </html>
