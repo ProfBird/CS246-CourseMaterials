@@ -21,7 +21,7 @@ description: Explanation and examples of how a UML class diagram would be implem
   
   - If your team doesn't have a project yet, drop in to my office hours so we can discuss possibilities.
   
-  - Work on a project proposal for your client starts next week. 
+  - You will work on a project proposal for your client next week. 
     - For Programming teams, this is a proposal to a client (and me).
     
       
