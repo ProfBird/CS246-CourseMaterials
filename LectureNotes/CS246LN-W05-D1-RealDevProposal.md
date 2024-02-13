@@ -34,16 +34,16 @@ The proposal includes a cover letter and a proposal document. The HAO and HAA an
 
 - **Deployment** 
 
-  - You can either deploy your web site on one of your free Azure for Students accounts, or on the hosting service that your client will use after you finish the project. (Your client  won't be able to use your free Azure account.)
-  - A good, low cost, hosting service for small to medium traffic web sites is [WinHost](https://winhost.com).
+  - You can either deploy your web site on one of your free Azure for Students accounts, or on the hosting service that your client will use after you finish the project. (Your client won't be able to use your free Azure account.)
+  - A couple good, low cost, hosting services for small to medium traffic web sites are [WinHost](https://winhost.com) and [SmarterASP.NET](https://www.smarterasp.net/index?r=profbird).
 
 - **Estimate** 
 
   - In the example, there are two estimates&mdash;one for a minimal implementation and one for a full iimplementation of the web site. You don't need to do that in your proposal unless it makes sense for your client.
 
-  - Next term, when you implement this project, you will have 10 weeks and  10 hours per week, per team member available for development. You estimate should be well below the sum total of hours your team has available.
+  - Next term, when you implement this project, you will have 10 weeks and 10 hours per week, per team member available for development. Your estimate should be well below the sum total of hours your team has available.
 
-     For example, if you have a team with three members, you will have 300 hours of development time available. If you estimate that your project will take 150 hours, then it's probably the right size project because things always take longer than you think&mdash;two or three time as long. So if you think it will take 150 hours, then double all your estimated times and that will probably be realistic!
+     For example, if you have a team with three members, you will have 300 hours of development time available. If you estimate that your project will take 150 hours, then it's probably the right size project because things always take longer than you think&mdash;<u>two or three time as long</u>. So if you think it will take 150 hours, then double all the estimated times in your proposal and that will probably be realistic!
 
 - **Cost Estimate and Payment Terms** 
 
@@ -65,7 +65,7 @@ The contract includes a revised version of the proposal, with the agreed upon li
 
 - **Intellectual property**
   
-  Normally, when you as a developer develop software for a client, whether you are a company or a free-lancer, the client is paying for the rights to the IP of the software you are developing. But there are other options, including making the software open source or sharing the IP.
+  Normally, when you as a developer develop software for a client, whether you work for a company or are a free-lancer, the client is paying for the rights to the IP of the software you are developing. But there are other options, including making the software open source or sharing the IP.
   
 - **Indemnification**
   
@@ -76,7 +76,7 @@ The contract includes a revised version of the proposal, with the agreed upon li
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2020, revised 2023, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2020, revised 2024, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ------
 
