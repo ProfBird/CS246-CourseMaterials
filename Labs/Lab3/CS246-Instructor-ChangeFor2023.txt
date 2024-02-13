@@ -1,11 +1,0 @@
-Your team did a great job on the mock-ups and surveys. It looks like you got some helpful feedback from your testers.
-
-UX artifacts: 50/50
-A report that includes:
-  • A description of test methods: 10/10
-  • The results of your testing: 30/30
-  • An assessment of results quality: 10/10
-
-For the last part of the report, the lab instructions ask for "An assessment of the quality of feedback you received." You wrote in general terms about the value of UI testing in general, but you didn't assess the quality of the feedback you got from your testers.
-
-  For the last part of the report, the lab instructions ask for "An assessment of the quality of feedback you received." You wrote in general terms about the value of UI testing in general, but you didn't assess the quality of the feedback you got from your testers.
