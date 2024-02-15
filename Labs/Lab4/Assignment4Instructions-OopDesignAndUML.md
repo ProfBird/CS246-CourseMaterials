@@ -24,6 +24,8 @@ Create a UML diagram to model a simple game
    - Relationships (inheritance, aggregation, or composition)
    - Cardinality (aka multiplicity)
 
+Everyone on the team needs to participate in each step. At a minimum, each person should provide ideas and review/revise the work done by others. 
+
 
 
 ## Submission
@@ -40,4 +42,4 @@ As a group, submit the following to Moodle:
 
 
 
-Written winter 2021, revised winter 2023 by  Brian Bird
+Written winter 2021, revised winter 2024 by  Brian Bird

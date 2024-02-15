@@ -58,37 +58,19 @@ These are concerned with class and object composition. They use inheritance to c
 
 Most of these design patterns are specifically concerned with communication between objects.
 
-| Behavioral Patterns                                          |                                                       |
-| ------------------------------------------------------------ | ----------------------------------------------------- |
-| [Chain of Responsibility](https://www.dofactory.com/net/chain-of-responsibility-design-pattern) | A way of passing a request between a chain of objects |
-| [Command](https://www.dofactory.com/net/command-design-pattern) | Encapsulate a command request as an object            |
-| [Interpreter](https://www.dofactory.com/net/interpreter-design-pattern) | A way to include language elements in a program       |
-| [Iterator](https://www.dofactory.com/net/iterator-design-pattern) | Sequentially access the elements of a collection      |
-| [Mediator](https://www.dofactory.com/net/mediator-design-pattern) | Defines simplified communication between classes      |
-| [Memento](https://www.dofactory.com/net/memento-design-pattern) | Capture and restore an object's internal state        |
-| [Observer](https://www.dofactory.com/net/observer-design-pattern) | A way of notifying change to a number of classes      |
-| [State](https://www.dofactory.com/net/state-design-pattern)  | Alter an object's behavior when its state changes     |
-| [Strategy](https://www.dofactory.com/net/strategy-design-pattern) | Encapsulates an algorithm inside a class              |
-| [Template Method](https://www.dofactory.com/net/template-method-design-pattern) | Defer the exact steps of an algorithm to a subclass   |
-| [Visitor](https://www.dofactory.com/net/visitor-design-pattern) | Defines a new operation to a class without change     |
-
-
-
-## Architectural Design Patterns
-
-Architectural patterns describe the way software systems or components interact.
-Some common architectural patterns are:
-
-- Layered pattern
-- Client-server pattern
-- Master-slave pattern
-- Pipe-filter pattern
-- Broker pattern
-- Peer-to-peer pattern
-- Event-bus pattern
-- Model-view-controller pattern
-- Blackboard pattern
-- Interpreter pattern
+| Behavioral Patterns                                          |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Chain of Responsibility](https://www.dofactory.com/net/chain-of-responsibility-design-pattern) | A way of passing a request between a chain of objects        |
+| [Command](https://www.dofactory.com/net/command-design-pattern) | Encapsulate a command request as an object                   |
+| [Interpreter](https://www.dofactory.com/net/interpreter-design-pattern) | A way to include language elements in a program              |
+| [Iterator](https://www.dofactory.com/net/iterator-design-pattern) | Sequentially access the elements of a collection             |
+| [Mediator](https://www.dofactory.com/net/mediator-design-pattern) | Defines simplified communication between classes             |
+| [Memento](https://www.dofactory.com/net/memento-design-pattern) | Capture and restore an object's internal state               |
+| [Observer](https://www.dofactory.com/net/observer-design-pattern) | A way of notifying change to a number of classes             |
+| [State](https://www.dofactory.com/net/state-design-pattern)  | Alter an object's behavior when its state changes            |
+| [Strategy](https://www.dofactory.com/net/strategy-design-pattern) | Encapsulates an algorithm inside a class                     |
+| [Template Method](https://www.dofactory.com/net/template-method-design-pattern) | Defer the exact steps of an algorithm to a subclass          |
+| [Visitor](https://www.dofactory.com/net/visitor-design-pattern) | Defines a new operation to be done on an instance of a class without changing the class. |
 
 
 
@@ -107,7 +89,7 @@ Some common architectural patterns are:
 
 ## Exercise
 
-Imagine you have some kind of web app wher users can post to a forum, or blog ( or post book reviews) and users can also comment on other people's posts. If you wanted to add a messaging service that notified users when someone had commented on their post, which pattern might be a key part of the implementation?[^2]
+Imagine you have some kind of web app where users can post to a forum, or blog ( or post book reviews) and users can also comment on other people's posts. If you wanted to add a messaging service that notified users when someone had commented on their post, which pattern might be a key part of the implementation?[^2]
 
 
 
@@ -115,7 +97,7 @@ Imagine you have some kind of web app wher users can post to a forum, or blog ( 
 
 [Guide to Software Design Patterns](https://airbrake.io/blog/category/dotnet). Airbrake. 2017. Descriptions of design patterns with examples in C#.
 
-Design Patterns for ASP.NET Developers, [Part 1: Basic Patterns](https://www.devx.com/2007/02/09/33695/), [Part 2: Custom Controller Patterns](https://www.devx.com/2007/03/03/33889/), [Part 3: Advanced Patterns](https://www.devx.com/2007/04/05/34220/). DevX. 2007. Note: even though these articles are a bit old, the concepts are all still applicable.
+[ASP.NET Core Basics: Knowing and Applying Design Patterns](https://www.telerik.com/blogs/aspnet-core-basics-knowing-applying-design-patterns). Assis Zang.Telerik Blog. 2024.
 
 Homer, Alex. [ASP.NET Patterns every developer should know](https://www.developerfusion.com/article/8307/aspnet-patterns-every-developer-should-know/). Developer Fusion. 2011.
 

@@ -13,12 +13,12 @@ description: A review  Object Oriented Programming (OOP) concepts for designing 
 
 - Which teams have a client? 
   - Which teams are still looking?
-  - I have a lead on another client.
+  - Do any teams have more than one lead?
 - If anyone wants to change teams, who hasn't already contacted me, then send me an e-mail.
 
 ## Introduction
 
-In this session, we will review Object Oriented concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
+In this session, we will review Object Oriented Programming concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
 
 ## Frameworks, Libraries, and Custom Solutions
 
@@ -28,13 +28,11 @@ First we're going to talk about frameworks and libraries because when we use tho
 
 - What is a framework? Give examples.
 
-- When do you need to write code that doesn't directly fit into your framework&mdash;code that requires you to do OO design?
+- Will there be times when you need to write custom code for functionality not facilitated by your framework or library?
 
 ## OOP Terminology
 
 What is a *class*?
-
-What is an *object*?
 
 What is a *method* (aka *function*)?
 
@@ -42,17 +40,19 @@ What is a *field* of a class (aka i*nstance variable* or *member variable*)?
 
 What is a *static class*?
 
+What is an *object*?
+
 ## OO Design
 
-When we design a set of classes to model a solution to a problem, how do we identify those classes? One approach is to start with a prose description.
+When we design a set of classes to model a solution to a problem, how do we decide what those classes should be? One approach is to start with a written description. In that description:
 - What will nouns become?
 - What will verbs become?
-- Do we represent <u>all</u> the nouns and verbs in our model?
+- Do we represent <u>all</u> the nouns and verbs in our class design?
 - How do we determine which instance variables (aka fields) and methods go on which classes?
 
 ### Exercise
 
-Find the classes, fields, and methods you would use to create an OOP model based on this [Tip of the Day web site description](TipOfTheDayDescription.html).
+Find the classes, fields, and methods you would use to create an object oriented UML class diagram based on this [Tip of the Day web site description](TipOfTheDayDescription.html).
 
 ### The three primary OOP relationships
 
