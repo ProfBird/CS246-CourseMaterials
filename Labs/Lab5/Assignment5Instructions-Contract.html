@@ -2,11 +2,17 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<meta name="title" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="material" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -22,8 +28,6 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -51,12 +55,12 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
-.CodeMirror-linenumber { }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -73,6 +77,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
 .md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
@@ -87,12 +92,14 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -130,6 +137,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
@@ -199,6 +207,21 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
 
 :root {
@@ -206,7 +229,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /* open-sans-regular - latin-ext_latin */
   /* open-sans-italic - latin-ext_latin */
@@ -457,11 +480,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -557,6 +577,10 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
 .md-lang {
     color: #b4654d;
 }
@@ -589,10 +613,10 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
 </style><title>Assignment5Instructions-Contract</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><p><strong><span>CS246, System Design</span></strong></p><h1 id='assignment-5mdashproposal-and-contract'><span>Assignment 5</span>&mdash;<span>Proposal and Contract</span></h1><p>&nbsp;</p><h2 id='part-1-proposal-for-a-software-development-project'><span>Part 1: Proposal for a software development project</span></h2><p><span>Use the example proposal given to you in class as a pattern and write a proposal for a software development project. Do not send this proposal to your client yet. After your instructor has read it and approved it, you will send it to your client to get feedback and possibly make revisions.</span></p><h2 id='part-2-software-development-contract'><span>Part 2: Software development contract</span></h2><p><span>Write a contract, based on the one given to you in class, but don&#39;t send it to your client yet. Submit it for review by your instructor.</span></p><p><span>Once your instructor has approved the contract, and you and the client have agreed on the scope of the work and the high level description of the project that you presented in your proposal; sign the contract and send it to your client. The client may want to negotiate and revise some of the details of the contract before signing it</span>&mdash;<span>that&#39;s a normal part of the process.</span></p><h3 id='for-game-dev-students'><span>For Game Dev Students</span></h3><p><span>Since you don&#39;t have an external client, I will fill the role of client. You can write the proposal for me and make the contract with me.</span></p><h2 id='submission'><span>Submission</span></h2><p><span>As a group, submit the following to Moodle:</span></p><p><span>Word or PDF documents:</span></p><ol start='' ><li><span>A draft of the software development proposal that you will review with your client after it has been approved by your instructor.</span></li><li><span>A draft of the contract that you will present to your client after it has been approved by your instructor.  The contract will include the final version of your proposal, which will include revisions made after reviewing it with your client.</span></li></ol><p>&nbsp;</p><p><span>Written Winter 2021 by  Brian Bird, revised 2022 by Brian Bird</span></p></div></div>
+<div id='write'  class=''><p><strong><span>CS246, System Design</span></strong></p><h1 id='assignment-5proposal-and-contract'><span>Assignment 5</span>&mdash;<span>Proposal and Contract</span></h1><p>&nbsp;</p><h2 id='part-1-proposal-for-a-software-development-project'><span>Part 1: Proposal for a software development project</span></h2><p><span>Use the example proposal given to you in class as a pattern and write a proposal for a software development project. Do not send this proposal to your client yet. After your instructor has read it and approved it, you will send it to your client to get feedback and possibly make revisions.</span></p><h2 id='part-2-software-development-contract'><span>Part 2: Software development contract</span></h2><p><span>Write a contract, based on the example given to you in class, but don&#39;t send it to your client yet. Submit it for review by your instructor.</span></p><p><span>Once your instructor has approved the contract, and you and the client have agreed on the scope of the work and the high level description of the project that you presented in your proposal; sign the contract and send it to your client. The client may want to negotiate and revise some of the details of the contract before signing it</span>&mdash;<span>that&#39;s a normal part of the process.</span></p><h2 id='submission'><span>Submission</span></h2><p><span>One person in your group will submit the following to Moodle on behalf of the group:</span></p><p><span>Word or PDF documents:</span></p><ol start='' ><li><p><span>An initial software development proposal that you will review with your client after it has been approved by your instructor.</span></p></li><li><p><span>An initial contract that you will present to your client after it has been approved by your instructor.  The contract will include the revised version of your proposal.</span></p></li><li><p><span>The final, signed version of the contract.</span></p></li></ol><h4 id='submission-workflow'><span>Submission Workflow</span></h4><h5 id='software-development-proposal'><span>Software Development Proposal</span></h5><ol><li><p><span>Write a proposal and submit it on Moodle</span></p></li><li><p><span>Your instructor approves the proposal or recommends revisions.</span></p><ul><li><p><span>Make revisions if needed and resubmit on Moodle.</span></p></li></ul></li><li><p><span>Send the proposal to your client.</span></p><ul><li><p><span>Make revisions as requested by the client.</span></p></li></ul></li></ol><p><span>No need to submit the final version on Moodle.</span></p><h5 id='software-development-contract'><span>Software Development Contract</span></h5><ol><li><p><span>Write a contract, which includes the revised proposal and submit it on Moodle.</span></p></li><li><p><span>Your instructor approves the contract or recommends revisions.</span></p><ul><li><p><span>Make revisions if needed and resubmit on Moodle.</span></p></li></ul></li><li><p><span>Send the contract to your client.</span></p><ul><li><p><span>Make revisions as requested by your client.</span></p></li></ul></li></ol><ol start='4' ><li><p><span>Submit the final, signed version on Moodle.</span></p></li></ol><p>&nbsp;</p><p><span>Written Winter 2021 by  Brian Bird, revised 2024 by Brian Bird</span></p></div></div>
 </body>
 </html>
