@@ -27,23 +27,23 @@ Word or PDF documents:
 
 ##### Software Development Proposal
 
-1. Write a proposal and submit it on Moodle
+1. Write a proposal and submit it on Moodle for assignment 5A.
 2. Your instructor approves the proposal or recommends revisions.
    - Make revisions if needed and resubmit on Moodle.
 3. Send the proposal to your client.
    - Make revisions as requested by the client.
 
-No need to submit the final version on Moodle.
+No need to submit the revised version on Moodle.
 
 ##### Software Development Contract
 
-1. Write a contract, which includes the revised proposal and submit it on Moodle.
+1. Write a contract, which includes the revised proposal and submit it on Moodle for assignment 5B.
 2. Your instructor approves the contract or recommends revisions.
    - Make revisions if needed and resubmit on Moodle.
 3. Send the contract to your client.
    - Make revisions as requested by your client.
 
-4. Submit the final, signed version on Moodle.
+4. Submit the final, signed version on Moodle for assignment 5C.
 
 
 
