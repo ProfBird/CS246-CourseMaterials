@@ -10,22 +10,41 @@ Use the example proposal given to you in class as a pattern and write a proposal
 
 ## Part 2: Software development contract
 
-Write a contract, based on the one given to you in class, but don't send it to your client yet. Submit it for review by your instructor.
+Write a contract, based on the example given to you in class, but don't send it to your client yet. Submit it for review by your instructor.
 
 Once your instructor has approved the contract, and you and the client have agreed on the scope of the work and the high level description of the project that you presented in your proposal; sign the contract and send it to your client. The client may want to negotiate and revise some of the details of the contract before signing it&mdash;that's a normal part of the process.
 
-### For Game Dev Students
-
-Since you don't have an external client, I will fill the role of client. You can write the proposal for me and make the contract with me.
-
 ## Submission
 
-As a group, submit the following to Moodle:
+One person in your group will submit the following to Moodle on behalf of the group:
 
 Word or PDF documents:
-1. A draft of the software development proposal that you will review with your client after it has been approved by your instructor.
-2. A draft of the contract that you will present to your client after it has been approved by your instructor.  The contract will include the final version of your proposal, which will include revisions made after reviewing it with your client.
+1. An initial software development proposal that you will review with your client after it has been approved by your instructor.
+2. An initial contract that you will present to your client after it has been approved by your instructor.  The contract will include the revised version of your proposal.
+3. The final, signed version of the contract.
+
+#### Submission Workflow
+
+##### Software Development Proposal
+
+1. Write a proposal and submit it on Moodle for assignment 5A.
+2. Your instructor approves the proposal or recommends revisions.
+   - Make revisions if needed and resubmit on Moodle.
+3. Send the proposal to your client.
+   - Make revisions as requested by the client.
+
+No need to submit the revised version on Moodle.
+
+##### Software Development Contract
+
+1. Write a contract, which includes the revised proposal and submit it on Moodle for assignment 5B.
+2. Your instructor approves the contract or recommends revisions.
+   - Make revisions if needed and resubmit on Moodle.
+3. Send the contract to your client.
+   - Make revisions as requested by your client.
+
+4. Submit the final, signed version on Moodle for assignment 5C.
 
 
 
-Written Winter 2021 by  Brian Bird, revised 2022 by Brian Bird
+Written Winter 2021 by  Brian Bird, revised 2024 by Brian Bird

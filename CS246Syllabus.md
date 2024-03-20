@@ -10,6 +10,8 @@
 | **Room** | Building 19, Room 126<br />[Zoom meeting](https://lanecc.zoom.us/j/93330748572) |      | Office | [Zoom meeting](https://lanecc.zoom.us/j/93655119209) |
 |             |                                                              | |  |  |
 
+[TOC]
+
 ## Course Description 
 
 In this course, students will learn to design and plan software systems development. Topics covered will include requirements gathering, design evaluation and documentation, and object-oriented program design. By the end of the course, students will have produced a design for a significant software project in a team environment. 
@@ -64,7 +66,9 @@ Letter grades for the course will be determined by the following percentages:
 
 ### Late Work
 
-The grade for assignments submitted after the due date will be reduced by 10%.
+- The grade for assignments submitted after the due date will be reduced by 10%.
+- No late assignments accepted after Tuesday of week 11, finals week.
+- Exceptions will only be made for illness or emergency situations.
 
 ### Academic Honesty
 
