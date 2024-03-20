@@ -35,6 +35,8 @@ I will let you as a team decide how to distribute the work, but here are some gu
 - Each team member should recruit a tester, or at least be involved in recruiting testers.
 - Each team member should write at least one paragraph of the testing report.
 
+But the UI testing should be done as a group and all testers should give feedback on all UX diagrams.
+
 ## Submission
 
 Submit the following files on Moodle:
@@ -45,8 +47,14 @@ Submit the following files on Moodle:
 
 Only one group member needs to submit the assignment on behalf of the whole group.
 
+## Assessment
+
+[Lab 3 grading rubric](Assignment3Rubric.htm)
+
 
 
 ------
 
-Written 2018 by  Brian Bird, revised winter 2024 by Brian Bird
+Written 2018 by  Brian Bird, revised winter <time>2024</time> by Brian Bird
+
+-----
