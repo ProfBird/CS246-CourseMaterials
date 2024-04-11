@@ -21,6 +21,8 @@ Submit your completed work on Moodle:
 - Use the Lab 6A assignment link to submit your completed team contract as a Word document or PDF.
 - Use the Lab 6B assignment link to submit your UI diagrams in a single PDF file.
 
+*Note for 2025: Restrict file upload types to PDF.* 
+
 
 
 
