@@ -32,6 +32,22 @@ There is no textbook for this course. Online reading will be assigned as the cou
 
 http://classes.lanecc.edu (LCC’s Moodle site) is the learning management system for the course. All of the information you need for the course will be provided via the Moodle course page: lecture notes, sample files, assignment descriptions and due dates, and announcements related to the course. 
 
+## Required Software
+
+The class examples and the textbook are based on using the Windows operating system for development, but you may alternatively use Mac OS or Linux. 
+
+### IDE and .NET Framework
+
+We will be using [Visual Studio 2022, Community Edition](https://visualstudio.microsoft.com/vs/community/), which is available as a free download. This is the most popular IDE for .NET development on Windows.
+
+For Mac OS and Linux, the best IDE is [JetBrains Rider](https://www.jetbrains.com/rider/), which also runs on Windows and is available free to Students.
+
+The version of the .NET framework we will be using is [.NET Core 6.0](https://dotnet.microsoft.com/download/dotnet-core/6.0). You will need to download the latest release of this version of the .NET framework SDK for your OS (Windows, Mac, or Linux).
+
+### Git
+
+You will need to use Git for version control. Git itself is a command line program which you can [download from the Git Community web site](https://git-scm.com/downloads). You can use Git from the command line , or use a Git GUI client. There is a very good [Git client built into Visual Studio](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022) and you can also downoad the free [GitHub Desktop](https://desktop.github.com/) app for working with Git.
+
 ### CIT Computer Lab
 
 The CIT Main lab (Bldg. 19, room 135) is equipped with computers and software which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. The schedule for when the lab will be open and when in-person tutors are available is TBD.
