@@ -1,13 +1,13 @@
 # Syllabus for System Design
 
-**CS246, Winter 2024**
+**CS 246, Winter 2025**
 
 |     | Class |      |    | Instructor |
 | -------- | ------------------------ | ---- | ------------ | ---------------------- |
-| **CRN** | 30467 Hybrid (on campus)  <br />3136 Online |      | Name         | Brian Bird             |
+| **CRN** | 30650  Hybrid (on campus)  <br />31201 Online |      | Name         | Brian Bird             |
 | **Credits** | 4                        |      | Email        | birdb@lanecc.edu       |
 | **Time** | Tu, Th; 2:00&ndash;3:50 |      | Office Hours | M&mdash;Th; 4:00&ndash;4:50<br /> or by appointment |
-| **Room** | Building 19, Room 126<br />[Zoom meeting](https://lanecc.zoom.us/j/93330748572) |      | Office | [Zoom meeting](https://lanecc.zoom.us/j/93655119209) |
+| **Room** | Building 19, Room 126<br /> or [Zoom meeting](https://lanecc.zoom.us/j/92042859855) |      | Office | Building 19, Room 152<br /> or [Zoom meeting](https://lanecc.zoom.us/j/93494931394) |
 |             |                                                              | |  |  |
 
 [TOC]
@@ -100,16 +100,16 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 
 
-## Academic Calendar for Winter Term 2024
+## Academic Calendar for Winter Term 2025
 
-| Event                                               | Date        |
-| --------------------------------------------------- | ----------- |
-| Fall term classes begin                             | 1/8 Monday  |
-| Last day to receive refund                          | 1/15 Monday |
-| Martin Luther King Jr. holiday&mdash;college closed | 1/15 Monday |
-| Presidents Day holiday&mdash;college closed         | 2/19 Monday |
-| Last day for schedule changes                       | 3/1 Friday  |
-| Final exam                                          | 3/18 Monday |
+| Event                                               | Date          |
+| --------------------------------------------------- | ------------- |
+| Fall term classes begin                             | 1/6 Monday    |
+| Last day to receive refund                          | 1/13 Monday   |
+| Martin Luther King Jr. holiday&mdash;college closed | 1/20 Monday   |
+| Presidents Day holiday&mdash;college closed         | 2/17 Monday   |
+| Last day for schedule changes                       | 2/28 Friday   |
+| Finals week                                         | 3/24&ndash;27 |
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.  
 
