@@ -6,13 +6,13 @@
 
 ## Software is Written to Solve Problems
 
-For software to be useful and to be adopted by users, it needs to satisfy some need.  
+For software to be useful and to be adopted by users, it needs to satisfy some real need.  
 
 Note that in this context "problem" means *need*. It doesn't mean something is broken.
 
 ### Types of solutions
 
-The needs of a person, business, or organization can be met with different types of solutions:
+The needs of a person, business, or organization can be fulfilled with different types of solutions:
 
 - Provide new tools and new ways to do things: spreadsheets, Learning Management Systems, Project management (MS Project, Jira, Trello)
 - Automate processes: automated manufacturing, self-serve banking
@@ -57,7 +57,7 @@ Example problem: people get too many e-mails in their in-boxes
 
     
 
-### How to identify problems
+### How to identify problems (needs)
 
 A problem may not be something that is currently seen as a problem or a need. It might just be something that can be improved. 
 Example: before the smart phone became a thing, how many people thought that there was a problem with their mobile phone?
@@ -68,8 +68,60 @@ Here are things to look for:
 - A process that is prone to mistakes
 - A situation where communication is lacking
 - A situation where data is hard to access
-- Something that isn't fun
+- Something that isn't fun to do
 - And more
+
+#### Methods for assessing needs
+
+- Interviews or surveys of:
+  - Business owners, managers and employees.
+  - Customers or end users.
+- Observe the work process
+- Job shadowing 
+
+### How to document requirements
+
+After identifying problems (needs), these can be described in a formal document called a *requirements document*. A requirements document doesn't describe the way to solve a problem (or problems), it just describes in detail what issues the solution will need to solve. 
+
+We are going to assume the solution is some computer *system*. By *system*, we mean some combination of sofware and hardware. This could include servers, desktop/laptop computer and mobile devices as well as software running on each of these.
+
+The requirements document should include these elements:
+
+1. Purpose and Scope
+  - Objective: Explains why the system is being developed and its primary goals.
+  - Scope: Defines the boundaries of the system, including what is in and out of scope.
+2. Stakeholders
+  - List of Stakeholders: Identifies key individuals, groups, or organizations impacted by the system.
+  - Stakeholder Roles and Responsibilities: Defines how stakeholders interact with and influence the system.
+3. Functional Requirements
+  - Detailed Features and Functions: Specifies what the system must do, e.g., “The system must accept  user payments made by credit or debit card.”
+  - Use Cases or User Stories: Illustrates scenarios of how users interact with the system.
+4. Non-Functional Requirements
+  - Performance Requirements: Speed, responsiveness, or throughput.
+  - Scalability: How the system should handle growth.
+  - Security: Authentication, encryption, and data protection standards.
+  - Usability: Ease of use and accessibility requirements.
+  - Reliability: Expected uptime and failure recovery procedures.
+5. Constraints
+  - Technical Constraints: Technology stack, compatibility, or legacy system dependencies.
+  - Regulatory and Legal Constraints: Compliance with standards or laws.
+  - Budget and Timeline: Financial or scheduling limitations.
+6. Assumptions and Dependencies
+  - Assumptions: Conditions presumed to be true for the project, e.g., “Users will have a stable internet connection.”
+  - Dependencies: External factors or systems the project relies on.
+7. Data Requirements
+  - Input and Output: Formats, sources, and destinations of data.
+  - Storage: Database or file storage requirements.
+  - Data Integrity: Standards for maintaining consistency and accuracy.
+8. Interface Requirements
+  - User Interfaces: Specifications for screens, dashboards, and navigation.
+  - External Systems: APIs, third-party integrations, or hardware interfaces.
+9. Risk Analysis
+  - Potential Risks: Identifies technical, financial, or operational risks.
+  - Mitigation Plans: Steps to reduce the likelihood or impact of risks.
+10. Acceptance Criteria
+    - Definition of Done: Criteria to determine when the system meets requirements.
+    - Validation and Verification Plans: How the system will be tested and evaluated.
 
 
 

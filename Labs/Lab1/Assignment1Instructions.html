@@ -3,11 +3,11 @@
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
-.mac-os-11 { --title-bar-height:28px; }
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -27,7 +27,7 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -54,8 +54,8 @@ thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -75,7 +75,7 @@ div.hr:focus { cursor: none; }
 svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -88,7 +88,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -109,7 +109,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
 .math { font-size: 1rem; }
 .md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
@@ -139,14 +139,14 @@ code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
 video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
+iframe { max-width: 100%; width: 100%; border: medium; }
 .highlight td, .highlight tr { border: 0px; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
@@ -163,7 +163,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-fences-advanced:not(.md-focus) { background: inherit; }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
-.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
 @media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
@@ -174,7 +174,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
 .outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
 .outline-expander:hover::before { content: ""; }
@@ -187,14 +187,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
 .outline-label:hover { text-decoration: underline; }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
-.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
 .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
-.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
 .typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
@@ -203,6 +203,20 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
 
 :root {
@@ -558,6 +572,10 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
 .md-lang {
     color: #b4654d;
 }
@@ -590,10 +608,10 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
-
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
 </style><title>Assignment1Instructions</title>
 </head>
-<body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='instructions-for-assignment-1'><span>Instructions for Assignment 1</span></h1><p><strong><span>CS 246 System Design</span></strong></p><p>&nbsp;</p><h2 id='objective'><span>Objective</span></h2><p><span>Evaluate a local organization (business, non-profit, club, etc.) to identify their potential business needs (problems) and write a proposal to develop software that will meet some of those needs. Here are some possibilities:</span></p><ul><li><p><span>Enhance an existing web site, or develop a new one. Here are some possible purposes for a web site.</span></p><ul><li><p><span>Sell products.</span></p></li><li><p><span>Get leads for new clients.</span></p></li><li><p><span>Build a mailing list.</span></p></li><li><p><span>Recruit volunteers.</span></p></li><li><p><span>Educate users.</span></p></li><li><p><span>Provide administrative functions for managing employees, volunteers, or clients.</span></p></li></ul></li><li><p><span>Provide a mobile app that works in conjunction with an existing web site to increase engagement.</span></p></li><li><p><span>Develop a Web API for use by third parties that would in some way benefit the organization.</span></p></li></ul><p><span>One place to start when looking for a business to evaluate is a local Chamber of Commerce site. Here are some local links</span></p><p><a href='https://www.eugenechamber.com'><span>Eugene Chamber of Commerce</span></a></p><p><a href='https://www.springfield-chamber.org'><span>Springfield Chamber of Commerce</span></a></p><p>&nbsp;</p><h2 id='report-requirements'><span>Report Requirements</span></h2><p><span>The document you submit should be at least one page long, but not more than two, and should be written in clear and concise English sentences and paragraphs (not just bullet points). The document should answer these questions:</span></p><ul><li><p><span>What does the organization do?</span></p></li><li><p><span>What business problem(s) or needs have you identified?</span></p><p><span>These should be business needs you have inferred from their web site, not short-comings of their existing web site.</span></p></li><li><p><span>Software solution:</span></p><p><span>Address at least three of the business needs you identified.</span></p><ul><li><p><span>What problem(s) will the software solve and how will it solve them?</span></p><p><span>These would be solutions to business needs that do not already appear to be provided by the current web site, or could be met better in some way.</span></p></li><li><p><span>What type of software will you develop (mobile app, web app, etc.)</span></p></li><li><p><span>What will the software do?</span></p></li></ul><p><span>Stay focused on solving </span><em><span>business problems</span></em><span>, not web site problems!</span></p></li></ul><h2 id='teamwork'><span>Teamwork</span></h2><p><span>This is a team assignment. You may want to collaborate by using Google Docs to write the document.</span></p><p><span>Plan your work in a way to ensure that each person contributes equally to the assignment.</span></p><p>&nbsp;</p><h2 id='submission'><span>Submission</span></h2><ul><li><p><strong><span>Problem solving Report</span></strong><span>: Submit this document to Moodle. This is the product of your teams work.</span></p></li><li><p><strong><span>Team contribution report</span></strong><span>: Submit a document describing who did which parts of the project. </span></p></li><li><p><strong><span>Web site</span></strong><span>: Put a link to the organization&#39;s existing web site in the </span><em><span>online text</span></em><span> for this Moodle assignment.</span></p></li></ul><p><span>Documents must be in docx or pdf format. Do not zip the document. Do not upload just a link to the document. Only one team member needs to make a submission on behalf of the team.</span></p><hr /><p><span>Written by Brian Bird, Lane Community College, winter 2020, updated </span><time><span>2024</span></time><span>.</span></p><hr /><p>&nbsp;</p></div></div>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='instructions-for-assignment-1'><span>Instructions for Assignment 1</span></h1><p><strong><span>CS 246 System Design</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n174"><a class="md-toc-inner" style="" href="#instructions-for-assignment-1">Instructions for Assignment 1</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n177"><a class="md-toc-inner" style="" href="#objective">Objective</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n179"><a class="md-toc-inner" style="" href="#deliverables">Deliverables</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n180"><a class="md-toc-inner" style="" href="#additional-interview">Additional Interview</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n182"><a class="md-toc-inner" style="" href="#requirements-document">Requirements Document</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n184"><a class="md-toc-inner" style="" href="#teamwork">Teamwork</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n188"><a class="md-toc-inner" style="" href="#submission">Submission</a></span></p></div><h2 id='objective'><span>Objective</span></h2><p><span>Develop a </span><em><span>requirements document</span></em><span> for a software system that solves problems for a hypothetical business described in the transcript of an interview with the buisness owener.</span></p><p><span>Your team will do one of these case studies:</span></p><ol><li><p><a href='CaseStudy1-TasteOfHeavenRestaurant.html'><span>Taste of Heaven Restaurant</span></a></p></li><li><p><a href='CaseStudy2-PremierDeckSolutions.html'><span>PremierDeckSolutions</span></a></p></li><li><p><a href='CaseStudy3-NaturesCrunch.html'><span>Nature&#39;s Crunch Granola</span></a></p></li><li><p><a href='CaseStudy4-GraceInMotionDanceStudio.html'><span>Grace in Motion Dance Studio</span></a></p></li><li><p><a href='CaseStudy5-SunnysideGardensMarketGarden.html'><span>Sunnyside Gardens Market Garden</span></a></p></li></ol><h2 id='deliverables'><span>Deliverables</span></h2><h3 id='additional-interview'><span>Additional Interview</span></h3><p><span>Identify additional information that you are going to need and write a hypothetical interview in which you ask the buisness owner these questions and they give you answers (that you make up).</span></p><h3 id='requirements-document'><span>Requirements Document</span></h3><p><span>The document you submit should be at least two pages in length, but not more than three, and should be written in clear and concise English. The document should include all the elements of a requriements document described in the class lecture and shown in the example requirements document for Titan Park.</span></p><h2 id='teamwork'><span>Teamwork</span></h2><p><span>This is a team assignment. You may want to collaborate by using Google Docs to write the document.</span></p><p><span>Plan your work in a way to ensure that each person on your team contributes equally to the assignment.</span></p><p>&nbsp;</p><h2 id='submission'><span>Submission</span></h2><p><span>Submit the following to Moodle. You will make one submission for the whole team.</span></p><ul><li><p><strong><span>Additional Interview</span></strong></p></li><li><p><strong><span>Requirements Document</span></strong></p></li><li><p><strong><span>Team contribution report</span></strong><span>: Submit a document describing who did which parts of the project. </span></p></li></ul><p><span>Documents must be in docx or pdf format. Do not zip the document. Do not upload just a link to the document. Only one team member needs to make a submission on behalf of the team.</span></p><hr /><p><span>Written by Brian Bird, Lane Community College, winter </span><time><span>2025</span></time><span>.</span></p><hr /><p>&nbsp;</p></div></div>
 </body>
 </html>
