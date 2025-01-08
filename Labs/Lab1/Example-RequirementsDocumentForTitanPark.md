@@ -6,13 +6,13 @@
 
 Titan Park Interview Transcript
 
-**Mr. Smith (Interviewer):** "Good morning, Ms. Davis. Thank you for taking the time to speak with me today. I'm John Smith, a systems analyst, and I'm here to learn more about the Titan Park and explore how technology might be able to improve your operations."
+**Mr. Smith (Interviewer):** "Good morning, Ms. Davis. Thank you for taking the time to meet with me today. I'm John Smith, a systems analyst, and I'm here to learn more about the Titan Park and explore how technology might be able to improve your operations."
 
 **Ms. Davis (park manager):** "Good morning, Mr. Smith. It's a pleasure to meet you. Thank you for coming. Please, have a seat. I'm always happy to discuss ways to improve our work at Titan Park."
 
-**Mr. Smith:** "To begin, could you tell me a little about the Friends of Titan Park & Mt. Pisgah and its mission?"
+**Mr. Smith:** "To begin, could you tell me a little about Titan Park and its mission?"
 
-**Ms. Davis:** "Certainly. We're a non-profit organization dedicated to protecting and enhancing the native ecosystems in the Mt. Pisgah area. Our mission is to conserve the area's botanical, fish, wildlife, and recreational values. We achieve this through a variety of means, including fundraising, mobilizing volunteers, and conducting restoration projects."
+**Ms. Davis:** "Certainly. We're a non-profit organization dedicated to protecting and enhancing the native ecosystems in the park and the surrounding area. Our mission is to conserve the area's botanical, fish, wildlife, and recreational values. We achieve this through a variety of means, including fundraising, mobilizing volunteers, and conducting restoration projects."
 
 **Mr. Smith:** "Can you describe your current operations in more detail?"
 
@@ -28,13 +28,13 @@ Titan Park Interview Transcript
 
 **Mr. Smith:** "How do you currently communicate with your volunteers about upcoming projects and events?"
 
-**Ms. Davis:** "We primarily use email newsletters and social media to communicate with our volunteers. We also post flyers and announcements at local businesses and community centers. However, these methods can be inconsistent and may not reach all of our volunteers."
+**Ms. Davis:** "We primarily use email newsletters and social media posts to communicate with our volunteers. However, these methods can be inconsistent and may not reach all of our volunteers."
 
 **Mr. Smith:** "Have you considered using technology to improve your volunteer management?"
 
-**Ms. Davis:** "We have discussed the possibility of using a volunteer management software, but we haven't found a solution that meets all of our needs and fits within our budget. We are also concerned about the time and resources required to implement and maintain such a system."
+**Ms. Davis:** "We have discussed the possibility of using volunteer management software, but we haven't found a solution that meets all of our needs and fits within our budget. We are also concerned about the time and resources required to implement and maintain such a system."
 
-**Mr. Smith:** "I understand. I believe technology can significantly improve your volunteer recruitment and management processes. I'll be sure to analyze the information you've provided and present you with some potential solutions, including the software proposal I mentioned earlier."
+**Mr. Smith:** "I understand. I believe technology can significantly improve your volunteer recruitment and management processes. I'll be sure to analyze the information you've provided and present you with some potential solutions."
 
 **Ms. Davis:** "Thank you, Mr. Smith. I appreciate you taking the time to understand our challenges. I look forward to hearing your recommendations."
 
@@ -50,11 +50,11 @@ Titan Park Interview Transcript
 
 **Interviewer:** "In our previous conversation, you mentioned challenges with volunteer recruitment. Could you elaborate on the specific difficulties you encounter?"
 
-**Ms. Davis:** "Certainly. Firstly, it's challenging to reach potential volunteers who might be interested in our work. We rely heavily on word-of-mouth and local community events, but we need a more consistent and targeted approach. Secondly, our current application process is cumbersome. Volunteers have to print out the form, fill it out by hand, and then mail it or bring it to our office. This can be a barrier for some people, especially those who are tech-savvy."
+**Ms. Davis:** "Certainly. First, it's challenging to reach potential volunteers who might be interested in our work. We rely heavily on word-of-mouth and local community events, but we need a more consistent and targeted approach. Second, our current application process is cumbersome. Volunteers have to print out the form, fill it out by hand, and then mail it or bring it to our office. This can be a barrier for some people."
 
 **Interviewer:** "What specific information do you need to collect from volunteers during the application process?"
 
-**Ms. Davis:** "We require basic contact information, such as name, phone number, and email address. We also ask about their availability and any relevant skills or experience they may have, such as gardening, trail maintenance, or wildlife observation. It's crucial for us to understand their interests so we can match them with appropriate projects."
+**Ms. Davis:** "We require basic contact information, such as name, phone number, and email address. We also ask about their availability and any relevant skills or experience they may have, such as gardening, trail maintenance, or wildlife observation. It's important for us to understand their interests so we can match them with appropriate projects."
 
 **Interviewer:** "How do you currently communicate volunteer schedules and project updates to volunteers?"
 
@@ -66,15 +66,15 @@ Titan Park Interview Transcript
 
 **Interviewer:** "How important is it to track volunteer hours and recognize their contributions?"
 
-**Ms. Davis:** "Tracking volunteer hours is crucial for several reasons. Firstly, it allows us to demonstrate the significant impact of volunteer contributions to our organization. Secondly, it helps us to recognize and appreciate the efforts of our volunteers. We often award certificates or other tokens of appreciation to volunteers who have contributed a significant number of hours."
+**Ms. Davis:** "Tracking volunteer hours is important for several reasons. First, it allows us to demonstrate the significant impact of volunteer contributions to our organization. Second, it helps us to recognize and appreciate the efforts of our volunteers. We often award certificates or other tokens of appreciation to volunteers who have contributed a significant number of hours."
 
 **Interviewer:** "What features would be most beneficial in a volunteer management system?"
 
 **Ms. Davis:** "An online application form would be a huge improvement. We also need a system for scheduling volunteers for specific projects, tracking their hours, and communicating with them effectively. The ability to generate reports on volunteer activity would also be very valuable for our organization."
 
-**Interviewer:** "Thank you for providing these valuable insights. This information will be extremely helpful in identifying the most appropriate technology solutions for your volunteer management needs."
+**Interviewer:** "Thank you for providing these valuable insights. This information will be extremely helpful in identifying the best software solution for your volunteer management needs."
 
-**Ms. Davis:** "Thank you, Mr. Smith. I appreciate you taking the time to gather such detailed information. I look forward to hearing your recommendations."
+**Ms. Davis:** "Thank you, Mr. Smith. I appreciate you taking the time to gather more detailed information. I look forward to hearing your recommendations."
 
 **Interviewer:** "Thank you again for your time. Have a wonderful day."
 
