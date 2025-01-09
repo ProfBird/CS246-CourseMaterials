@@ -20,17 +20,21 @@ Your team will do one of these case studies:
 
 ### Additional Interview
 
-Identify additional information that you are going to need and write a hypothetical interview in which you ask the buisness owner these questions and they give you answers (that you make up).
+Identify additional information that you are going to need and write a hypothetical second interview in which you ask the buisness owner additional questions to get more details on the requirements for the software/hardware system you are going to design for them. (You will make up the answers).
+
+You may decide that in the first interview they identfied more needs/problems than you could solve with one system. In that case, you will narrow down the quesitons you ask in the second interview to focus on just the problems you plan to solve in the system you write the requirements for.
 
 ### Requirements Document
 
-The document you submit should be at least two pages in length, but not more than three, and should be written in clear and concise English. The document should include all the elements of a requriements document described in the class lecture and shown in the example requirements document for Titan Park.
+The document you submit should be at least two pages in length, but not more than three, and should be written in clear and concise English. The document should include all the elements of a requriements document described in the class lecture and shown in the example requirements document for Titan Park. 
+
+This requirements document will just focus on the needs/problems that you have decided to address and might not address every issue that came up in the first interview.
 
 ## Teamwork
 
 This is a team assignment. You may want to collaborate by using Google Docs to write the document.
 
-Plan your work in a way to ensure that each person on your team contributes equally to the assignment.
+Plan your work in a way to ensure that each person on your team contributes equally to the assignment. Whe you divide up the work, recognize that the functional requirements section of the requirements document will be the "heart" of that document and everyone should contribute to that.
 
 
 
