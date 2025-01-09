@@ -66,7 +66,7 @@ The learning outcomes will be demonstrated by completing weekly assignments, in-
 | In-class / online activities | 10%                 |
 | Term Project                 | 40%                 |
 
-For the term project, you will be organized into groups of 3-5 students, which will also serve as your project groups for the capstone this spring. Groups will be assigned early in the term with your input. 
+For the term project, you will be organized into groups of 2 to 4 students (the ideal size is 3), which will also serve as your project groups for the capstone this spring. Groups will be assigned early in the term with your input. 
 
 Letter grades for the course will be determined by the following percentages:        
 
