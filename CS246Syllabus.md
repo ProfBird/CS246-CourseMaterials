@@ -127,16 +127,16 @@ Please be aware that any accessible tables and chairs in this room should remain
 
 (may be subject to change)
 
-| Week | Topic                                           |
-| ---- | ----------------------------------------------- |
-| 1    | Developing a high-level software solution       |
-| 2    | No class due to ice storm                       |
-| 3    | Agile software development                      |
-| 4    | UX Design and testing                           |
-| 5    | OO Design with UML                              |
-| 6    | Starting a "real" project                       |
-| 7    | Project planning and design                     |
-| 8    | Project planning and design (continued)         |
-| 9    | Design and architectural patterns               |
-| 10   | Software prototyping<br />Project documentation |
-| 11   | Design presentations                            |
+| Week | Topic                                       |
+| ---- | ------------------------------------------- |
+| 1    | Developing a software requirements document |
+| 2    | Agile software development                  |
+| 3    | UX Design and testing                       |
+| 4    | OO Design with UML                          |
+| 5    | Starting a "real" project                   |
+| 6    | Project planning and design                 |
+| 7    | Project planning and design (continued)     |
+| 8    | Design and architectural patterns           |
+| 9    | Software prototyping                        |
+| 10   | Project documentation                       |
+| 11   | Design presentations                        |
