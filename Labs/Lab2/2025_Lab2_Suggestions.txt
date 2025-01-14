@@ -1,3 +1,0 @@
-Modify the instructions to ask students to:
-Identify a set of user roles for the software. These should be used in the user stories instead of "as a user..."
-Ask for a list of priorities, since they can't be observed by looking at the sprint or product backlog.

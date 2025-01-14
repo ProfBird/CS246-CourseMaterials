@@ -1,8 +1,12 @@
-# Epics and User Stories
+<h1>Epics and User Stories</h1>
 
 **CS246N System Design**
 
 [TOC]
+
+## Introduction
+
+These epics and user stories are based on the example requirements document for the Titan Park volunteer management system described last week.
 
 ## Format for User Stories
 
@@ -61,7 +65,7 @@
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2022, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2025, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ------
 

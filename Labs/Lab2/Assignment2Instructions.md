@@ -16,7 +16,7 @@
 Notes: 
 
 - You will not actually build this software. You are just doing this as a way to practice sprint planning using Jira.
-- Normally your team would write a requirements document (a more detailed description of the project than the proposal) and the user stories would be based on the requirements document. We are skipping that step.
+- your user stories will be based on the functional requirements in the requirements document you wrote last week. (Don't base any stories on non-functional requirements).
 
 ## Instructions
 
@@ -29,13 +29,27 @@ You all should have Jira accounts, but just one team member will create the proj
 - Create a Jira projecct using the Scrum template. Choose the Team-managed project type.
 - Create user *stories* and *epics*. In Jira, these are different types of *issues*.
   - Your group should write at least 20 user stories and enter them in the project backlog. (The project backlog is sometimes called the *product backlog*.)
-  - Create at least fours epics and put at least two user stories under each epic.
+    - Format for user stories: *<u>Someone</u> (a role) can do <u>something</u> so that <u>something results</u>.*
+    - Use appropriate role names that make sense for your application, such as: *admin*, *member*, *customer*, *volunteer*, *student*, etc. Don't just name all users "user".
+  - Create at least four epics and put at least two user stories under each epic.
   - Assign story points to each story.
-
+  
 - Identify at least four user stories and move them into the first sprint. (This is the *sprint backlog*.)
   - Each team member should assign themselves to at least one user story from the sprint backlog.
   - Each team member should create at least two tasks (Jira calls these "child issues") for each of the stories assigned to them.
 - Once you’ve set up the first sprint, prioritize the remaining stories in your project backlog by arranging them in priority order. This is the order in which you tentatively plan to implement them.
+
+### Summary Report
+
+Write a short (one page) document that describes:
+
+1. The roles of the different types of users.
+2. Explanation of the priorities. Why are the top ones on top? Which ones are optional and could be left out if you run out of time?
+3. Are there user stories or epics you were unsure about? Questions you might have had were:
+   - Didn't know if some stories were for functional or non-functional requirements.
+   - Didn't know whether something should be an epic or a user story.
+   - Didn't know if the story was written in the right way.
+   - Something else.
 
 ### Division of Work
 
@@ -52,6 +66,7 @@ All members: create tasks (child issues) for user stories in the sprint and assi
 
 - **Jira Project**
   Submit the assignment on Moodle by pasting the URL for your project in the "online text" field for this Moodle assignment. 
+- **Summary Report**
 - **Team contribution report**
   Submit a document describing who did which parts of the project. It should look like the "Division of Work" section above, but with actual team members names listed.
 
@@ -59,4 +74,4 @@ Only one group member needs to submit the assignment on behalf of the whole grou
 
 
 
-Written Winter 2018 by Paul Wilkins, revised winter 2024 by Brian Bird
+Written Winter 2018 by Paul Wilkins, revised winter 2025 by Brian Bird
