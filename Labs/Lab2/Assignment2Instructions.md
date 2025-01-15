@@ -22,11 +22,11 @@ Notes:
 
 ### Jira Project
 
-For this assignment, your job is to lay the groundwork for developing a hypothetical software app by setting up a project using [Jira](https://www.atlassian.com/software/jira), writing a number of user stories and adding them to the backlog. You will work in groups of 3&ndash;4. For this assignment, you will be creating user stories based on the software project proposal from the previous assignment.
+For this assignment, your job is to lay the groundwork for developing a hypothetical software app by setting up a project using [Jira](https://www.atlassian.com/software/jira), writing a number of user stories and adding them to the backlog. You will work in groups of 2 to 4. For this assignment, you will be creating user stories based on the requirements document from the previous assignment.
 
 You all should have Jira accounts, but just one team member will create the project for your assignment. All the team members can be added to the project through the site admin page for the site hosting the project.
 
-- Create a Jira projecct using the Scrum template. Choose the Team-managed project type.
+- Create a Jira project using the Scrum template. Choose the Team-managed project type.
 - Create user *stories* and *epics*. In Jira, these are different types of *issues*.
   - Your group should write at least 20 user stories and enter them in the project backlog. (The project backlog is sometimes called the *product backlog*.)
     - Format for user stories: *<u>Someone</u> (a role) can do <u>something</u> so that <u>something results</u>.*

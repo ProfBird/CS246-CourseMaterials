@@ -7,7 +7,7 @@
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -27,7 +27,7 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -54,8 +54,8 @@ thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -75,7 +75,7 @@ div.hr:focus { cursor: none; }
 svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -88,7 +88,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -109,7 +109,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
 .math { font-size: 1rem; }
 .md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
@@ -139,14 +139,14 @@ code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
 video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
+iframe { max-width: 100%; width: 100%; border: medium; }
 .highlight td, .highlight tr { border: 0px; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
@@ -174,7 +174,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
 .outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
 .outline-expander:hover::before { content: ""; }
@@ -187,14 +187,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
 .outline-label:hover { text-decoration: underline; }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
-.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
 .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
-.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
 .typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
@@ -208,7 +208,7 @@ mjx-container { break-inside: avoid; }
 .md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
 .md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
 .md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
-.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
 .md-alert-text-note { color: rgb(9, 105, 218); }
 .md-alert-text-important { color: rgb(130, 80, 223); }
 .md-alert-text-warning { color: rgb(154, 103, 0); }
@@ -608,11 +608,11 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
-
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
 </style><title>Assignment2Instructions</title>
 </head>
-<body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><p><strong><span>CS246, System Design</span></strong></p><h1>Assignment 2 - Agile User Stories</h1><p><strong><span>Table of Contents</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n5"><a class="md-toc-inner" href="#objectives">Objectives</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n21"><a class="md-toc-inner" href="#instructions">Instructions</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n22"><a class="md-toc-inner" href="#jira-project">Jira Project</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n74"><a class="md-toc-inner" href="#summary-report">Summary Report</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n46"><a class="md-toc-inner" href="#division-of-work">Division of Work</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n58"><a class="md-toc-inner" href="#submission">Submission</a></span></p></div><h2 id='objectives'><span>Objectives</span></h2><ul><li><p><span>Learn to write user stories.</span></p></li><li><p><span>Learn to set up product and sprint backlogs.</span></p></li><li><p><span>Learn to plan a sprint.</span></p></li><li><p><span>Learn to use Jira</span></p></li></ul><p><span>Notes: </span></p><ul><li><p><span>You will not actually build this software. You are just doing this as a way to practice sprint planning using Jira.</span></p></li><li><p><span>your user stories will be based on the functional requirements in the requirements document you wrote last week. (Don&#39;t base any stories on non-functional requirements).</span></p></li></ul><h2 id='instructions'><span>Instructions</span></h2><h3 id='jira-project'><span>Jira Project</span></h3><p><span>For this assignment, your job is to lay the groundwork for developing a hypothetical software app by setting up a project using </span><a href='https://www.atlassian.com/software/jira'><span>Jira</span></a><span>, writing a number of user stories and adding them to the backlog. You will work in groups of 3</span>&ndash;<span>4. For this assignment, you will be creating user stories based on the software project proposal from the previous assignment.</span></p><p><span>You all should have Jira accounts, but just one team member will create the project for your assignment. All the team members can be added to the project through the site admin page for the site hosting the project.</span></p><ul><li><p><span>Create a Jira projecct using the Scrum template. Choose the Team-managed project type.</span></p></li><li><p><span>Create user </span><em><span>stories</span></em><span> and </span><em><span>epics</span></em><span>. In Jira, these are different types of </span><em><span>issues</span></em><span>.</span></p><ul><li><p><span>Your group should write at least 20 user stories and enter them in the project backlog. (The project backlog is sometimes called the </span><em><span>product backlog</span></em><span>.)</span></p><ul><li><p><span>Format for user stories: </span><em><u><span>Someone</span></u><span> (a role) can do </span><u><span>something</span></u><span> so that </span><u><span>something results</span></u><span>.</span></em></p></li><li><p><span>Use appropriate role names that make sense for your application, such as: </span><em><span>admin</span></em><span>, </span><em><span>member</span></em><span>, </span><em><span>customer</span></em><span>, </span><em><span>volunteer</span></em><span>, </span><em><span>student</span></em><span>, etc. Don&#39;t just name all users &quot;user&quot;.</span></p></li></ul></li><li><p><span>Create at least four epics and put at least two user stories under each epic.</span></p></li><li><p><span>Assign story points to each story.</span></p></li></ul></li><li><p><span>Identify at least four user stories and move them into the first sprint. (This is the </span><em><span>sprint backlog</span></em><span>.)</span></p><ul><li><p><span>Each team member should assign themselves to at least one user story from the sprint backlog.</span></p></li><li><p><span>Each team member should create at least two tasks (Jira calls these &quot;child issues&quot;) for each of the stories assigned to them.</span></p></li></ul></li><li><p><span>Once you’ve set up the first sprint, prioritize the remaining stories in your project backlog by arranging them in priority order. This is the order in which you tentatively plan to implement them.</span></p></li></ul><h3 id='summary-report'><span>Summary Report</span></h3><p><span>Write a short (one page) document that describes:</span></p><ol><li><p><span>The roles of the different types of users.</span></p></li><li><p><span>Explanation of the priorities. Why are the top ones on top? Which ones are optional and could be left out if you run out of time?</span></p></li><li><p><span>Are there user stories or epics you were unsure about? Questions you might have had were:</span></p><ul><li><p><span>Didn&#39;t know if some stories were for functional or non-functional requirements.</span></p></li><li><p><span>Didn&#39;t know whether something should be an epic or a user story.</span></p></li><li><p><span>Didn&#39;t know if the story was written in the right way.</span></p></li><li><p><span>Something else.</span></p></li></ul></li></ol><h3 id='division-of-work'><span>Division of Work</span></h3><p><span>In order to ensure that everyone is equally participating in this group project, start out by dividing up the work amongst the team members. Here&#39;s one possible way to divide up the work:</span></p><ul><li><p><span>Member 1: Create a Jira project, add five user stories and assign points.</span></p></li><li><p><span>Member 2: Add epics to the project, add five user stories and assign points.</span></p></li><li><p><span>Member 3: Add five user stories, create a sprint, move in user stories for the first sprint.</span></p></li><li><p><span>Member 4: Add five user stories, move user stories for the first sprint into the sprint.</span></p></li></ul><p><span>All members: create tasks (child issues) for user stories in the sprint and assign them to yourself.</span></p><h2 id='submission'><span>Submission</span></h2><ul><li><p><strong><span>Jira Project</span></strong>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><p><strong><span>CS246, System Design</span></strong></p><h1>Assignment 2 - Agile User Stories</h1><p><strong><span>Table of Contents</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n5"><a class="md-toc-inner" style="" href="#objectives">Objectives</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n21"><a class="md-toc-inner" style="" href="#instructions">Instructions</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n22"><a class="md-toc-inner" style="" href="#jira-project">Jira Project</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n51"><a class="md-toc-inner" style="" href="#summary-report">Summary Report</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n69"><a class="md-toc-inner" style="" href="#division-of-work">Division of Work</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n81"><a class="md-toc-inner" style="" href="#submission">Submission</a></span></p></div><h2 id='objectives'><span>Objectives</span></h2><ul><li><p><span>Learn to write user stories.</span></p></li><li><p><span>Learn to set up product and sprint backlogs.</span></p></li><li><p><span>Learn to plan a sprint.</span></p></li><li><p><span>Learn to use Jira</span></p></li></ul><p><span>Notes: </span></p><ul><li><p><span>You will not actually build this software. You are just doing this as a way to practice sprint planning using Jira.</span></p></li><li><p><span>your user stories will be based on the functional requirements in the requirements document you wrote last week. (Don&#39;t base any stories on non-functional requirements).</span></p></li></ul><h2 id='instructions'><span>Instructions</span></h2><h3 id='jira-project'><span>Jira Project</span></h3><p><span>For this assignment, your job is to lay the groundwork for developing a hypothetical software app by setting up a project using </span><a href='https://www.atlassian.com/software/jira'><span>Jira</span></a><span>, writing a number of user stories and adding them to the backlog. You will work in groups of 2 to 4. For this assignment, you will be creating user stories based on the requirements document from the previous assignment.</span></p><p><span>You all should have Jira accounts, but just one team member will create the project for your assignment. All the team members can be added to the project through the site admin page for the site hosting the project.</span></p><ul><li><p><span>Create a Jira project using the Scrum template. Choose the Team-managed project type.</span></p></li><li><p><span>Create user </span><em><span>stories</span></em><span> and </span><em><span>epics</span></em><span>. In Jira, these are different types of </span><em><span>issues</span></em><span>.</span></p><ul><li><p><span>Your group should write at least 20 user stories and enter them in the project backlog. (The project backlog is sometimes called the </span><em><span>product backlog</span></em><span>.)</span></p><ul><li><p><span>Format for user stories: </span><em><u><span>Someone</span></u><span> (a role) can do </span><u><span>something</span></u><span> so that </span><u><span>something results</span></u><span>.</span></em></p></li><li><p><span>Use appropriate role names that make sense for your application, such as: </span><em><span>admin</span></em><span>, </span><em><span>member</span></em><span>, </span><em><span>customer</span></em><span>, </span><em><span>volunteer</span></em><span>, </span><em><span>student</span></em><span>, etc. Don&#39;t just name all users &quot;user&quot;.</span></p></li></ul></li><li><p><span>Create at least four epics and put at least two user stories under each epic.</span></p></li><li><p><span>Assign story points to each story.</span></p></li></ul></li><li><p><span>Identify at least four user stories and move them into the first sprint. (This is the </span><em><span>sprint backlog</span></em><span>.)</span></p><ul><li><p><span>Each team member should assign themselves to at least one user story from the sprint backlog.</span></p></li><li><p><span>Each team member should create at least two tasks (Jira calls these &quot;child issues&quot;) for each of the stories assigned to them.</span></p></li></ul></li><li><p><span>Once you’ve set up the first sprint, prioritize the remaining stories in your project backlog by arranging them in priority order. This is the order in which you tentatively plan to implement them.</span></p></li></ul><h3 id='summary-report'><span>Summary Report</span></h3><p><span>Write a short (one page) document that describes:</span></p><ol start='' ><li><p><span>The roles of the different types of users.</span></p></li><li><p><span>Explanation of the priorities. Why are the top ones on top? Which ones are optional and could be left out if you run out of time?</span></p></li><li><p><span>Are there user stories or epics you were unsure about? Questions you might have had were:</span></p><ul><li><p><span>Didn&#39;t know if some stories were for functional or non-functional requirements.</span></p></li><li><p><span>Didn&#39;t know whether something should be an epic or a user story.</span></p></li><li><p><span>Didn&#39;t know if the story was written in the right way.</span></p></li><li><p><span>Something else.</span></p></li></ul></li></ol><h3 id='division-of-work'><span>Division of Work</span></h3><p><span>In order to ensure that everyone is equally participating in this group project, start out by dividing up the work amongst the team members. Here&#39;s one possible way to divide up the work:</span></p><ul><li><p><span>Member 1: Create a Jira project, add five user stories and assign points.</span></p></li><li><p><span>Member 2: Add epics to the project, add five user stories and assign points.</span></p></li><li><p><span>Member 3: Add five user stories, create a sprint, move in user stories for the first sprint.</span></p></li><li><p><span>Member 4: Add five user stories, move user stories for the first sprint into the sprint.</span></p></li></ul><p><span>All members: create tasks (child issues) for user stories in the sprint and assign them to yourself.</span></p><h2 id='submission'><span>Submission</span></h2><ul><li><p><strong><span>Jira Project</span></strong>
 <span>Submit the assignment on Moodle by pasting the URL for your project in the &quot;online text&quot; field for this Moodle assignment. </span></p></li><li><p><strong><span>Summary Report</span></strong></p></li><li><p><strong><span>Team contribution report</span></strong>
 <span>Submit a document describing who did which parts of the project. It should look like the &quot;Division of Work&quot; section above, but with actual team members names listed.</span></p></li></ul><p><span>Only one group member needs to submit the assignment on behalf of the whole group.</span></p><p>&nbsp;</p><p><span>Written Winter 2018 by Paul Wilkins, revised winter 2025 by Brian Bird</span></p></div></div>
 </body>
