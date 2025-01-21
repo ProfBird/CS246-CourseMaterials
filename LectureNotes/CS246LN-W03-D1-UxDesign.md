@@ -117,7 +117,7 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 - [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)&mdash;CareerFoundry
 
-- [What is Wireframing?](https://www.figma.com/resource-library/what-is-wireframing/)&mdash;Figma
+- [What is Wire framing?](https://www.figma.com/resource-library/what-is-wireframing/)&mdash;Figma
 
   
 
