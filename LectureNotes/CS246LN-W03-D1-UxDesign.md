@@ -87,7 +87,7 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
      - Free, open-source.
 
      - Runs on Windows, Mac OS, and Linux.
-- [Figma](https://www.figma.com/)&mdash; A collaborative web application for interface and UX design.
+- [Figma](https://www.figma.com/design/)&mdash; A collaborative web application for interface and UX design.
      - Both web based and desktop versions are available (Windows and Mac OS).
      - Can be used by both *developers* and by *designers*
      - Facilitates the full design process from brainstorming and wireframes through finished designs.
