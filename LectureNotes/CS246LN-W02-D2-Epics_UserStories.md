@@ -58,14 +58,16 @@ These epics and user stories are based on the example requirements document for 
 
 ## Reference
 
-[User Stories: An Agile Introduction](http://www.agilemodeling.com/artifacts/userStory.htm)
+[User Stories with Examples and a Template](https://www.atlassian.com/agile/project-management/user-stories)&mdash;Max Rehkopf, Atlassian
+
+[User Stories: An Agile Introduction](http://www.agilemodeling.com/artifacts/userStory.htm)&mdash;Scott Ambler, Agile Modeling
 
 
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2025, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised <time>2025</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ------
 
