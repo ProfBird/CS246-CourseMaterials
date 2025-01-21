@@ -73,7 +73,7 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 
 
-##UX / UI Design Tools
+## UX / UI Design Tools
 
 - [BalsaImiq](https://balsamiq.com/)&mdash;A rapid wire-framing tool that reproduces the experience of sketching on a whiteboard.
   - Both desktop and web based versions are available.
@@ -113,16 +113,14 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 ###  Articles on UI Design
 
-- [Ten User Interface Design Principles](https://blog.teamtreehouse.com/10-user-interface-design-fundamentals)
-
-- [Sketching: How a Simple Pen and Paper Can Transform Your Web Designs](https://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)   
+- [What Is User Experience Design? Overview, Tools And Resources](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/)
 
 - [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)
 
   
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2024, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised <time>2025</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 [^1]: A wireframe is a simplified, "low-fidelity" diagram of a UI that shows just the outlines of controls, text areas, and images and does not include color, styling, or content details. 
 [^2]: A mock-up is a "high-fidelity" diagram of a UI that includes content, images.color, and styling.
