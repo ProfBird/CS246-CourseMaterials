@@ -113,9 +113,11 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 ###  Articles on UI Design
 
-- [What Is User Experience Design? Overview, Tools And Resources](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/)
+- [What Is User Experience Design? Overview, Tools And Resources](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/)&mdash;Smashing Magazine
 
-- [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)
+- [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)&mdash;CareerFoundry
+
+- [What is Wireframing?](https://www.figma.com/resource-library/what-is-wireframing/)&mdash;Figma
 
   
 
