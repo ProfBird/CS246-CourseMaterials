@@ -11,9 +11,9 @@ This case study is presented in the form of a fictitious interview between a sys
 
 ## Interview Transcript
 
-**David:** Thanks for sitting down with me, Sarah. Can you start by telling me about Nature’s Crunch?
+**David:** Thanks for meeting with me, Sarah. Can you start by telling me about Nature’s Crunch?
 
-**Sarah:** Of course. Nature’s Crunch is a small company that makes organic granola and granola bars. We pride ourselves on using locally sourced organic ingredients and selling high-quality products. We’ve been in business for about seven years. Our products are sold wholesale to local grocery stores, health food shops, and cafes, and we also have a small retail store attached to our factory.
+**Sarah:** Of course. Nature’s Crunch is a small company that makes organic granola and granola bars. We pride ourselves on using locally sourced organic ingredients and selling high-quality products. We’ve been in business for about seven years. Our products are sold wholesale to grocery stores, health food shops, and cafes, and we also have a small retail store attached to our factory.
 
 ### Challenge 1: Inventory Management
 
@@ -51,7 +51,7 @@ This case study is presented in the form of a fictitious interview between a sys
 
 **Sarah:** The store does pretty well, but we’re still using a basic cash register system. It doesn’t track inventory, so we have to do physical counts regularly. It’s also hard to tell what products are selling well.
 
-**David:** Would you want a modern POS system to track sales and inventory automatically?
+**David:** Would you want a modern POS[^1] system to track sales and inventory automatically?
 
 **Sarah:** Definitely. It would also be great if it could connect to our production system so we can plan better.
 
@@ -74,4 +74,12 @@ This case study is presented in the form of a fictitious interview between a sys
 **David:** So, a reporting tool that aggregates data from all aspects of the business would be useful?
 
 **Sarah:** Very useful.
+
+
+
+[^1]: Point of Sale system
+
+
+
+Note: The first draft of this fictitious interview was written by ChatGPT using the GTP 4o model.
 

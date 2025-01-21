@@ -23,7 +23,7 @@ This case study is presented in the form of a fictitious interview between a sys
 
 **Mark:** Got it. So, a better system for handling reservations and seating arrangements?
 
-**Sarah:** Exactly. It’d be great if we could have a digital system to track table availability in real time and maybe even allow customers to book online. Also, something that helps us predict when we’ll be busiest would be a game-changer.
+**Sarah:** Exactly. It’d be great if we could have a digital system to track table availability in real time and maybe even allow customers to book online. Also, something that helps us predict when we’ll be busiest would be very helpful.
 
 ### Challenge 2: Order Processing
 

@@ -73,7 +73,7 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 
 
-##UX / UI Design Tools
+## UX / UI Design Tools
 
 - [BalsaImiq](https://balsamiq.com/)&mdash;A rapid wire-framing tool that reproduces the experience of sketching on a whiteboard.
   - Both desktop and web based versions are available.
@@ -87,11 +87,11 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
      - Free, open-source.
 
      - Runs on Windows, Mac OS, and Linux.
-- [Figma](https://www.figma.com/)&mdash; A collaborative web application for interface and UX design.
+- [Figma](https://www.figma.com/design/)&mdash; A collaborative web application for interface and UX design.
      - Both web based and desktop versions are available (Windows and Mac OS).
      - Can be used by both *developers* and by *designers*
      - Facilitates the full design process from brainstorming and wireframes through finished designs.
-     -  [Free, full-featured, academic accounts](https://figma.com/education/apply) are available, limited free accounts available for others.
+     -  [Free, full-featured, academic accounts](https://figma.com/education/apply) are available for studnts and educators, limited free accounts available for others.
      - Can be used to generate actual user interfaces.
 - [Lucidchart](https://www.lucidchart.com/pages/)&mdash;A visual work-space that combines diagramming, data visualization and collaboration.
      - Free accounts for students.
@@ -113,16 +113,16 @@ This content was condensed from: [What Is User Experience Design? Overview, Tool
 
 ###  Articles on UI Design
 
-- [Ten User Interface Design Principles](https://blog.teamtreehouse.com/10-user-interface-design-fundamentals)
+- [What Is User Experience Design? Overview, Tools And Resources](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/)&mdash;Smashing Magazine
 
-- [Sketching: How a Simple Pen and Paper Can Transform Your Web Designs](https://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)   
+- [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)&mdash;CareerFoundry
 
-- [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)
+- [What is Wireframing?](https://www.figma.com/resource-library/what-is-wireframing/)&mdash;Figma
 
   
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised 2024, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2021, revised <time>2025</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 [^1]: A wireframe is a simplified, "low-fidelity" diagram of a UI that shows just the outlines of controls, text areas, and images and does not include color, styling, or content details. 
 [^2]: A mock-up is a "high-fidelity" diagram of a UI that includes content, images.color, and styling.
