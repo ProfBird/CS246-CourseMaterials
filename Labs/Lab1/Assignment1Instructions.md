@@ -6,9 +6,9 @@
 
 ## Objective
 
-Develop a *requirements document* for a software system that solves problems for a hypothetical business described in the transcript of an interview with the buisness owener.
+Develop a *requirements document* that describes the requirements for a software system that will solve business problems for a hypothetical business described in the transcript of an interview with the buisness owner.
 
-Your team will do one of these case studies:
+Each team will do one of these case studies:
 
 1. [Taste of Heaven Restaurant](CaseStudy1-TasteOfHeavenRestaurant.html)
 2. [PremierDeckSolutions](CaseStudy2-PremierDeckSolutions.html)
@@ -20,15 +20,25 @@ Your team will do one of these case studies:
 
 ### Additional Interview
 
-Identify additional information that you are going to need and write a hypothetical second interview in which you ask the buisness owner additional questions to get more details on the requirements for the software/hardware system you are going to design for them. (You will make up the answers).
+Identify additional information that you are going to need for your requirments document and write a hypothetical second interview in which you ask the buisness owner additional questions to get more details on the requirements for the software system you are going to design for them. (You will make up the answers).
 
-You may decide that in the first interview they identfied more needs/problems than you could solve with one system. In that case, you will narrow down the quesitons you ask in the second interview to focus on just the problems you plan to solve in the system you write the requirements for.
+You may decide that in the first interview the interviewee identfied more needs/problems than you could solve with one system. In that case, you will narrow down the quesitons you ask in the second interview to focus on just the problems you plan to solve in the system you write the requirements for.
+
+Focus your questions on getting more details about the requirements. Don't propose features, get them to tell you what features they want. Don't talk about schedule, budget, UX design, or any of the implementation details, all you want are requirements for what functionality the system needs to have.
 
 ### Requirements Document
 
 The document you submit should be at least two pages in length, but not more than three, and should be written in clear and concise English. The document should include all the elements of a requriements document described in the class lecture and shown in the example requirements document for Titan Park. 
 
-This requirements document will just focus on the needs/problems that you have decided to address and might not address every issue that came up in the first interview.
+This requirements document will focus on just those problems that you have decided to solve with the sytem you will design and might not address every issue that came up in the first interview.
+
+The functional requirements should just describe what the system needs to do, not how it will do it. They should be written so that a non-technical stakeholder can understand them. For example a functional requirement might be:
+
+*The system will provide a way for volunteers to create a profile that includes contact information, skills, and perferred types of projects.*
+
+**Not:**
+
+*There will be a database for storing volunteer informaiton that comes from a web page with fileds for contact information, a drop-down list for choosing skills and a list with check-boxes for preferred project types.*
 
 ## Teamwork
 
@@ -36,15 +46,13 @@ This is a team assignment. You may want to collaborate by using Google Docs to w
 
 Plan your work in a way to ensure that each person on your team contributes equally to the assignment. Whe you divide up the work, recognize that the functional requirements section of the requirements document will be the "heart" of that document and everyone should contribute to that.
 
-
-
 ## Submission
 
 Submit the following to Moodle. You will make one submission for the whole team.
 
 - **Additional Interview**
 - **Requirements Document**
-- **Team contribution report**: Submit a document describing who did which parts of the project. 
+- **Team contribution report**: a document describing who did which parts of the project. 
 
 Documents must be in docx or pdf format. Do not zip the document. Do not upload just a link to the document. Only one team member needs to make a submission on behalf of the team.
 
