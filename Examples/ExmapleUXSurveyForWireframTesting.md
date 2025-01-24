@@ -1,5 +1,7 @@
 ### Example UX Survey for Web Site UI Diagram Testing
 
+**CS 246: System Design**
+
 This is a general list of questions for early testing of UI design using diagrams (sketches, wire-frames, or mockups). You can use these questions as an inspiration for your own, or start with these and add, remove or modify the questions to fit your particular UI design.
 
 #### General Impressions
