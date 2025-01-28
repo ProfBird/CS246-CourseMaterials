@@ -160,33 +160,34 @@ Draw a UML diagram to model the classes in the Tip of the Day solution using the
 
 ## Answers
 <details>
-  <summary>Frameworks, Libraries, and Custom Solutions</summary>
+    <summary><b>Frameworks, Libraries, and Custom Solutions</b></summary>
   <ul>
       <li><b>Library:</b> a collection of pre-written classes that use can use. Examples would be the Math libraries in various programming languages or a third-party JS library like jQuery.</li>
     <li><b>Framework:</b> a pre-fabricated skeleton of an application. I can be built and run without the dev needing to put anything together. It is designed for a dev to add content and functionality to "flesh out" the application. An example would be ASP.NET MVC. (BTW, the creators of React.js insist that React is a library, not a framework.)</li>
     <li><b>Custom code:</b> will often need to be written for functionality not provided by a framework or library. For example, if you want to add a scientific calculator function to an MVC web app, the code for doing the calculations wouldn't really be a model or a controller, you would instead make a custom calculator class.</li>
-  </ul>
+  </ul><br>
 </details>
 <details>
-  <summary>OOP Terminology</summary>
+  <summary><b>OOP Terminology</b></summary>
   <ul>
-    <li><b>Class:</b> a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. <br>
+    <li><b>Class:</b> a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects.
 Unless a class is static or has static methods, it's methods are not executable.</li>
     <li><b>Object:</b> executable code that is created from a class. Multiple objects can be created from the same class.</li>
+    </ul><br>
 </details>
 <details>
-  <summary>OO Design</summary>
+    <summary><b>OO Design</b></summary>
   <ul>
     <li><b>Nouns</b> become classes or instance variables (fields of a class).</li>
     <li><b>Verbs</b> become methods.</li>
     <li><b>Instance variables and methods</b> should be on the class to which they apply. Each class should be responsible for managing it's own stuff.</li>
-  </ul>
+  </ul><br>
 </details>
 <details>
-  <summary>Three primary OOP relationships</summary>
+    <summary><b>Three primary OOP relationships</b></summary>
   <ul>
-    <li><b>Aggregation:</b> the "has-a" relationship.<br>
-        (<b>Association</b> is the "uses" relationship, but many experts consider aggregation and association to be the same thing. See Martin Fowler,  <a href="https://martinfowler.com/bliki/AggregationAndComposition.html">Aggregation and Composition</a></li>
+    <li><b>Aggregation:</b> the "has-a" relationship.
+(<b>Association</b> is the "uses" relationship, but many experts consider aggregation and association to be the same thing. See Martin Fowler,  <a href="https://martinfowler.com/bliki/AggregationAndComposition.html">Aggregation and Composition</a></li>
     <li><b>Composition:</b> the "is-a-part-of" relationship.</li>
     <li><b>Inheritance:</b> the "is-a" relationship.
   </ul>
