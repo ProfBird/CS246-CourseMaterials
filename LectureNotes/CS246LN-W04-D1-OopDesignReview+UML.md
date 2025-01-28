@@ -138,9 +138,10 @@ classDiagram
         +findMemberById(String memberId) LibraryMember
     }
 
-    Library "1" *--> "0..*" Book : contains (composition)
-    Library "1" o--> "0..*" LibraryMember : has (aggregation)
-    LibraryMember "0..*" --> "0..*" Book : borrows
+    Library "1" *-- "0..*" Book : contains (composition)
+    Library "1" o-- "0..*" LibraryMember : has (aggregation)
+    LibraryMember "1" --> "0..*" Book : uses (association)
+    
 ```
 
 
