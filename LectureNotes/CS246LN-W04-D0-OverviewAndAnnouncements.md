@@ -8,6 +8,7 @@
 
 ## Announcements and Discussion
 
+- How is UX Design and testing going? Any questions?
 - Next week you will start working with your real client
   - Which teams have a client? 
   - Which teams are still looking?
