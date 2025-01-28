@@ -13,15 +13,17 @@ description: A review  Object Oriented Programming (OOP) concepts for designing 
 
 In this session, we will review Object Oriented Programming concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
 
+Now, in the age of generative AI, it is more important than ever for developers to learn design skills, since AI is getting better and better at coding, but isn't very good at software design (yet?).
+
 ## Frameworks, Libraries, and Custom Solutions
 
-First we're going to talk about frameworks and libraries because when we use those we get pre-fabricated OO designs. We don't have to do any design to use them.
+First we're going to talk about frameworks and libraries because when we use those we get pre-fabricated OO designs. We don't have to do any design to use them, but we should understand their design.
 
 - What is a library? Give examples.
 
 - What is a framework? Give examples.
 
-- Will there be times when you need to write custom code for functionality not facilitated by your framework or library?
+- Do you think there be times when you need to write custom code for functionality not provided by your framework or library?
 
 ## OOP Terminology
 
@@ -56,11 +58,11 @@ Find the classes, fields, and methods you would use to create an object oriented
 
 ## Unified Modeling Language
 
-A way to visually represent software design models that is independent of any particular computer language. There are [fourteen types of UML diagrams](https://creately.com/blog/diagrams/uml-diagram-types-examples/). We will just be using [UML class diagrams](https://en.wikipedia.org/wiki/Class_diagram).
+UML (Unified Modeling Language) is a way to visually represent a software design that is independent of any particular computer language. There are [fourteen types of UML diagrams](https://creately.com/blog/diagrams/uml-diagram-types-examples/). We will just be using [UML class diagrams](https://en.wikipedia.org/wiki/Class_diagram).
 
 - Representing classes
 
-  - Name
+  - Class name (singular)
 
   - Fields
 
@@ -74,10 +76,12 @@ A way to visually represent software design models that is independent of any pa
 
   - Methods
 
+  
+
 - Representing relationships
 
   - Association: arrow
-  - Aggregation (equivalent to association): open diamond.
+  - Aggregation (might be equivalent to association): open diamond.
   - Composition: black diamond.
   - Inheritance: triangle.
 
@@ -92,8 +96,54 @@ A way to visually represent software design models that is independent of any pa
     - One-to-many: put 1..n at the end with the diamond&mdash;meaning the class with the diamond can have 1 to many instances of the other object.
     - Many-to-many: put diamonds on both ends of the line and put 1..n on both ends. It is good to avoid this relationship since it adds extra complexity.
   
-  
-  
+
+### Library Example
+
+This class diagram is for a set of classes that model a library. The library has books and members. The members can check out and return books.
+
+```mermaid
+classDiagram
+    class Book {
+        -String title
+        -String author
+        -String ISBN
+        -boolean isCheckedOut
+        +checkOut()
+        +returnBook()
+        +getTitle() String
+        +getAuthor() String
+        +getISBN() String
+        +isAvailable() boolean
+    }
+
+    class LibraryMember {
+        -String memberId
+        -String name
+        -List~Book~ borrowedBooks
+        +borrowBook(Book)
+        +returnBook(Book)
+        +getMemberId() String
+        +getName() String
+        +getBorrowedBooks() List~Book~
+    }
+
+    class Library {
+        -String name
+        -List~Book~ books
+        -List~LibraryMember~ members
+        +addBook(Book)
+        +removeBook(Book)
+        +registerMember(LibraryMember)
+        +findBookByTitle(String title) Book
+        +findMemberById(String memberId) LibraryMember
+    }
+
+    Library "1" *--> "0..*" Book : contains (composition)
+    Library "1" o--> "0..*" LibraryMember : has (aggregation)
+    LibraryMember "0..*" --> "0..*" Book : borrows
+```
+
+
 
 ### Exercise
 
@@ -101,9 +151,46 @@ Draw a UML diagram to model the classes in the Tip of the Day solution using the
 
 
 
-## Example
+## Tip of the Day Example
 
 [Tip of the Day class diagram](Images/TipOfTheDayDomainModel2022.pdf)
+
+
+
+
+## Answers
+<details>
+  <summary>Frameworks, Libraries, and Custom Solutions</summary>
+  <ul>
+      <li><b>Library:</b> a collection of pre-written classes that use can use. Examples would be the Math libraries in various programming languages or a third-party JS library like jQuery.</li>
+    <li><b>Framework:</b> a pre-fabricated skeleton of an application. I can be built and run without the dev needing to put anything together. It is designed for a dev to add content and functionality to "flesh out" the application. An example would be ASP.NET MVC. (BTW, the creators of React.js insist that React is a library, not a framework.)</li>
+    <li><b>Custom code:</b> will often need to be written for functionality not provided by a framework or library. For example, if you want to add a scientific calculator function to an MVC web app, the code for doing the calculations wouldn't really be a model or a controller, you would instead make a custom calculator class.</li>
+  </ul>
+</details>
+<details>
+  <summary>OOP Terminology</summary>
+  <ul>
+    <li><b>Class:</b> a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. <br>
+Unless a class is static or has static methods, it's methods are not executable.</li>
+    <li><b>Object:</b> executable code that is created from a class. Multiple objects can be created from the same class.</li>
+</details>
+<details>
+  <summary>OO Design</summary>
+  <ul>
+    <li><b>Nouns</b> become classes or instance variables (fields of a class).</li>
+    <li><b>Verbs</b> become methods.</li>
+    <li><b>Instance variables and methods</b> should be on the class to which they apply. Each class should be responsible for managing it's own stuff.</li>
+  </ul>
+</details>
+<details>
+  <summary>Three primary OOP relationships</summary>
+  <ul>
+    <li><b>Aggregation:</b> the "has-a" relationship.<br>
+        (<b>Association</b> is the "uses" relationship, but many experts consider aggregation and association to be the same thing. See Martin Fowler,  <a href="https://martinfowler.com/bliki/AggregationAndComposition.html">Aggregation and Composition</a></li>
+    <li><b>Composition:</b> the "is-a-part-of" relationship.</li>
+    <li><b>Inheritance:</b> the "is-a" relationship.
+  </ul>
+</details>
 
 
 
@@ -111,50 +198,9 @@ Draw a UML diagram to model the classes in the Tip of the Day solution using the
 
 Bell, Donald. [The UML 2 class diagram](https://developer.ibm.com/articles/the-class-diagram/) IBM, 2004. Tutorial article.
 
-
-Crawley, Gregory. [UML class diagram arrow types: explanations and examples](https://www.gleek.io/blog/class-diagram-arrows.html) Gleek, 2021. Tutorial article with video
-
-----
+Crawley, Gregory. [UML class diagram arrow types: explanations and examples](https://www.gleek.io/blog/class-diagram-arrows.html) Gleek, 2021. Tutorial article with video.
 
 
 
-## Answers
-
-### OOP Terminology
-
-- Class
-
-
-  A class is a module that contains variables for storing data and methods for operating on that data. It is a template (or blueprint) for creating objects. 
-
-  Unless a class is static or has static methods, it's methods are not executable.
-
-- Object
-
-  Executable code that is created from a class. Multiple objects can be created from the same class.
-
-### OO Design
-
-- Nouns become classes or instance variables (fields of a class).
-- Verbs become methods.
-- Instance variables and methods should be on the class to which they apply. Each class should be responsible for managing it's own stuff. 
-
-### Three primary OOP relationships
-
-- Aggregation (aka association[^1])
-  The "has-a" relationship.
-- Composition
-  The "is-a-part-of" relationship.
-- Inheritance
-  The "is-a" relationship.
-
-
-
-------
-
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2023</time), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
-
-
-
-[^1]: Martin Fowler on [Aggregation and Composition](https://martinfowler.com/bliki/AggregationAndComposition.html)
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design  Lecture Notes by [Brian Bird](https://profbird.dev), 2018, Revised <time>2025</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
