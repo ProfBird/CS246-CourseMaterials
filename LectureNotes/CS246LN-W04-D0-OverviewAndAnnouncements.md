@@ -2,14 +2,23 @@
 
 **CS246N System Design**
 
+<h2>Contents</h2>
+
 [TOC]
 
-## Q and A
+## Announcements and Discussion
 
-- Which teams have a client? 
+- Next week you will start working with your real client
+  - Which teams have a client? 
   - Which teams are still looking?
-  - Do any teams have more than one lead?
-- If anyone wants to change teams, who hasn't already contacted me, then send me an e-mail.
+  - Do any teams have more than one lead on a client?
+
+- I plan to make significant changes to the lectture notes and assignment for next week, so don't start looking at those until this weekend.
+- If anyone wants to change teams, DM me or send me an e-mail.
+
+## Due Dates
+
+- Thursday, 1/30: Assignment 3&mdash;UX Design and Testing
 
 
 
