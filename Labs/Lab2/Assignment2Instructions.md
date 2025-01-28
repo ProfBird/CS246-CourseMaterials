@@ -22,21 +22,21 @@ Notes:
 
 ### Jira Project
 
-For this assignment, your job is to lay the groundwork for developing a hypothetical software app by setting up a project using [Jira](https://www.atlassian.com/software/jira), writing a number of user stories and adding them to the backlog. You will work in groups of 2 to 4. For this assignment, you will be creating user stories based on the requirements document from the previous assignment.
+For this assignment, your job is to lay the groundwork for developing a hypothetical software app by setting up a project using [Jira](https://www.atlassian.com/software/jira), writing user stories and adding them to the backlog. You will work in groups of 2 to 4. For this assignment, you will be creating user stories based on the requirements document from the previous assignment. Don't create user stories that aren't based on those requirements.
 
-You all should have Jira accounts, but just one team member will create the project for your assignment. All the team members can be added to the project through the site admin page for the site hosting the project.
+You should all have Jira accounts, but just one team member will create the project for your assignment. All the team members can be added to the project through the site admin page for the site hosting the project. Add your instructor to the project as well.
 
 - Create a Jira project using the Scrum template. Choose the Team-managed project type.
-- Create user *stories* and *epics*. In Jira, these are different types of *issues*.
-  - Your group should write at least 20 user stories and enter them in the project backlog. (The project backlog is sometimes called the *product backlog*.)
+- Create *epics* and *user stories* . In Jira, these are two different types of *issues*.
+  - Your group will write user stories to cover all the requirements in the requirements document (there should be at least 7 user stories per team member[^1]),  and enter them in the project backlog. (The project backlog is sometimes called the *product backlog*.)
     - Format for user stories: *<u>Someone</u> (a role) can do <u>something</u> so that <u>something results</u>.*
     - Use appropriate role names that make sense for your application, such as: *admin*, *member*, *customer*, *volunteer*, *student*, etc. Don't just name all users "user".
   - Create at least four epics and put at least two user stories under each epic.
   - Assign story points to each story.
   
-- Identify at least four user stories and move them into the first sprint. (This is the *sprint backlog*.)
+- Identify at least four user stories that you want to implement in the first sprint and move them into the sprint. (This is the *sprint backlog*.)
   - Each team member should assign themselves to at least one user story from the sprint backlog.
-  - Each team member should create at least two tasks (Jira calls these "child issues") for each of the stories assigned to them.
+  - Each team member should create at least two *sub-tasks* (Jira also calls these "child issues") for each of the stories assigned to them.
 - Once you’ve set up the first sprint, prioritize the remaining stories in your project backlog by arranging them in priority order. This is the order in which you tentatively plan to implement them.
 
 ### Summary Report
@@ -45,11 +45,7 @@ Write a short (one page) document that describes:
 
 1. The roles of the different types of users.
 2. Explanation of the priorities. Why are the top ones on top? Which ones are optional and could be left out if you run out of time?
-3. Are there user stories or epics you were unsure about? Questions you might have had were:
-   - Didn't know if some stories were for functional or non-functional requirements.
-   - Didn't know whether something should be an epic or a user story.
-   - Didn't know if the story was written in the right way.
-   - Something else.
+3. Were there non-functional requirements in the requirements document that you decided not to write user stories for because the scope of the project was getting too big?
 
 ### Division of Work
 
@@ -65,12 +61,13 @@ All members: create tasks (child issues) for user stories in the sprint and assi
 ## Submission
 
 - **Jira Project**
-  Submit the assignment on Moodle by pasting the URL for your project in the "online text" field for this Moodle assignment. 
+  Submit the assignment on Moodle by pasting the URL for your project in the "online text" field for this Moodle assignment[^2]. 
 - **Summary Report**
 - **Team contribution report**
   Submit a document describing who did which parts of the project. It should look like the "Division of Work" section above, but with actual team members names listed.
 
-Only one group member needs to submit the assignment on behalf of the whole group.
+[^1]: If it looks like you will end up with more than ten user stories per person on the team, you can decide to eliminate one or more low priority epics to reduce the workload. 
+[^2]:Only one group member needs to submit the assignment on behalf of the whole group.
 
 
 

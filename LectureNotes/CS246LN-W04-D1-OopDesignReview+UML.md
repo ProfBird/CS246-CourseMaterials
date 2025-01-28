@@ -9,13 +9,6 @@ description: A review  Object Oriented Programming (OOP) concepts for designing 
 
 [TOC]
 
-## Q and A
-
-- Which teams have a client? 
-  - Which teams are still looking?
-  - Do any teams have more than one lead?
-- If anyone wants to change teams, who hasn't already contacted me, then send me an e-mail.
-
 ## Introduction
 
 In this session, we will review Object Oriented Programming concepts for designing software solutions. I'm assuming that most of this is review from your C# or C++ programming classes.
