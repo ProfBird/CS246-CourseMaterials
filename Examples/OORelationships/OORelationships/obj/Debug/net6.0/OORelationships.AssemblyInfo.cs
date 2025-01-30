@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OORelationships")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ea67156778f35ceb08277a6251358f16f18a18d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OORelationships")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OORelationships")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
