@@ -4,7 +4,7 @@
 
 ### UML Diagram
 
-![](OORelationshipExampleUml.png)
+![](OORelationshipCarExampleUml.png)
 
 ### C# Code
 
