@@ -9,23 +9,6 @@ description: Explanation and examples of how a UML class diagram would be implem
 
 [TOC]
 
-## Announcements
-
-- Capstone projects
-  - Capstone teams, please post in the discussion forum:
-    - Team name
-    - Team members
-    - One sentence project description
-    
-  - If you don't have a team yet, e-mail me and I'll match you up with a team.
-  
-  - If your team doesn't have a project yet, drop in to my office hours so we can discuss possibilities.
-  
-  - You will work on a project proposal for your client next week. 
-    - For Programming teams, this is a proposal to a client (and me).
-    
-      
-
 ## Introduction
 
 Last time, we covered OO design concepts and learned to model an OO Design using a UML class diagram.
@@ -49,12 +32,16 @@ In this session, we will look at how the UML model would be implemented in C# co
 
 ### Inheritance
 
+This is the "is-a" relationship. An `Admin` is a `User` .
+
 ```c#
 public class Admin : User
 { }
 ```
 
-### Aggregation
+### Composition
+
+This is the whole-part relationship. The objects of classes that are parts "live and die" with the whole.
 
 ```c#
  public class Tip
@@ -71,7 +58,9 @@ public class Admin : User
 
 
 
-### Composition
+### Aggregation
+
+This is the "has a" relationship. The object that is "had" has a life-cycle that is separate from the object "having" int.
 
 This is an example of one way to implement composition in a model class. There are other more common ways:
 
@@ -128,6 +117,6 @@ Verbs become:
 
 ------
 
- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2022</time>), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+ [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2018 (Revised <time>2025</time>), are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------

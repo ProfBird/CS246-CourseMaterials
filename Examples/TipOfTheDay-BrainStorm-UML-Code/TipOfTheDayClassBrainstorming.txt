@@ -1,0 +1,33 @@
+Classes:
+
+Tip
+- Topic
+- Rating
+- Skill level
+- Programming language
+- Explanation
+- Code example
+- Link for more info
+- User
+- Comments
+- Rating
+
+
+User
+------
+- Name
+- and more
+------
+- Encrypt password
+
+
+Admin (inherit from User)
+
+Comment
+- Text 
+- Date
+- User
+
+
+
+
