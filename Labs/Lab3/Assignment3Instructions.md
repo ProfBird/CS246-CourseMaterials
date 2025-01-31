@@ -2,11 +2,11 @@
 
 # Assignment 3 - UX Design and Testing
 
-Your team will create UX *test artifacts* (wire-frame diagrams, mock-ups, or prototypes), recruit testers to test them and write a report on the test feedback.
+Your team will create UX wire-frame diagrams (*test artifacts*), recruit testers to test them and write a report on the test feedback.
 
-## Test artifacts
+## Wire-frames
 
-Create a set of UX test artifacts&mdash;at least two per group member. All the test artifacts should be for the same web app or game. You will need to collaborate on the design so all the diagrams have the same look and feel. 
+Create a set of UX test artifacts&mdash;at least one per group member. All the wireframes should be for the same web app. You will need to collaborate on the design so all the diagrams have the same layout and navigation style. 
 
 ## Testing
 
@@ -42,15 +42,15 @@ But the UI testing should be done as a group and all testers should give feedbac
 
 Submit the following files on Moodle:
 
-- **The test artifacts**: upload a single PDF document containing all the UX diagrams.
-- **The test report**: submit a Word or PDF document.
+- **Wireframes**: upload a single Word or PDF document containing all the UX diagrams.
+- **Test report**: submit a Word or PDF document.
 - **Team contribution report**: submit a word or PDF document describing who did which parts of the project. 
 
 Only one group member needs to submit the assignment on behalf of the whole group.
 
 ## Assessment
 
-[Lab 3 grading rubric](Assignment3Rubric.htm)
+[Lab 4 grading rubric](CS233JS_Lab04_Rubric.htm)
 
 
 
