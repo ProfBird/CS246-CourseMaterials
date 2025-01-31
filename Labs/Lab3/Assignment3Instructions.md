@@ -22,9 +22,10 @@ You will describe the process and results of your UI testing in a report that in
   - surveys.
   - Recordings of the testers reactions and comments while testing.
 - The results of your testing. 
-  - Describe the feedback you got from each tester.
+  - Describe the feedback you got from each tester.  
+    If you used surveys, attach the completed surveys.
   - Write a summary of the feedback from all testers. In particular describe any feedback (positive or negative) that you got from more than one tester.
-
+  
 - An assessment of the quality of feedback you received from the testers overall (not individually). Explain how good you think the feedback is and how  you know it's that.
 
 ### Division of Work
@@ -55,6 +56,6 @@ Only one group member needs to submit the assignment on behalf of the whole grou
 
 ------
 
-Written 2018 by  Brian Bird, revised winter <time>2024</time> by Brian Bird
+Written 2018 by  Brian Bird, revised winter <time>2025</time> by Brian Bird
 
 -----
