@@ -1,4 +1,4 @@
-# Assignment 6 - Team Contract and UX Design
+# Assignment 6 - Team Contract and Requirements Doc
 
 ## Instructions
 
