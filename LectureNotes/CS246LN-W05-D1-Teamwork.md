@@ -1,12 +1,29 @@
-# Working as a Team
+<h1>Working as a Team</h1>
 
 **CS246N System Design**
 
-## Contents
+<h2>Contents</h2>
 
 [TOC]
 
-## Team Contract
+## Goals of Good Teamwork
+
+- The work gets done
+  - On time
+  - Good quality
+- Everyone contributes
+  - Work is distributed fairly and equitably
+  - Everyone gets experience doing each kind of work
+  - No one is "the boss"
+- Teammates have good working relationships
+  - Everyone's ideas are heard
+  - Decisions are made jointly
+  - Conflicts are resolved, not buried
+  - Problems are addressed, not ignored
+
+
+
+## Dev Team Contract
 
 #### Team contract items that are mandated for the Capstone Course
 
