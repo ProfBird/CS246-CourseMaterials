@@ -22,6 +22,8 @@ Submit your completed work on Moodle:
 
 - Use the Lab 5A assignment link to submit your completed team contract.
 - Use the Lab 5B assignment link to submit your requirements document.
+  - In the online text, each team member will briefly list what they contributed to this assignment.
+
 
 
 
