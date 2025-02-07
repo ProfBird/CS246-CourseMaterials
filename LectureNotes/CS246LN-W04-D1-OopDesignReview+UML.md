@@ -104,38 +104,38 @@ This class diagram is for a set of classes that model a library. The library has
 ```mermaid
 classDiagram
     class Book {
-        -String title
-        -String author
-        -String ISBN
-        -boolean isCheckedOut
+        -title : String
+        -author : String
+        -ISBN : String
+        -isCheckedOut : boolean
         +checkOut()
         +returnBook()
-        +getTitle() String
-        +getAuthor() String
-        +getISBN() String
-        +isAvailable() boolean
+        +getTitle() : String
+        +getAuthor() : String
+        +getISBN() : String
+        +isAvailable() : Boolean
     }
 
     class LibraryMember {
-        -String memberId
-        -String name
-        -List~Book~ borrowedBooks
-        +borrowBook(Book)
-        +returnBook(Book)
-        +getMemberId() String
-        +getName() String
-        +getBorrowedBooks() List~Book~
+        -memberId : String
+        -name : String
+        -borrowedBooks : List<Book>
+        +borrowBook(book : Book)
+        +returnBook(book : Book)
+        +getMemberId() : String
+        +getName() : String
+        +getBorrowedBooks() : List<Book>
     }
 
     class Library {
-        -String name
-        -List~Book~ books
-        -List~LibraryMember~ members
-        +addBook(Book)
-        +removeBook(Book)
-        +registerMember(LibraryMember)
-        +findBookByTitle(String title) Book
-        +findMemberById(String memberId) LibraryMember
+        -name : String
+        -books : List<Book>
+        -members : List<LibraryMember>
+        +addBook(book : Book)
+        +removeBook(book : Book)
+        +registerMember(membver : LibraryMember)
+        +findBookByTitle(title : String) Book
+        +findMemberById(memberId : String) : LibraryMember
     }
 
     Library "1" *-- "0..*" Book : contains (composition)

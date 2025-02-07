@@ -21,6 +21,15 @@
 
 - Thursday, 1/30: Assignment 3&mdash;UX Design and Testing
 
+## Next Week: Capstone Project Clients
+
+- Capstone teams, please post in the discussion channel on Discord:
+  - Team name
+  - Team members
+  - One sentence project description
+- If your team doesn't have a project yet, drop in  (or Zoom in) to my office hours so we can discuss possibilities.
+- You will start gathering requiremnts for your project from your client next week. 
+
 
 
 ------
