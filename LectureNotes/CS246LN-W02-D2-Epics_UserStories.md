@@ -54,7 +54,12 @@ These epics and user stories are based on the example requirements document for 
 
   *Volunteers can scheduled themselves for time-slots on a project so that admins and other volunteers can see when they will be working.*
 
-  
+
+## FAQ
+
+### How should user roles and permissions be described in an Agile SCRUM backlog?
+
+
 
 ## Reference
 
