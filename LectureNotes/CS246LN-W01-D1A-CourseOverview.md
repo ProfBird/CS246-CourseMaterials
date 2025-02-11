@@ -20,19 +20,19 @@ In this course you will learn:
   - Design patterns
   - Project planning
 - How to write documentation
-  - A software proposal
   - A requirements document
   - Design documents
-    - Architecture
+    - Architecture in UML
     - Business logic
     - UI mock-ups
+    - A software development contract
 - How to work collaboratively as a team
   - Use the Agile approach to software development
   - Use collaboration tools
     - Jira for project management
     - Git for sharing code
     - Discord (or a similar communication tool) for communication
-  - You will work with two different teams:
+  - You will potentially work with two different teams:
     - An instructor assigned team for the first four weeks
     - Your self-selected capstone project team for the last six weeks.
 
