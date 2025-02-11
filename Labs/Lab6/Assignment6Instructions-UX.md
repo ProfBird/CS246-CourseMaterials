@@ -20,7 +20,7 @@ You can divide up the task of drawing UI wireframes among your team members, but
 
 ### Part B: UX Testing
 
-Meet with your client and/or potential end users of the web site you are designing for your client and show them the sitemap and wireframes. Use a survey or interview to get feedback on your design in the same way you did for [lab 3 on UX Design and Testing](../Labs/Lab3/Assignment3Instructions.html).
+Meet with your client and/or potential end users of the web site you are designing for your client and show them the sitemap and wireframes. Use a survey or interview to get feedback on your design in the same way you did for [lab 3 on UX Design and Testing](../Lab3/Assignment3Instructions.html).
 
 Report on the feedback you got from your client and/or testers.
 
