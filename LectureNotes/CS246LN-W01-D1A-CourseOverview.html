@@ -7,7 +7,7 @@
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -27,7 +27,7 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -54,8 +54,8 @@ thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -75,7 +75,7 @@ div.hr:focus { cursor: none; }
 svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -88,7 +88,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -109,7 +109,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
 .math { font-size: 1rem; }
 .md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
@@ -139,14 +139,14 @@ code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
 video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
+iframe { max-width: 100%; width: 100%; border: medium; }
 .highlight td, .highlight tr { border: 0px; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
@@ -174,7 +174,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
 .outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
 .outline-expander:hover::before { content: ""; }
@@ -187,14 +187,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
 .outline-label:hover { text-decoration: underline; }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
-.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
 .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
-.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
 .typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
@@ -208,7 +208,7 @@ mjx-container { break-inside: avoid; }
 .md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
 .md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
 .md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
-.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
 .md-alert-text-note { color: rgb(9, 105, 218); }
 .md-alert-text-important { color: rgb(130, 80, 223); }
 .md-alert-text-warning { color: rgb(154, 103, 0); }
@@ -608,11 +608,11 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
-
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
 </style><title>CS246LN-W01-D1A-CourseOverview</title>
 </head>
-<body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='course-overview'><span>Course Overview</span></h1><p><strong><span>CS 246 System Design</span></strong></p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" href="#course-overview">Course Overview</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" href="#purpose-of-this-course">Purpose of this course</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n8"><a class="md-toc-inner" href="#course-objectives">Course objectives</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n58"><a class="md-toc-inner" href="#capstone-project">Capstone project</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n61"><a class="md-toc-inner" href="#review-the-syllabus">Review the syllabus</a></span></p></div><h2 id='purpose-of-this-course'><span>Purpose of this course</span></h2><p><span>This is the first in a two-course sequence in which you will work with a team to design, then implement a significant software project. This is the design course and next term you will implement the design in the Capstone course, CS 297.</span></p><p><strong><span>Group Work</span></strong></p><p><span>All of the lab assignments in this class will be group assignments. I will put students into groups during the first week of the class.</span></p><h3 id='course-objectives'><span>Course objectives</span></h3><p><span>In this course you will learn:</span></p><ul><li><p><span>Software design concepts</span></p><ul><li><p><span>User Experience (UX)</span></p></li><li><p><span>Design patterns</span></p></li><li><p><span>Project planning</span></p></li></ul></li><li><p><span>How to write documentation</span></p><ul><li><p><span>A requirements document</span></p></li><li><p><span>Design documents</span></p><ul><li><p><span>Architecture in UML</span></p></li><li><p><span>Business logic</span></p></li><li><p><span>UI mock-ups</span></p></li><li><p><span>A software development contract</span></p></li></ul></li></ul></li><li><p><span>How to work collaboratively as a team</span></p><ul><li><p><span>Use the Agile approach to software development</span></p></li><li><p><span>Use collaboration tools</span></p><ul><li><p><span>Jira for project management</span></p></li><li><p><span>Git for sharing code</span></p></li><li><p><span>Discord (or a similar communication tool) for communication</span></p></li></ul></li><li><p><span>You will potentially work with two different teams:</span></p><ul><li><p><span>An instructor assigned team for the first four weeks</span></p></li><li><p><span>Your self-selected capstone project team for the last six weeks.</span></p></li></ul></li></ul></li></ul><p>&nbsp;</p><h2 id='capstone-project'><span>Capstone project</span></h2><p><span>You will start your capstone project in week five of this course. Start brainstorming ideas for a project now by looking for a client out there in the real world that you can develop a web site for.</span></p><p>&nbsp;</p><h2 id='review-the-syllabus'><span>Review the syllabus</span></h2><p><span>Open the syllabus using the link on Moodle</span></p><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a>
-<span>System Design Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2021, revised 2024, are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>.</span></p><p>&nbsp;</p></div></div>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1>Course Overview</h1><p><strong><span>CS 246 System Design</span></strong></p><h2>Contents</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n77"><a class="md-toc-inner" style="" href="#purpose-of-this-course">Purpose of this course</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n81"><a class="md-toc-inner" style="" href="#course-objectives">Course objectives</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n131"><a class="md-toc-inner" style="" href="#capstone-project">Capstone project</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n133"><a class="md-toc-inner" style="" href="#finding-a-project-client">Finding a Project Client</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n161"><a class="md-toc-inner" style="" href="#whats-expected-of-the-client">What's Expected of the Client</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n136"><a class="md-toc-inner" style="" href="#review-the-syllabus">Review the syllabus</a></span></p></div><h2 id='purpose-of-this-course'><span>Purpose of this course</span></h2><p><span>This is the first in a two-course sequence in which you will work with a team to design, then implement a significant software project. This is the design course and next term you will implement the design in the Capstone course, CS 297.</span></p><p><strong><span>Group Work</span></strong></p><p><span>All of the lab assignments in this class will be group assignments. I will put students into groups during the first week of the class.</span></p><h3 id='course-objectives'><span>Course objectives</span></h3><p><span>In this course you will learn:</span></p><ul><li><p><span>Software design concepts</span></p><ul><li><p><span>User Experience (UX)</span></p></li><li><p><span>Design patterns</span></p></li><li><p><span>Project planning</span></p></li></ul></li><li><p><span>How to write documentation</span></p><ul><li><p><span>A requirements document</span></p></li><li><p><span>Design documents</span></p><ul><li><p><span>Architecture in UML</span></p></li><li><p><span>Business logic</span></p></li><li><p><span>UI mock-ups</span></p></li><li><p><span>A software development contract</span></p></li></ul></li></ul></li><li><p><span>How to work collaboratively as a team</span></p><ul><li><p><span>Use the Agile approach to software development</span></p></li><li><p><span>Use collaboration tools</span></p><ul><li><p><span>Jira for project management</span></p></li><li><p><span>Git for sharing code</span></p></li><li><p><span>Discord (or a similar communication tool) for communication</span></p></li></ul></li><li><p><span>You will potentially work with two different teams:</span></p><ul><li><p><span>An instructor assigned team for the first four weeks</span></p></li><li><p><span>Your self-selected capstone project team for the last six weeks.</span></p></li></ul></li></ul></li></ul><p>&nbsp;</p><h2 id='capstone-project'><span>Capstone project</span></h2><p><span>You will start your capstone project in </span><u><span>week five</span></u><span> of this course. Start brainstorming ideas for a project now by looking for a client out there in the real world that you can develop a web site for.</span></p><h3 id='finding-a-project-client'><span>Finding a Project Client</span></h3><p><span>You will do your capstone project for a &quot;real world&quot; client. You should start looking for a client this week. Teams in the past have done web sites for local businesses, non-profit organizations, schools, churches, stores, restaurants, political campaigns, and others.</span></p><p><span>Teams have found clients in a variety of ways: </span></p><ul><li><p><span>Talk to family or friends about businesses or organizations they are involved with.</span></p></li></ul><ul><li><p><span>Post an ad on Craig&#39;s List, </span><a href='https://eugenetech.switchboardhq.com/stories'><span>Eugene Switchboard</span></a><span>, or other online medium.</span></p></li><li><p><span>Talk to a local business or organization that you frequent (store, restaurant, club).</span></p></li><li><p><span>Do a web stie for your employer.</span></p></li></ul><h4 id='whats-expected-of-the-client'><span>What&#39;s Expected of the Client</span></h4><p><span>The client will need to be willing to meet with your team once a week from weeks 5 through 10 of this class (five meetings) and every-other week during the capstone class next term (five more meetings). The meetings can be in-person or online (Zoom, Discord, etc.)</span></p><p><strong><span>You will need to have found a client by week 4 and have scheduled your first meeting with them for sometime during week 5.</span></strong></p><h2 id='review-the-syllabus'><span>Review the syllabus</span></h2><p><span>Open the syllabus using the link on Moodle</span></p><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a>
+<span>System Design Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2021, revised </span><time><span>2025</span></time><span>, are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>.</span></p><hr /><p>&nbsp;</p></div></div>
 </body>
 </html>
