@@ -41,9 +41,9 @@ Submit your completed work on Moodle:
 
 
 
-
------------------------------------------------
+---
 
 Written winter 2020 and revised winter <time>2025</time> by  Brian Bird, Lane Community College, for CS246, System Design.
 
 ---
+
