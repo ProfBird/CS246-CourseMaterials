@@ -10,7 +10,7 @@ Write a team contract based on the Team Contract Template posted on Moodle. As a
 
 ### Part B: Draft Requirements Document
 
-Interview your client to find out what they need. Take notes as you do the interview and write a draft version of a requirements document based on the interview. You will be revising this document over the comeing weeks as you get more information from your client.
+Interview your client to find out what they need. Take notes as you do the interview (the notes are for you, you don't need to submit them) and write a draft version of a requirements document based on the interview. You will be revising this document over the coming weeks as you get more information from your client.
 
 #### Meeting the Capstone Course Requirements
 
@@ -23,8 +23,6 @@ Submit your completed work on Moodle:
 - Use the Lab 5A assignment link to submit your completed team contract.
 - Use the Lab 5B assignment link to submit your requirements document.
   - In the online text, each team member will briefly list what they contributed to this assignment.
-
-
 
 
 
