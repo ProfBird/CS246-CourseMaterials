@@ -2,6 +2,17 @@
 
 **CS246N System Design**
 
+| Weekly topics                               |                                             |
+| ------------------------------------------- | ------------------------------------------- |
+| 1. Software Solution Requirements           | 6. Real Project: UX Design                  |
+| 2. Agile Development                        | **7. Real Project: Epics and User Stories** |
+| 3. UX Design and Testing                    | 8. Design Patterns                          |
+| 4. OO Design with UML                       | 9. Real Project: Prototyping                |
+| 5. Starting Your Real Project: Requirements | 10. Real Project: Client Contract           |
+| 11. Design Presentations                    |                                             |
+
+
+
 <h2>Contents</h2>
 
 [TOC]
