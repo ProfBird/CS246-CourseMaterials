@@ -1,4 +1,4 @@
-<h1>Week 6 Overview and Announcements</h1>
+<h1>Week 7 Overview and Announcements</h1>
 
 **CS246N System Design**
 
