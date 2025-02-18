@@ -19,6 +19,35 @@
 
   - There are openings for students to work in the CIT lab.  If you were awarded work study funds for AY 2024-25, you can learn more and apply here: https://lanecc.studentemployment.ngwebsolutions.com/JobXJobDetail.aspx?JobId=9586&s=1
 
+## Registration for Spring Term
+
+### Reccomended for AAS in Software Development
+
+If you are a full-time student, the courses reccomended for spring term are:
+
+- CS 297 Capstone Project
+- CS 276 Advanced SQL
+- CS 280PR Co-op Education: Programming
+- Directed Elective, these are recommended:
+  - CS235M Advanced Mobile Application Development 
+    This is required for the Mobile App Development certificate,
+  - CS295R Web Development 1: React 
+    This is required for the Front-End Web Development certificate.
+
+For more info on requirements for the AAS in Software Development see the [LCC catalog](https://lanecc.smartcatalogiq.com/en/2024-2025/lcc-catalog/programs-of-study/computer-information-technology/software-development-aas/).
+
+[Spring 2025 Computer Information Technology Class Schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202540&)
+
+### Regfest!
+
+Get in-person help with advising and registration on Saturday, February 22nd, from 9am-2pm on the first floor of Building 1. This event is designed for students:
+
+- who have not yet registered for Winter (and/or Spring) term/s, and/or
+- those needing assistance with Financial Aid, Advising, or Student Accounts (Bursar).  
+
+Regfests are popular! Plan to arrive by 1:00 pm at the latest. 
+
+
 
 ## This Week's Objectives
 
@@ -31,7 +60,7 @@ You will start preparing to build your client's web site by:
 
 - Getting feedback from the client on the backlog
 
-## Due Dates
+### Due Dates
 
 - Look at the due dates on Moodle.
 
