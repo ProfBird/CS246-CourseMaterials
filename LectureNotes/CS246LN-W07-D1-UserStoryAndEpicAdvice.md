@@ -6,35 +6,69 @@
 
 [TOC]
 
-## Writing tasks instead of feature descriptions in epics
-Including terms like "implement" or "develop" in epics (e.g., "Implement user login") instead of framing them as user-centric features (e.g., "User authentication"). Epics should describe *what* the user needs, not *how* to build it.
+## Introduction
+
+This list of common mistakes was compiled from assignments done by students in previous years.
+
+## Focusing on implementation in user storie or epics
+
+Including terms like "implement" or "develop" in epics (e.g., "Implement user login") instead of framing them as user-centric features (e.g., "User authentication"). Epics and user stories should describe *what* the user needs, not *how* to build it.
 
 Examples:
 
-- Negative: *"Implement user login functionality"* (focuses on a task).
-- Positive: *"As a user, I want to log in and be authenticated so that any information I enter will be private."*
+- Negative: Story *"Implement user login functionality."*
+- Positive: Story *"As a user, I want to log in and be authenticated so that any information I enter will be private."*
 
 ## Treating non-actionable requirements as epics or user stories
 Including broad concepts like "Site Wide Branding" or "Positive User Experience" as epics. These are not user-driven actions or deliverables and cannot be completed in a single sprint.  
 
-- Negative: *"Provide a positive user experience"* (vague, not user-driven).
+- Negative: *"Provide a positive user experience"* (vague, not action-driven).
 - Positive: *"As a user, I want a unified menu design across all pages so that I can navigate the site intuitively."*
 
 ## Insufficient breakdown of epics into user stories
 Creating epics with only one user story. Epics should represent larger features that can be split into smaller, actionable stories.  
 
-- Negative: Epic *"Managers view an Inventory list"* with only one story: *"As a manager I want to view an inventory list so I can check inventory levels"*
+- Negative: Epic *"Managers view an Inventory list"* with only one story: *"As a manager I want to see an inventory list so I can check inventory levels"*
 - Positive:  Epic *"Manage Inventory list"* with multiple user stories: *"...view inventory list..., ...set minimum inventory levels..., ...see alterts for low inventory..."*
-- **Omitting the "so that" clause in user stories**  
-  Writing incomplete user stories without specifying the benefit or value (e.g., "As a user, I want to filter products" instead of "As a user, I want to filter products *so that I can quickly find relevant items*").  
-- **Confusing user roles with user stories**  
-  Listing user roles (e.g., "As an admin") as standalone stories. User roles should contextualize stories, while actions (e.g., "create roles") belong in tasks or acceptance criteria.  
-- **Mixing epics and user story hierarchy**  
-  Writing stories that are actually epics (e.g., "C-15, 22, and 30 are more like epics"). Epics require decomposition into smaller stories, while user stories should be granular and sprint-ready.  
-- **Using incomplete sentences**  
-  Failing to structure user stories as complete statements (e.g., "User login button" instead of "As a user, I want a login button so that I can access my account").  
-- **Overlooking the user’s perspective**  
-  Writing stories from a technical or system-focused viewpoint (e.g., "Improve server response time") instead of centering the user’s needs (e.g., "As a user, I want fast page loads so that I don’t get frustrated").
+
+## Omitting the "so that" clause in user stories
+Writing incomplete user stories without specifying the benefit or value (e.g., "As a user, I want to filter products" instead of "As a user, I want to filter products *so that I can quickly find relevant items*").  
+
+- Negative: *"As a user, I want to filter products."*.
+- Positive: *"As a user, I want to filter products **so that I can quickly find items matching my budget.**"*
+
+## Describing infrastructure implementation in user stories
+There is some infrastructure that will need to be set up for a project that doesn't correspond to any user story (e.g. create a database, write a domain model, set up a cloud-based web server).  These should be listed as *tasks* not user stories.
+
+- Negative: User Story *"As a user I want my data stored in a database so I can retrieve it later"*
+- Positive: Task *"Set up a database server and define a schema to be used by the application"*
+
+Note: Assigning user roles and permissions could go in <u>either</u> a task or user story.
+
+- Positive: User Story *"As an admin I would like to have a role with special priveleges so I can access restricted site administration pages"*
+- Also Positive: Task "Set up roles and permissions for: admin, member and guest".
+
+## User stories that are actually epics
+Writing stories that are actually epics. Epics should be broader in scope and serve as an "umbrella" for a group of related user stories.
+
+- Negative: User story: *"As a user, I want a complete dashboard **so that I can manage my entire business."****
+- *Positive: Epic: *"Dashboard functionality"*
+  - Stories under this epic might be: *"...view monthly sales metrics...,"* *"...customize dashboard widgets...,"* *"...export dashboard data to PDF...", etc*
+
+## Epics that are actually user stories
+
+- Negative: Epic: *"Add a search bar to the homepage"* (Too narrow; this is a single feature, not a large initiative).
+  Positive: Epic: *"User product discovery"*
+  - Possible user stories under this epic: *"...search for products...", "...filter product list...", "..browse products...", etc.*
+
+## Using incomplete sentences
+User stories should be complete sentences.
+
+- Negative: *"User logout button"*
+  Positive: *"As a user, I need to be able to logout of my account so that someone else can't access it"*
+
+## Putting Non-functional requirements into user stories
+User stories should not be written for non-functional requirements (e.g., "Improve server response time"). These should just be listed in the requirements document and if there are implementation tasks required they should be listed as tasks in the Scrum backlog.
 
 
 
