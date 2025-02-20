@@ -8,11 +8,11 @@
 
 ## Introduction
 
-This list of common mistakes was compiled from assignments done by students in previous years.
+This list of common mistakes was compiled from mistakes in assignments done by students in previous years.
 
-## Focusing on implementation in user storie or epics
+## Focusing on implementation in user stories or epics
 
-Including terms like "implement" or "develop" in epics (e.g., "Implement user login") instead of framing them as user-centric features (e.g., "User authentication"). Epics and user stories should describe *what* the user needs, not *how* to build it.
+Including terms like "implement" or "develop" in epics (e.g., "Implement user login") instead of framing them as user-centric features (e.g., user authentication). Epics and user stories should describe *what* the user needs, not *how* to build it.
 
 Examples:
 
