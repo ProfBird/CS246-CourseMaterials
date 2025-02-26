@@ -101,8 +101,6 @@ Imagine you have some kind of web app where users can post to a forum, or blog (
 
 Homer, Alex. [ASP.NET Patterns every developer should know](https://www.developerfusion.com/article/8307/aspnet-patterns-every-developer-should-know/). Developer Fusion. 2011.
 
-Mallawaarachchi, Vijini . [10 Common Software Architectural Patterns in a Nutshell](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013). Towards Data Science. 2017.
-
 [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns). Wikipedia article.
 
 
@@ -110,7 +108,7 @@ Mallawaarachchi, Vijini . [10 Common Software Architectural Patterns in a Nutshe
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-System Design Lecture Notes by [Brian Bird](https://birdsbits.blog), 2018 (Revised 2023), is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+System Design Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2025</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 [^1]: The Repository Pattern
 [^2]: The Observer Pattern
