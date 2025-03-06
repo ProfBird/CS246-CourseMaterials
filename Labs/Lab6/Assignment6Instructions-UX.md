@@ -26,7 +26,7 @@ Report on the feedback you got from your client and/or testers.
 
 ### Part C: Revised UX Diagrams
 
-Based on feedback from UX testing, revise the sitemap and wireframes.
+Based on feedback from UX testing, revise the sitemap and wireframes. Make a list of the diagrams that have changed with a very brief description of the changes on each diagram.
 
 
 
@@ -34,10 +34,11 @@ Based on feedback from UX testing, revise the sitemap and wireframes.
 
 Submit your completed work on Moodle:
 
-- Use the Lab 6A assignment link to submit your site map as a PDF, and the UI diagrams in a second single PDF file
-- Use the Lab 6B assignment link to submit your report on the UX testing in a PDF or Word document.
-- Use the Lab 6C assignment link to submit your revised site map as a PDF, and the UI diagrams in a second single PDF file
-- In the online text for each submission, briefly list what each team member contributed to the work.
+- Use the Lab 6A assignment to submit your site map as a PDF, and the UI diagrams in a second single PDF file
+- Use the Lab 6B assignment to submit your report on the UX testing in a PDF or Word document.
+- Use the Lab 6C assignment to submit your revised site map as a PDF, the revised UI diagrams in a second single PDF, and a PDF or Word document listing the diagrams that have changed.
+
+In the online text for each submission, briefly list what each team member contributed to the work.
 
 
 
