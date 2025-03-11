@@ -1,6 +1,6 @@
 **CS246, System Design**
 
-# Assignment 5&mdash;Client Contract
+# Assignment 10&mdash;Client Contract
 
 - Write a contract, based on the example given to you in class.
 - Sign the contract and send it to your client to review and a signature.  
