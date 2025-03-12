@@ -19,6 +19,7 @@
 
 - **Q and A**
   - How is the prototype lab going?
+    - I added code to the TipOfTheDay prototype example to filter Tips by Tags, so that you can see that the list of tips on the tag model, `List<Tag>`,  isn't needed in order to get a list of tips by tag. The list on the tag model is only there to make EF generate a join table between the Tips and Tags tables.
   - Any general questions?
 - **Announcements**
   - **Library Study Jam!**  The Library, Phi Theta Kappa (PTK) and Student Government will be hosting a Study Jam on Tuesday, March 11 from 3-5 pm in the Library. Free pizza, drinks and snacks will be available at 3 pm. Get tutoring and advising help, pet a therapy dog, and learn yoga relaxation techniques. 
