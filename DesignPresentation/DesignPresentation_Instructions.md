@@ -37,7 +37,7 @@ Your team can make the presentation one of three ways:
 - In person: you will give a live presentation to the class. 
 - On Zoom during class time: You will share your screen and the instructor will project that for the class to see.
 - Online: You can record a video and post a link to it in the presentation forum on Moodle. If you are making a screen-cast you can use any screen capture software that both records the screen and audio narration such as:
-  - [ScreenPal (formerly Screencast-O-Matic)](https://screenpal.com)&mdash;free for 15 minute or shorter recordings.
+  - [ScreenPal (formerly Screencast-O-Matic)](https://screenpal.com)&mdash;free for 15 minute or shorter screen-cast + web cam recordings.
   - [ScreenRec](https://screenrec.com/)&mdash;free!
   - [Zoom](https://www.zoom.com)&mdash;Meet with your team on Zoom, use webcams and/or mics, share your screen and record the meeting.
 
