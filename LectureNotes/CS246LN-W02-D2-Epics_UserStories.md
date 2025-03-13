@@ -36,7 +36,7 @@ These epics and user stories are based on the example requirements document for 
 
 - **Volunteer edits their profile**
 
-  Volunteers can edit their profile in order to update their information.*
+  *Volunteers can edit their profile in order to update their information.*
 
 - **Volunteer deletes their profile**
 
@@ -59,6 +59,28 @@ These epics and user stories are based on the example requirements document for 
 
 ### How should user roles and permissions be described in an Agile SCRUM backlog?
 
+There are different approaches. Here are a couple:
+
+- **User story**  
+  Write a user story for each role. For example: *As an admin, I want to manage user permissions so that I can control access to sensitive data.*
+- **Non-functional requirement**  
+  Describe roles and permissions in the non-functional requirements section of the requirements document. For example: *The system will define an admin role which provides permission to manage other user permissions.*
+
+### Is there a way to group epics in a larger project?
+
+Yes, *Initiatives* are used to group epics. An initiative is a collection of epics with a common goal. For example:
+
+**Initiative: Customer Self-Service Portal**  
+Goal: Enable customers to independently manage their accounts, services, and support requests, reducing operational overhead and improving user experience.  
+**Epics:**
+
+- Customer account management
+- Subscription management
+- Technical support Requests
+- Billing and payment management
+- Analytics Dashboard  
+  (Each epic would have user stories, but these are not shown.)
+
 
 
 ## Reference
@@ -66,6 +88,8 @@ These epics and user stories are based on the example requirements document for 
 [User Stories with Examples and a Template](https://www.atlassian.com/agile/project-management/user-stories)&mdash;Max Rehkopf, Atlassian
 
 [User Stories: An Agile Introduction](http://www.agilemodeling.com/artifacts/userStory.htm)&mdash;Scott Ambler, Agile Modeling
+
+[Stories, Epics and Initiatives](https://www.atlassian.com/agile/project-management/epics-stories-themes)&mdash; Max Rehkopf, Atlassian
 
 
 
