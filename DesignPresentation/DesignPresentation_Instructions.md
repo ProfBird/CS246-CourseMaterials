@@ -2,13 +2,19 @@
 
 # Final Presentation Guide
 
-TODO: Create this document based off of these documents:
+The purpose of the presentation is to show off your team's design and to tell us a little about the project you're doing for your client and your experience designing it. It will be interesting for everyone to see each other's designs!
 
-[Assignment10Instructions](Assignment10Instructions.md)
+Each team member should give one part of the presentation. Meet with your team ahead of time to plan who will present what.
 
-[CapstoneProjectPresentation](CapstoneProjectPresentation.md)
+The presentation should be about 8 to 12 minutes long. These are the things your should cover:
 
-Include something about how to make recordings (for the online students).
+- Introduce your team
+- Describe your client and the project you are doing for them.
+- Show us your design documentation. Just point out the highlights, we don't need to see every detail (and there isn't time to show every detail!)
+- Conclude by telling us what:
+  - you are most proud of.
+  - you think will be hardest to implement.
+  - is the most important thing you learned.
 
 ## Updated Documentation
 
@@ -24,17 +30,24 @@ This will be the "blueprint" you use when you build your web app in the capstone
 
 - UML Diagram of the Domain Model
 
+### How to Make Your Presentation
 
+Your team can make the presentation one of three ways:
+
+- In person: you will give a live presentation to the class. 
+- On Zoom during class time: You will share your screen and the instructor will project that for the class to see.
+- Online: You can record a video and post a link to it in the presentation forum on Moodle. If you are making a screen-cast you can use any screen capture software that both records the screen and audio narration such as:
+  - [ScreenPal (formerly Screencast-O-Matic)](https://screenpal.com)&mdash;free for 15 minute or shorter recordings.
+  - [ScreenRec](https://screenrec.com/)&mdash;free!
+  - [Zoom](https://www.zoom.com)&mdash;Meet with your team on Zoom, use webcams and/or mics, share your screen and record the meeting.
 
 ## Assessment
 
-TODO: Write a rubric that includes the following points:
-
-- Professionalism both of presentation and of the documents presented.
+- Professionalism in both the presentation and the documents
 - Completeness
 - Quality of the things presented
-- 
+- Each member's participation
 
 ---
 
-Written by Brian Bird, winter <time>2024</time>
+Written by Brian Bird, winter <time>2025</time>
