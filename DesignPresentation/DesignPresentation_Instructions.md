@@ -10,6 +10,20 @@ TODO: Create this document based off of these documents:
 
 Include something about how to make recordings (for the online students).
 
+## Updated Documentation
+
+Update the documents you created for the design of your client's project. You will include this documentation in your presentation and submit it on Moodle.
+
+This will be the "blueprint" you use when you build your web app in the capstone class. Update these documents with any additions or changes that came to light while checking UX diagrams and user stories with your client.
+
+- Project Requirements
+
+- Site Map
+
+- UX Diagrams
+
+- UML Diagram of the Domain Model
+
 
 
 ## Assessment
